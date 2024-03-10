@@ -1,0 +1,59 @@
+﻿dr_distribution_mode = {
+	default = dr_focused_mode_yes
+
+	dr_focused_mode_yes = {
+	}
+
+	dr_random_mode_yes = {
+	}
+}
+
+dr_resource_multiplier = {
+	default = dr_res_multi_1
+
+	dr_res_multi_0 = { #x0
+	}
+
+	dr_res_multi_1 = { #x1
+	}
+
+	dr_res_multi_2 = { #x2
+	}
+	
+	dr_res_multi_3 = { #x4
+	}
+	
+	dr_res_multi_4 = { #x8
+	}
+	
+	dr_res_multi_5 = { #x16
+	}
+	
+	dr_res_multi_6 = { #x100
+	}
+}
+
+dr_starting_generations = {
+	default = dr_gen_1
+
+	dr_gen_0 = { #0
+	}
+
+	dr_gen_1 = { #1
+	}
+	
+	dr_gen_2 = { #2
+	}
+	
+	dr_gen_3 = { #4
+	}
+	
+	dr_gen_4 = { #8
+	}
+	
+	dr_gen_5 = { #16
+	}
+	
+	dr_gen_6 = { #100
+	}
+}

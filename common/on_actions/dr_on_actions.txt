@@ -1,0 +1,11 @@
+﻿on_monthly_pulse_country = {
+	effect = {
+		trigger_event = dr.7
+	}
+}
+
+on_decade_pulse_country = {
+	effect = {
+		trigger_event = dr.8
+	}
+}

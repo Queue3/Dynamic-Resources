@@ -1,0 +1,9 @@
+﻿concept_dr = {}
+
+concept_dr_set = {}
+
+concept_dr_generation = {}
+
+concept_dr_resource_multiplier = {}
+
+concept_dr_starting_generations= {}
