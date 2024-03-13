@@ -7,13 +7,17 @@
 					has_global_variable = dr_gen
 					has_game_rule = dr_disabled
 				}
-				has_game_rule = dr_gen_1
+				has_game_rule = dr_resource_set_1
 			}
-			set_global_variable = dr_resource_set_1
+			set_global_variable = dr_gen
 			every_country = {
 				post_notification = dr_starting_generation
+				add_technology_researched = navigation
+				add_technology_researched = enclosure
+				add_technology_researched = shaft_mining
+				add_technology_researched = prospecting
 			}
-			trigger_event = dr.7
+			dr_starting_generations = yes
 		}
 		if = { #dr_resource_set_2
 			limit = {
@@ -22,14 +26,18 @@
 					has_global_variable = dr_gen
 					has_game_rule = dr_disabled
 				}
-				has_game_rule = dr_gen_2
+				has_game_rule = dr_resource_set_2
 			}
-			set_global_variable = dr_resource_set_2
+			set_global_variable = dr_gen
 			every_country = {
 				post_notification = dr_starting_generation
+				add_technology_researched = navigation
+				add_technology_researched = enclosure
+				add_technology_researched = shaft_mining
+				add_technology_researched = prospecting
 			}
-			trigger_event = dr.7
-			trigger_event = dr.7
+			dr_starting_generations = yes
+			dr_starting_generations = yes
 		}
 		if = { #dr_resource_set_3
 			limit = {
@@ -43,10 +51,14 @@
 			set_global_variable = dr_gen
 			every_country = {
 				post_notification = dr_starting_generation
+				add_technology_researched = navigation
+				add_technology_researched = enclosure
+				add_technology_researched = shaft_mining
+				add_technology_researched = prospecting
 			}
-			trigger_event = dr.7
-			trigger_event = dr.7
-			trigger_event = dr.7
+			dr_starting_generations = yes
+			dr_starting_generations = yes
+			dr_starting_generations = yes
 		}
 		if = { #dr_resource_set_4
 			limit = {
@@ -60,11 +72,15 @@
 			set_global_variable = dr_gen
 			every_country = {
 				post_notification = dr_starting_generation
+				add_technology_researched = navigation
+				add_technology_researched = enclosure
+				add_technology_researched = shaft_mining
+				add_technology_researched = prospecting
 			}
-			trigger_event = dr.7
-			trigger_event = dr.7
-			trigger_event = dr.7
-			trigger_event = dr.7
+			dr_starting_generations = yes
+			dr_starting_generations = yes
+			dr_starting_generations = yes
+			dr_starting_generations = yes
 		}
 		if = { #dr_resource_set_5
 			limit = {
@@ -78,12 +94,16 @@
 			set_global_variable = dr_gen
 			every_country = {
 				post_notification = dr_starting_generation
+				add_technology_researched = navigation
+				add_technology_researched = enclosure
+				add_technology_researched = shaft_mining
+				add_technology_researched = prospecting
 			}
-			trigger_event = dr.7
-			trigger_event = dr.7
-			trigger_event = dr.7
-			trigger_event = dr.7
-			trigger_event = dr.7
+			dr_starting_generations = yes
+			dr_starting_generations = yes
+			dr_starting_generations = yes
+			dr_starting_generations = yes
+			dr_starting_generations = yes
 		}
 	}
 }
@@ -111,8 +131,12 @@ on_decade_pulse_country = {
 			}
 			every_country = {
 				post_notification = dr_resource_generation
+				add_technology_researched = navigation
+				add_technology_researched = enclosure
+				add_technology_researched = shaft_mining
+				add_technology_researched = prospecting
 			}
-			trigger_event = dr.8
+			dr_generation = yes #Trigger Generation
 		}
 		if = { #dr_resource_set_2
 			limit = {
@@ -125,9 +149,13 @@ on_decade_pulse_country = {
 			}
 			every_country = {
 				post_notification = dr_resource_generation
+				add_technology_researched = navigation
+				add_technology_researched = enclosure
+				add_technology_researched = shaft_mining
+				add_technology_researched = prospecting
 			}
-			trigger_event = dr.8
-			trigger_event = dr.8
+			dr_generation = yes
+			dr_generation = yes
 		}
 		if = { #dr_resource_set_3
 			limit = {
@@ -140,10 +168,14 @@ on_decade_pulse_country = {
 			}
 			every_country = {
 				post_notification = dr_resource_generation
+				add_technology_researched = navigation
+				add_technology_researched = enclosure
+				add_technology_researched = shaft_mining
+				add_technology_researched = prospecting
 			}
-			trigger_event = dr.8
-			trigger_event = dr.8
-			trigger_event = dr.8
+			dr_generation = yes
+			dr_generation = yes
+			dr_generation = yes
 		}
 		if = { #dr_resource_set_4
 			limit = {
@@ -156,11 +188,15 @@ on_decade_pulse_country = {
 			}
 			every_country = {
 				post_notification = dr_resource_generation
+				add_technology_researched = navigation
+				add_technology_researched = enclosure
+				add_technology_researched = shaft_mining
+				add_technology_researched = prospecting
 			}
-			trigger_event = dr.8
-			trigger_event = dr.8
-			trigger_event = dr.8
-			trigger_event = dr.8
+			dr_generation = yes
+			dr_generation = yes
+			dr_generation = yes
+			dr_generation = yes
 		}
 		if = { #dr_resource_set_5
 			limit = {
@@ -173,12 +209,16 @@ on_decade_pulse_country = {
 			}
 			every_country = {
 				post_notification = dr_resource_generation
+				add_technology_researched = navigation
+				add_technology_researched = enclosure
+				add_technology_researched = shaft_mining
+				add_technology_researched = prospecting
 			}
-			trigger_event = dr.8
-			trigger_event = dr.8
-			trigger_event = dr.8
-			trigger_event = dr.8
-			trigger_event = dr.8
+			dr_generation = yes
+			dr_generation = yes
+			dr_generation = yes
+			dr_generation = yes
+			dr_generation = yes
 		}
 	}
 }
