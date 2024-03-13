@@ -6,13 +6,13 @@
 
 	dr_random_mode_yes = {
 	}
+	
+	dr_disabled = {
+	}
 }
 
 dr_resource_multiplier = {
 	default = dr_res_multi_1
-
-	dr_res_multi_0 = { #x0
-	}
 
 	dr_res_multi_1 = { #x1
 	}
@@ -55,5 +55,15 @@ dr_starting_generations = {
 	}
 	
 	dr_gen_6 = { #100
+	}
+}
+
+dr_only_starting_generations = {
+	default = dr_only_starting_generations_no
+
+	dr_only_starting_generations_no = {
+	}
+
+	dr_only_starting_generations_yes = {
 	}
 }
