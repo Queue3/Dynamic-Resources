@@ -67,3 +67,22 @@ dr_only_starting_generations = {
 	dr_only_starting_generations_yes = {
 	}
 }
+
+dr_resource_set_amount = {
+	default = dr_resource_set_1
+
+	dr_resource_set_1 = { #x50
+	}
+
+	dr_resource_set_2 = { #x100
+	}
+	
+	dr_resource_set_3 = { #x150
+	}
+	
+	dr_resource_set_4 = { #x200
+	}
+	
+	dr_resource_set_5 = { #x250
+	}
+}
