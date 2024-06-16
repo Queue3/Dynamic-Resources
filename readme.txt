@@ -1,3 +1,14 @@
+Update 1.3.0
+
+- Added new Game Rules
+	- Resource Distribution: Determines which resources can Generate in each state.
+		- Focused: Only Generates resources with Resource Potential in a state.
+		- Random: Generates resources regardless of Resource Potential in a state.
+	- Only Starting Generations
+	- Sets Per Generation: How many Sets of resources Generate per Generation
+- Event dr.1 is now used to trigger a Generation
+- Code Refactor
+
 Update 1.2.0
 
 - Restructured events - you can now use event dr.9 to trigger a generation regardless of Game Rules unless you disabled the mod.
@@ -14,5 +25,3 @@ Update 1.1.0
 Update 1.0.0
 
 - Initial Release
-
-The mod is pretty simple, monthly on_action is used to trigger hidden events from the #1 country, the events that trigger are based off the Game Rules. Lists all the way down.
