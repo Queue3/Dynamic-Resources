@@ -7,13 +7,12 @@
 	production_method_groups = {
 		pmg_base_building_whaling_station
 		pmg_refrigeration_building_whaling_station
-		pmg_ownership_capital_building_whaling_station
 	}
 	
 	possible = {
-		error_check = {
-			severity = fail
-			is_sea_adjacent = yes
-		}
+		is_sea_adjacent = yes
 	}
+	ownership_type = self
+
+	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_fishing.dds"
 }

@@ -99,3 +99,5 @@
  notification_dr_starting_generation_tooltip:0 "#header $notification_dr_starting_generation_name$"
  notification_dr_starting_generation_name:0 "[Concept('concept_dr_starting_generations','$concept_dr_starting_generations_1$')]"
  notification_dr_starting_generation_desc:0 "A [Concept('concept_dr_starting_generations','$concept_dr_starting_generations_1$')] has happened."
+ 
+ dr_notification_group:0 "Dynamic Resources"
