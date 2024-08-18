@@ -7,3 +7,9 @@ concept_dr_generation = {}
 concept_dr_resource_multiplier = {}
 
 concept_dr_starting_generations= {}
+
+concept_dr_resource_distribution = {}
+
+concept_dr_focused = {}
+
+concept_dr_random = {}
