@@ -1,4 +1,16 @@
 ﻿on_monthly_pulse_country = {
+	on_actions = {
+		dr_on_monthly_pulse_country
+	}
+}
+
+on_decade_pulse_country = {
+	on_actions = {
+		dr_on_decade_pulse_country
+	}
+}
+
+dr_on_monthly_pulse_country = {
 	effect = { #Starting Generations
 		if = { #dr_resource_set_1
 			limit = {
@@ -108,7 +120,7 @@
 	}
 }
 
-on_decade_pulse_country = {
+dr_on_decade_pulse_country = {
 	effect = { #Trigger Generations
 		if = { #dr_resource_set_1
 			limit = {
