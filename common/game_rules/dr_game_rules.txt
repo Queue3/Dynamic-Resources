@@ -1,5 +1,5 @@
 ﻿dr_distribution_mode = {
-	default = dr_focused_mode_yes
+	default = dr_random_mode_yes
 
 	dr_focused_mode_yes = {
 	}

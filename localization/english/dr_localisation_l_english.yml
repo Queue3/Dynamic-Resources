@@ -38,11 +38,11 @@
 
  rule_dr_distribution_mode: "[Concept('concept_dr','$concept_dr_1$')] [concept_dr_resource_distribution]"
  setting_dr_focused_mode_yes: "[concept_dr_focused]"
- setting_dr_focused_mode_yes_desc: "Only [Concept('concept_dr_generation','$concept_dr_generation_2$')] resources with [concept_resource_potential] in a state.\n\nDefault: [concept_dr_focused]"
+ setting_dr_focused_mode_yes_desc: "Only [Concept('concept_dr_generation','$concept_dr_generation_2$')] resources with [concept_resource_potential] in a state.\n\nDefault: [concept_dr_random]"
  setting_dr_random_mode_yes: "[concept_dr_random]"
- setting_dr_random_mode_yes_desc: "[Concept('concept_dr_generation','$concept_dr_generation_2$')] resources regardless of [concept_resource_potential] in a state.\n\nDefault: [concept_dr_focused]"
- setting_dr_disabled: "Disable [concept_dr]"
- setting_dr_disabled_desc: "@warning!This disables [Concept('concept_dr','$concept_dr_2$')]\n\nDefault: [concept_dr_focused]"
+ setting_dr_random_mode_yes_desc: "[Concept('concept_dr_generation','$concept_dr_generation_2$')] resources regardless of [concept_resource_potential] in a state.\n\nDefault: [concept_dr_random]"
+ setting_dr_disabled: "@warning! Disable [concept_dr]"
+ setting_dr_disabled_desc: "This disables [Concept('concept_dr','$concept_dr_2$')]\n\nDefault: [concept_dr_random]"
 
  rule_dr_resource_multiplier: "[Concept('concept_dr','$concept_dr_1$')] [concept_dr_resource_multiplier]"
  setting_dr_res_multi_1: "x1 [concept_dr_resource_multiplier]"
@@ -77,7 +77,7 @@
  rule_dr_only_starting_generations: "[Concept('concept_dr','$concept_dr_1$')] Only [concept_dr_starting_generations]"
  setting_dr_only_starting_generations_no: "No"
  setting_dr_only_starting_generations_no_desc: "The game will begin with [concept_dr_starting_generations] and will have subsequent [Concept('concept_dr_generation','$concept_dr_generation_5$')]\n\nDefault: No"
- setting_dr_only_starting_generations_yes: "Yes"
+ setting_dr_only_starting_generations_yes: "@warning! Yes"
  setting_dr_only_starting_generations_yes_desc: "The game will begin with only [concept_dr_starting_generations] and no subsequent [Concept('concept_dr_generation','$concept_dr_generation_5$')]\n\nDefault: No"
  
  rule_dr_resource_set_amount: "[Concept('concept_dr','$concept_dr_1$')] [Concept('concept_dr_set','$concept_dr_set_1$')] Per [concept_dr_generation]"
