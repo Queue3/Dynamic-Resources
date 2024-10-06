@@ -1,11 +1,11 @@
 {
   "name" : "Dynamic Resources",
-  "id" : "",
-  "version" : "",
-  "supported_game_version" : "",
-  "short_description" : "",
+  "id" : "com.github.queue3.dynamic-resources",
+  "version" : "1.3.0",
+  "supported_game_version" : "1.*",
+  "short_description" : "Dynamic Resource generation",
   "thumbnail" : "thumbnail.png",
-  "tags" : [],
+  "tags" : ["economy", "resources", "balance", "dynamic", "customisable"],
   "relationships" : [],
   "game_custom_data" : {
     "multiplayer_synchronized" : true

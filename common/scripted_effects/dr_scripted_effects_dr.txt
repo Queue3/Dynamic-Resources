@@ -1,0 +1,8009 @@
+﻿dr_generation = { #Trigger Generation
+	random_list = {
+		1 = {
+			trigger = {
+				or = { #Defaults to dr_res_multi_1 for mod version and save game compatibility
+					has_game_rule = dr_res_multi_1
+					not = {
+						has_game_rule = dr_disabled
+						has_game_rule = dr_res_multi_1
+						has_game_rule = dr_res_multi_2
+						has_game_rule = dr_res_multi_3
+						has_game_rule = dr_res_multi_4
+						has_game_rule = dr_res_multi_5
+						has_game_rule = dr_res_multi_6
+					}
+				}
+			}
+			dr_gen_multi_1 = yes
+			dr_gen_multi_1 = yes
+			dr_gen_multi_1 = yes
+			dr_gen_multi_1 = yes
+			dr_gen_multi_1 = yes
+			dr_gen_multi_1 = yes
+			dr_gen_multi_1 = yes
+			dr_gen_multi_1 = yes
+			dr_gen_multi_1 = yes
+			dr_gen_multi_1 = yes
+			dr_gen_multi_1 = yes
+			dr_gen_multi_1 = yes
+			dr_gen_multi_1 = yes
+			dr_gen_multi_1 = yes
+			dr_gen_multi_1 = yes
+			dr_gen_multi_1 = yes
+			dr_gen_multi_1 = yes
+			dr_gen_multi_1 = yes
+			dr_gen_multi_1 = yes
+			dr_gen_multi_1 = yes
+			dr_gen_multi_1 = yes
+			dr_gen_multi_1 = yes
+			dr_gen_multi_1 = yes
+			dr_gen_multi_1 = yes
+			dr_gen_multi_1 = yes
+			dr_gen_multi_1 = yes
+			dr_gen_multi_1 = yes
+			dr_gen_multi_1 = yes
+			dr_gen_multi_1 = yes
+			dr_gen_multi_1 = yes
+			dr_gen_multi_1 = yes
+			dr_gen_multi_1 = yes
+			dr_gen_multi_1 = yes
+			dr_gen_multi_1 = yes
+			dr_gen_multi_1 = yes
+			dr_gen_multi_1 = yes
+			dr_gen_multi_1 = yes
+			dr_gen_multi_1 = yes
+			dr_gen_multi_1 = yes
+			dr_gen_multi_1 = yes
+			dr_gen_multi_1 = yes
+			dr_gen_multi_1 = yes
+			dr_gen_multi_1 = yes
+			dr_gen_multi_1 = yes
+			dr_gen_multi_1 = yes
+			dr_gen_multi_1 = yes
+			dr_gen_multi_1 = yes
+			dr_gen_multi_1 = yes
+			dr_gen_multi_1 = yes
+			dr_gen_multi_1 = yes
+			dr_jackpot_multi_1 = yes
+		}
+		1 = {
+			trigger = {
+				has_game_rule = dr_res_multi_2
+			}
+			dr_gen_multi_2 = yes
+			dr_gen_multi_2 = yes
+			dr_gen_multi_2 = yes
+			dr_gen_multi_2 = yes
+			dr_gen_multi_2 = yes
+			dr_gen_multi_2 = yes
+			dr_gen_multi_2 = yes
+			dr_gen_multi_2 = yes
+			dr_gen_multi_2 = yes
+			dr_gen_multi_2 = yes
+			dr_gen_multi_2 = yes
+			dr_gen_multi_2 = yes
+			dr_gen_multi_2 = yes
+			dr_gen_multi_2 = yes
+			dr_gen_multi_2 = yes
+			dr_gen_multi_2 = yes
+			dr_gen_multi_2 = yes
+			dr_gen_multi_2 = yes
+			dr_gen_multi_2 = yes
+			dr_gen_multi_2 = yes
+			dr_gen_multi_2 = yes
+			dr_gen_multi_2 = yes
+			dr_gen_multi_2 = yes
+			dr_gen_multi_2 = yes
+			dr_gen_multi_2 = yes
+			dr_gen_multi_2 = yes
+			dr_gen_multi_2 = yes
+			dr_gen_multi_2 = yes
+			dr_gen_multi_2 = yes
+			dr_gen_multi_2 = yes
+			dr_gen_multi_2 = yes
+			dr_gen_multi_2 = yes
+			dr_gen_multi_2 = yes
+			dr_gen_multi_2 = yes
+			dr_gen_multi_2 = yes
+			dr_gen_multi_2 = yes
+			dr_gen_multi_2 = yes
+			dr_gen_multi_2 = yes
+			dr_gen_multi_2 = yes
+			dr_gen_multi_2 = yes
+			dr_gen_multi_2 = yes
+			dr_gen_multi_2 = yes
+			dr_gen_multi_2 = yes
+			dr_gen_multi_2 = yes
+			dr_gen_multi_2 = yes
+			dr_gen_multi_2 = yes
+			dr_gen_multi_2 = yes
+			dr_gen_multi_2 = yes
+			dr_gen_multi_2 = yes
+			dr_gen_multi_2 = yes
+			dr_jackpot_multi_2 = yes
+		}
+		1 = {
+			trigger = {
+				has_game_rule = dr_res_multi_3
+			}
+			dr_gen_multi_3 = yes
+			dr_gen_multi_3 = yes
+			dr_gen_multi_3 = yes
+			dr_gen_multi_3 = yes
+			dr_gen_multi_3 = yes
+			dr_gen_multi_3 = yes
+			dr_gen_multi_3 = yes
+			dr_gen_multi_3 = yes
+			dr_gen_multi_3 = yes
+			dr_gen_multi_3 = yes
+			dr_gen_multi_3 = yes
+			dr_gen_multi_3 = yes
+			dr_gen_multi_3 = yes
+			dr_gen_multi_3 = yes
+			dr_gen_multi_3 = yes
+			dr_gen_multi_3 = yes
+			dr_gen_multi_3 = yes
+			dr_gen_multi_3 = yes
+			dr_gen_multi_3 = yes
+			dr_gen_multi_3 = yes
+			dr_gen_multi_3 = yes
+			dr_gen_multi_3 = yes
+			dr_gen_multi_3 = yes
+			dr_gen_multi_3 = yes
+			dr_gen_multi_3 = yes
+			dr_gen_multi_3 = yes
+			dr_gen_multi_3 = yes
+			dr_gen_multi_3 = yes
+			dr_gen_multi_3 = yes
+			dr_gen_multi_3 = yes
+			dr_gen_multi_3 = yes
+			dr_gen_multi_3 = yes
+			dr_gen_multi_3 = yes
+			dr_gen_multi_3 = yes
+			dr_gen_multi_3 = yes
+			dr_gen_multi_3 = yes
+			dr_gen_multi_3 = yes
+			dr_gen_multi_3 = yes
+			dr_gen_multi_3 = yes
+			dr_gen_multi_3 = yes
+			dr_gen_multi_3 = yes
+			dr_gen_multi_3 = yes
+			dr_gen_multi_3 = yes
+			dr_gen_multi_3 = yes
+			dr_gen_multi_3 = yes
+			dr_gen_multi_3 = yes
+			dr_gen_multi_3 = yes
+			dr_gen_multi_3 = yes
+			dr_gen_multi_3 = yes
+			dr_gen_multi_3 = yes
+			dr_jackpot_multi_3 = yes
+		}
+		1 = {
+			trigger = {
+				has_game_rule = dr_res_multi_4
+			}
+			dr_gen_multi_4 = yes
+			dr_gen_multi_4 = yes
+			dr_gen_multi_4 = yes
+			dr_gen_multi_4 = yes
+			dr_gen_multi_4 = yes
+			dr_gen_multi_4 = yes
+			dr_gen_multi_4 = yes
+			dr_gen_multi_4 = yes
+			dr_gen_multi_4 = yes
+			dr_gen_multi_4 = yes
+			dr_gen_multi_4 = yes
+			dr_gen_multi_4 = yes
+			dr_gen_multi_4 = yes
+			dr_gen_multi_4 = yes
+			dr_gen_multi_4 = yes
+			dr_gen_multi_4 = yes
+			dr_gen_multi_4 = yes
+			dr_gen_multi_4 = yes
+			dr_gen_multi_4 = yes
+			dr_gen_multi_4 = yes
+			dr_gen_multi_4 = yes
+			dr_gen_multi_4 = yes
+			dr_gen_multi_4 = yes
+			dr_gen_multi_4 = yes
+			dr_gen_multi_4 = yes
+			dr_gen_multi_4 = yes
+			dr_gen_multi_4 = yes
+			dr_gen_multi_4 = yes
+			dr_gen_multi_4 = yes
+			dr_gen_multi_4 = yes
+			dr_gen_multi_4 = yes
+			dr_gen_multi_4 = yes
+			dr_gen_multi_4 = yes
+			dr_gen_multi_4 = yes
+			dr_gen_multi_4 = yes
+			dr_gen_multi_4 = yes
+			dr_gen_multi_4 = yes
+			dr_gen_multi_4 = yes
+			dr_gen_multi_4 = yes
+			dr_gen_multi_4 = yes
+			dr_gen_multi_4 = yes
+			dr_gen_multi_4 = yes
+			dr_gen_multi_4 = yes
+			dr_gen_multi_4 = yes
+			dr_gen_multi_4 = yes
+			dr_gen_multi_4 = yes
+			dr_gen_multi_4 = yes
+			dr_gen_multi_4 = yes
+			dr_gen_multi_4 = yes
+			dr_gen_multi_4 = yes
+			dr_jackpot_multi_4 = yes
+		}
+		1 = {
+			trigger = {
+				has_game_rule = dr_res_multi_5
+			}
+			dr_gen_multi_5 = yes
+			dr_gen_multi_5 = yes
+			dr_gen_multi_5 = yes
+			dr_gen_multi_5 = yes
+			dr_gen_multi_5 = yes
+			dr_gen_multi_5 = yes
+			dr_gen_multi_5 = yes
+			dr_gen_multi_5 = yes
+			dr_gen_multi_5 = yes
+			dr_gen_multi_5 = yes
+			dr_gen_multi_5 = yes
+			dr_gen_multi_5 = yes
+			dr_gen_multi_5 = yes
+			dr_gen_multi_5 = yes
+			dr_gen_multi_5 = yes
+			dr_gen_multi_5 = yes
+			dr_gen_multi_5 = yes
+			dr_gen_multi_5 = yes
+			dr_gen_multi_5 = yes
+			dr_gen_multi_5 = yes
+			dr_gen_multi_5 = yes
+			dr_gen_multi_5 = yes
+			dr_gen_multi_5 = yes
+			dr_gen_multi_5 = yes
+			dr_gen_multi_5 = yes
+			dr_gen_multi_5 = yes
+			dr_gen_multi_5 = yes
+			dr_gen_multi_5 = yes
+			dr_gen_multi_5 = yes
+			dr_gen_multi_5 = yes
+			dr_gen_multi_5 = yes
+			dr_gen_multi_5 = yes
+			dr_gen_multi_5 = yes
+			dr_gen_multi_5 = yes
+			dr_gen_multi_5 = yes
+			dr_gen_multi_5 = yes
+			dr_gen_multi_5 = yes
+			dr_gen_multi_5 = yes
+			dr_gen_multi_5 = yes
+			dr_gen_multi_5 = yes
+			dr_gen_multi_5 = yes
+			dr_gen_multi_5 = yes
+			dr_gen_multi_5 = yes
+			dr_gen_multi_5 = yes
+			dr_gen_multi_5 = yes
+			dr_gen_multi_5 = yes
+			dr_gen_multi_5 = yes
+			dr_gen_multi_5 = yes
+			dr_gen_multi_5 = yes
+			dr_gen_multi_5 = yes
+			dr_jackpot_multi_5 = yes
+		}
+		1 = {
+			trigger = {
+				has_game_rule = dr_res_multi_6
+			}
+			dr_gen_multi_6 = yes
+			dr_gen_multi_6 = yes
+			dr_gen_multi_6 = yes
+			dr_gen_multi_6 = yes
+			dr_gen_multi_6 = yes
+			dr_gen_multi_6 = yes
+			dr_gen_multi_6 = yes
+			dr_gen_multi_6 = yes
+			dr_gen_multi_6 = yes
+			dr_gen_multi_6 = yes
+			dr_gen_multi_6 = yes
+			dr_gen_multi_6 = yes
+			dr_gen_multi_6 = yes
+			dr_gen_multi_6 = yes
+			dr_gen_multi_6 = yes
+			dr_gen_multi_6 = yes
+			dr_gen_multi_6 = yes
+			dr_gen_multi_6 = yes
+			dr_gen_multi_6 = yes
+			dr_gen_multi_6 = yes
+			dr_gen_multi_6 = yes
+			dr_gen_multi_6 = yes
+			dr_gen_multi_6 = yes
+			dr_gen_multi_6 = yes
+			dr_gen_multi_6 = yes
+			dr_gen_multi_6 = yes
+			dr_gen_multi_6 = yes
+			dr_gen_multi_6 = yes
+			dr_gen_multi_6 = yes
+			dr_gen_multi_6 = yes
+			dr_gen_multi_6 = yes
+			dr_gen_multi_6 = yes
+			dr_gen_multi_6 = yes
+			dr_gen_multi_6 = yes
+			dr_gen_multi_6 = yes
+			dr_gen_multi_6 = yes
+			dr_gen_multi_6 = yes
+			dr_gen_multi_6 = yes
+			dr_gen_multi_6 = yes
+			dr_gen_multi_6 = yes
+			dr_gen_multi_6 = yes
+			dr_gen_multi_6 = yes
+			dr_gen_multi_6 = yes
+			dr_gen_multi_6 = yes
+			dr_gen_multi_6 = yes
+			dr_gen_multi_6 = yes
+			dr_gen_multi_6 = yes
+			dr_gen_multi_6 = yes
+			dr_gen_multi_6 = yes
+			dr_gen_multi_6 = yes
+			dr_jackpot_multi_6 = yes
+		}			
+	}
+}
+
+dr_starting_generations = { #Starting Generations
+	random_list = { 
+		1 = { #1 Generation
+			trigger = {
+				has_game_rule = dr_gen_1
+			}
+			dr_generation = yes
+		}
+		1 = { #2 Generations
+			trigger = {
+				has_game_rule = dr_gen_2
+			}
+			dr_generation = yes
+			dr_generation = yes
+		}
+		1 = { #4 Generations
+			trigger = {
+				has_game_rule = dr_gen_3
+			}
+			dr_generation = yes
+			dr_generation = yes
+			dr_generation = yes
+			dr_generation = yes
+		}	
+		1 = { #8 Generations
+			trigger = {
+				has_game_rule = dr_gen_4
+			}
+			dr_generation = yes
+			dr_generation = yes
+			dr_generation = yes
+			dr_generation = yes
+			dr_generation = yes
+			dr_generation = yes
+			dr_generation = yes
+			dr_generation = yes
+		}
+		1 = { #16 Generations
+			trigger = {
+				has_game_rule = dr_gen_5
+			}
+			dr_generation = yes
+			dr_generation = yes
+			dr_generation = yes
+			dr_generation = yes
+			dr_generation = yes
+			dr_generation = yes
+			dr_generation = yes
+			dr_generation = yes
+			dr_generation = yes
+			dr_generation = yes
+			dr_generation = yes
+			dr_generation = yes
+			dr_generation = yes
+			dr_generation = yes
+			dr_generation = yes
+			dr_generation = yes
+		}	
+		1 = { #100 Generations
+			trigger = {
+				has_game_rule = dr_gen_6
+			}
+			dr_generation = yes
+			dr_generation = yes
+			dr_generation = yes
+			dr_generation = yes
+			dr_generation = yes
+			dr_generation = yes
+			dr_generation = yes
+			dr_generation = yes
+			dr_generation = yes
+			dr_generation = yes
+			dr_generation = yes
+			dr_generation = yes
+			dr_generation = yes
+			dr_generation = yes
+			dr_generation = yes
+			dr_generation = yes
+			dr_generation = yes
+			dr_generation = yes
+			dr_generation = yes
+			dr_generation = yes
+			dr_generation = yes
+			dr_generation = yes
+			dr_generation = yes
+			dr_generation = yes
+			dr_generation = yes
+			dr_generation = yes
+			dr_generation = yes
+			dr_generation = yes
+			dr_generation = yes
+			dr_generation = yes
+			dr_generation = yes
+			dr_generation = yes
+			dr_generation = yes
+			dr_generation = yes
+			dr_generation = yes
+			dr_generation = yes
+			dr_generation = yes
+			dr_generation = yes
+			dr_generation = yes
+			dr_generation = yes
+			dr_generation = yes
+			dr_generation = yes
+			dr_generation = yes
+			dr_generation = yes
+			dr_generation = yes
+			dr_generation = yes
+			dr_generation = yes
+			dr_generation = yes
+			dr_generation = yes
+			dr_generation = yes
+			dr_generation = yes
+			dr_generation = yes
+			dr_generation = yes
+			dr_generation = yes
+			dr_generation = yes
+			dr_generation = yes
+			dr_generation = yes
+			dr_generation = yes
+			dr_generation = yes
+			dr_generation = yes
+			dr_generation = yes
+			dr_generation = yes
+			dr_generation = yes
+			dr_generation = yes
+			dr_generation = yes
+			dr_generation = yes
+			dr_generation = yes
+			dr_generation = yes
+			dr_generation = yes
+			dr_generation = yes
+			dr_generation = yes
+			dr_generation = yes
+			dr_generation = yes
+			dr_generation = yes
+			dr_generation = yes
+			dr_generation = yes
+			dr_generation = yes
+			dr_generation = yes
+			dr_generation = yes
+			dr_generation = yes
+			dr_generation = yes
+			dr_generation = yes
+			dr_generation = yes
+			dr_generation = yes
+			dr_generation = yes
+			dr_generation = yes
+			dr_generation = yes
+			dr_generation = yes
+			dr_generation = yes
+			dr_generation = yes
+			dr_generation = yes
+			dr_generation = yes
+			dr_generation = yes
+			dr_generation = yes
+			dr_generation = yes
+			dr_generation = yes
+			dr_generation = yes
+			dr_generation = yes
+			dr_generation = yes
+			dr_generation = yes	
+		}			
+	}
+}
+
+dr_gen_multi_1 = {
+	random_list = { #First roll to decide if Arable Land or another Resource
+		15 = {
+			random_state_region = {
+				random_list = {
+					500 = { 
+						add_arable_land = 3
+					}
+					250 = { 
+						add_arable_land = 6
+					}
+					150 = { 
+						add_arable_land = 9
+					}
+					50 = { 
+						add_arable_land = 12
+					}
+				}
+			}
+		}
+		75 = { #All Resources are weighted against each other
+			random_state = {
+				random_list = {
+					100 = {
+						trigger = {
+							or = {
+								and = {
+									has_game_rule = dr_focused_mode_yes
+									or = {
+										has_potential_resource = bg_coal_mining
+										has_building = building_coal_mine
+									}
+								}
+								has_game_rule = dr_random_mode_yes
+								nor = {
+									has_game_rule = dr_focused_mode_yes
+									has_game_rule = dr_random_mode_yes
+								}	
+							}
+						}
+						create_building = {
+							building = "building_coal_mine"
+							level = 3
+						}
+					}
+					50 = { 
+						trigger = {
+							or = {
+								and = {
+									has_game_rule = dr_focused_mode_yes
+									or = {
+										has_potential_resource = bg_coal_mining
+										has_building = building_coal_mine
+									}
+								}
+								has_game_rule = dr_random_mode_yes
+								nor = {
+									has_game_rule = dr_focused_mode_yes
+									has_game_rule = dr_random_mode_yes
+								}	
+							}
+						}
+						create_building = {
+							building = "building_coal_mine"
+							level = 6
+						}
+					}
+					30 = { 
+						trigger = {
+							or = {
+								and = {
+									has_game_rule = dr_focused_mode_yes
+									or = {
+										has_potential_resource = bg_coal_mining
+										has_building = building_coal_mine
+									}
+								}
+								has_game_rule = dr_random_mode_yes
+								nor = {
+									has_game_rule = dr_focused_mode_yes
+									has_game_rule = dr_random_mode_yes
+								}	
+							}
+						}
+						create_building = {
+							building = "building_coal_mine"
+							level = 9
+						}
+					}
+					10 = { 
+						trigger = {
+							or = {
+								and = {
+									has_game_rule = dr_focused_mode_yes
+									or = {
+										has_potential_resource = bg_coal_mining
+										has_building = building_coal_mine
+									}
+								}
+								has_game_rule = dr_random_mode_yes
+								nor = {
+									has_game_rule = dr_focused_mode_yes
+									has_game_rule = dr_random_mode_yes
+								}	
+							}
+						}
+						create_building = {
+							building = "building_coal_mine"
+							level = 12
+						}
+					}
+					100 = { 
+						trigger = {
+							or = {
+								and = {
+									has_game_rule = dr_focused_mode_yes
+									or = {
+										has_potential_resource = bg_iron_mining
+										has_building = building_iron_mine
+									}
+								}
+								has_game_rule = dr_random_mode_yes
+								nor = {
+									has_game_rule = dr_focused_mode_yes
+									has_game_rule = dr_random_mode_yes
+								}
+							}
+						}
+						create_building = {
+							building = "building_iron_mine"
+							level = 3
+						}
+					}
+					50 = { 
+						trigger = {
+							or = {
+								and = {
+									has_game_rule = dr_focused_mode_yes
+									or = {
+										has_potential_resource = bg_iron_mining
+										has_building = building_iron_mine
+									}
+								}
+								has_game_rule = dr_random_mode_yes
+								nor = {
+									has_game_rule = dr_focused_mode_yes
+									has_game_rule = dr_random_mode_yes
+								}
+							}
+						}
+						create_building = {
+							building = "building_iron_mine"
+							level = 6
+						}
+					}
+					30 = { 
+						trigger = {
+							or = {
+								and = {
+									has_game_rule = dr_focused_mode_yes
+									or = {
+										has_potential_resource = bg_iron_mining
+										has_building = building_iron_mine
+									}
+								}
+								has_game_rule = dr_random_mode_yes
+								nor = {
+									has_game_rule = dr_focused_mode_yes
+									has_game_rule = dr_random_mode_yes
+								}
+							}
+						}
+						create_building = {
+							building = "building_iron_mine"
+							level = 9
+						}
+					}
+					10 = { 
+						trigger = {
+							or = {
+								and = {
+									has_game_rule = dr_focused_mode_yes
+									or = {
+										has_potential_resource = bg_iron_mining
+										has_building = building_iron_mine
+									}
+								}
+								has_game_rule = dr_random_mode_yes
+								nor = {
+									has_game_rule = dr_focused_mode_yes
+									has_game_rule = dr_random_mode_yes
+								}
+							}
+						}
+						create_building = {
+							building = "building_iron_mine"
+							level = 12
+						}
+					}
+					100 = { 
+						trigger = {
+							or = {
+								and = {
+									has_game_rule = dr_focused_mode_yes
+									or = {
+										has_potential_resource = bg_lead_mining
+										has_building = building_lead_mine
+									}
+								}
+								has_game_rule = dr_random_mode_yes
+								nor = {
+									has_game_rule = dr_focused_mode_yes
+									has_game_rule = dr_random_mode_yes
+								}
+							}
+						}
+						create_building = {
+							building = "building_lead_mine"
+							level = 3
+						}
+					}
+					50 = { 
+						trigger = {
+							or = {
+								and = {
+									has_game_rule = dr_focused_mode_yes
+									or = {
+										has_potential_resource = bg_lead_mining
+										has_building = building_lead_mine
+									}
+								}
+								has_game_rule = dr_random_mode_yes
+								nor = {
+									has_game_rule = dr_focused_mode_yes
+									has_game_rule = dr_random_mode_yes
+								}
+							}
+						}
+						create_building = {
+							building = "building_lead_mine"
+							level = 6
+						}
+					}
+					30 = { 
+						trigger = {
+							or = {
+								and = {
+									has_game_rule = dr_focused_mode_yes
+									or = {
+										has_potential_resource = bg_lead_mining
+										has_building = building_lead_mine
+									}
+								}
+								has_game_rule = dr_random_mode_yes
+								nor = {
+									has_game_rule = dr_focused_mode_yes
+									has_game_rule = dr_random_mode_yes
+								}
+							}
+						}
+						create_building = {
+							building = "building_lead_mine"
+							level = 9
+						}
+					}
+					10 = { 
+						trigger = {
+							or = {
+								and = {
+									has_game_rule = dr_focused_mode_yes
+									or = {
+										has_potential_resource = bg_lead_mining
+										has_building = building_lead_mine
+									}
+								}
+								has_game_rule = dr_random_mode_yes
+								nor = {
+									has_game_rule = dr_focused_mode_yes
+									has_game_rule = dr_random_mode_yes
+								}
+							}
+						}
+						create_building = {
+							building = "building_lead_mine"
+							level = 12
+						}
+					}
+					100 = { 
+						trigger = {
+							or = {
+								and = {
+									has_game_rule = dr_focused_mode_yes
+									or = {
+										has_potential_resource = bg_sulfur_mining
+										has_building = building_sulfur_mine
+									}
+								}
+								has_game_rule = dr_random_mode_yes
+								nor = {
+									has_game_rule = dr_focused_mode_yes
+									has_game_rule = dr_random_mode_yes
+								}
+							}
+						}
+						create_building = {
+							building = "building_sulfur_mine"
+							level = 3
+						}
+					}
+					50 = { 
+						trigger = {
+							or = {
+								and = {
+									has_game_rule = dr_focused_mode_yes
+									or = {
+										has_potential_resource = bg_sulfur_mining
+										has_building = building_sulfur_mine
+									}
+								}
+								has_game_rule = dr_random_mode_yes
+								nor = {
+									has_game_rule = dr_focused_mode_yes
+									has_game_rule = dr_random_mode_yes
+								}
+							}
+						}
+						create_building = {
+							building = "building_sulfur_mine"
+							level = 6
+						}
+					}
+					30 = { 
+						trigger = {
+							or = {
+								and = {
+									has_game_rule = dr_focused_mode_yes
+									or = {
+										has_potential_resource = bg_sulfur_mining
+										has_building = building_sulfur_mine
+									}
+								}
+								has_game_rule = dr_random_mode_yes
+								nor = {
+									has_game_rule = dr_focused_mode_yes
+									has_game_rule = dr_random_mode_yes
+								}
+							}
+						}
+						create_building = {
+							building = "building_sulfur_mine"
+							level = 9
+						}
+					}
+					10 = { 
+						trigger = {
+							or = {
+								and = {
+									has_game_rule = dr_focused_mode_yes
+									or = {
+										has_potential_resource = bg_sulfur_mining
+										has_building = building_sulfur_mine
+									}
+								}
+								has_game_rule = dr_random_mode_yes
+								nor = {
+									has_game_rule = dr_focused_mode_yes
+									has_game_rule = dr_random_mode_yes
+								}
+							}
+						}
+						create_building = {
+							building = "building_sulfur_mine"
+							level = 12
+						}
+					}
+					12 = { 
+						trigger = {
+							or = {
+								and = {
+									has_game_rule = dr_focused_mode_yes
+									or = {
+										has_potential_resource = bg_gold_mining
+										has_building = building_gold_mine
+									}
+								}
+								has_game_rule = dr_random_mode_yes
+								nor = {
+									has_game_rule = dr_focused_mode_yes
+									has_game_rule = dr_random_mode_yes
+								}
+							}
+						}
+						create_building = {
+							building = "building_gold_mine"
+							level = 3
+						}
+					}
+					6 = { 
+						trigger = {
+							or = {
+								and = {
+									has_game_rule = dr_focused_mode_yes
+									or = {
+										has_potential_resource = bg_gold_mining
+										has_building = building_gold_mine
+									}
+								}
+								has_game_rule = dr_random_mode_yes
+								nor = {
+									has_game_rule = dr_focused_mode_yes
+									has_game_rule = dr_random_mode_yes
+								}
+							}
+						}
+						create_building = {
+							building = "building_gold_mine"
+							level = 6
+						}
+					}
+					4 = { 
+						trigger = {
+							or = {
+								and = {
+									has_game_rule = dr_focused_mode_yes
+									or = {
+										has_potential_resource = bg_gold_mining
+										has_building = building_gold_mine
+									}
+								}
+								has_game_rule = dr_random_mode_yes
+								nor = {
+									has_game_rule = dr_focused_mode_yes
+									has_game_rule = dr_random_mode_yes
+								}
+							}
+						}
+						create_building = {
+							building = "building_gold_mine"
+							level = 9
+						}
+					}
+					2 = { 
+						trigger = {
+							or = {
+								and = {
+									has_game_rule = dr_focused_mode_yes
+									or = {
+										has_potential_resource = bg_gold_mining
+										has_building = building_gold_mine
+									}
+								}
+								has_game_rule = dr_random_mode_yes
+								nor = {
+									has_game_rule = dr_focused_mode_yes
+									has_game_rule = dr_random_mode_yes
+								}
+							}
+						}
+						create_building = {
+							building = "building_gold_mine"
+							level = 12
+						}
+					}
+					100 = { 
+						trigger = {
+							or = {
+								and = {
+									has_game_rule = dr_focused_mode_yes
+									or = {
+										has_potential_resource = bg_logging
+										has_building = building_logging_camp
+									}
+								}
+								has_game_rule = dr_random_mode_yes
+								nor = {
+									has_game_rule = dr_focused_mode_yes
+									has_game_rule = dr_random_mode_yes
+								}
+							}
+						}
+						create_building = {
+							building = "building_logging_camp"
+							level = 3
+						}
+					}
+					50 = { 
+						trigger = {
+							or = {
+								and = {
+									has_game_rule = dr_focused_mode_yes
+									or = {
+										has_potential_resource = bg_logging
+										has_building = building_logging_camp
+									}
+								}
+								has_game_rule = dr_random_mode_yes
+								nor = {
+									has_game_rule = dr_focused_mode_yes
+									has_game_rule = dr_random_mode_yes
+								}
+							}
+						}
+						create_building = {
+							building = "building_logging_camp"
+							level = 6
+						}
+					}
+					30 = { 
+						trigger = {
+							or = {
+								and = {
+									has_game_rule = dr_focused_mode_yes
+									or = {
+										has_potential_resource = bg_logging
+										has_building = building_logging_camp
+									}
+								}
+								has_game_rule = dr_random_mode_yes
+								nor = {
+									has_game_rule = dr_focused_mode_yes
+									has_game_rule = dr_random_mode_yes
+								}
+							}
+						}
+						create_building = {
+							building = "building_logging_camp"
+							level = 9
+						}
+					}
+					10 = { 
+						trigger = {
+							or = {
+								and = {
+									has_game_rule = dr_focused_mode_yes
+									or = {
+										has_potential_resource = bg_logging
+										has_building = building_logging_camp
+									}
+								}
+								has_game_rule = dr_random_mode_yes
+								nor = {
+									has_game_rule = dr_focused_mode_yes
+									has_game_rule = dr_random_mode_yes
+								}
+							}
+						}
+						create_building = {
+							building = "building_logging_camp"
+							level = 12
+						}
+					}
+					60 = {
+						trigger = {
+							or = {
+								and = {
+									has_game_rule = dr_focused_mode_yes
+										or = {
+											has_potential_resource = bg_rubber
+											has_building = building_rubber_plantation
+										}
+								}
+								has_game_rule = dr_random_mode_yes
+								nor = {
+									has_game_rule = dr_focused_mode_yes
+									has_game_rule = dr_random_mode_yes
+								}
+							}
+							owner = {
+								has_technology_researched = rubber_mastication
+							}
+						}						
+						create_building = {
+							building = "building_rubber_plantation"
+							level = 3
+						}
+					}
+					30 = { 
+						trigger = {
+							or = {
+								and = {
+									has_game_rule = dr_focused_mode_yes
+										or = {
+											has_potential_resource = bg_rubber
+											has_building = building_rubber_plantation
+										}
+								}
+								has_game_rule = dr_random_mode_yes
+								nor = {
+									has_game_rule = dr_focused_mode_yes
+									has_game_rule = dr_random_mode_yes
+								}
+							}
+							owner = {
+								has_technology_researched = rubber_mastication
+							}
+						}						
+						create_building = {
+							building = "building_rubber_plantation"
+							level = 6
+						}
+					}
+					18 = { 
+						trigger = {
+							or = {
+								and = {
+									has_game_rule = dr_focused_mode_yes
+										or = {
+											has_potential_resource = bg_rubber
+											has_building = building_rubber_plantation
+										}
+								}
+								has_game_rule = dr_random_mode_yes
+								nor = {
+									has_game_rule = dr_focused_mode_yes
+									has_game_rule = dr_random_mode_yes
+								}
+							}
+							owner = {
+								has_technology_researched = rubber_mastication
+							}
+						}						
+						create_building = {
+							building = "building_rubber_plantation"
+							level = 9
+						}
+					}
+					6 = { 
+						trigger = {
+							or = {
+								and = {
+									has_game_rule = dr_focused_mode_yes
+										or = {
+											has_potential_resource = bg_rubber
+											has_building = building_rubber_plantation
+										}
+								}
+								has_game_rule = dr_random_mode_yes
+								nor = {
+									has_game_rule = dr_focused_mode_yes
+									has_game_rule = dr_random_mode_yes
+								}
+							}
+							owner = {
+								has_technology_researched = rubber_mastication
+							}
+						}						
+						create_building = {
+							building = "building_rubber_plantation"
+							level = 12
+						}
+					}
+					120 = { 
+						trigger = {
+							or = {
+								and = {
+									has_game_rule = dr_focused_mode_yes
+									or = {
+										has_potential_resource = bg_opium_plantations
+										has_building = building_opium_plantation
+									}
+								}
+								has_game_rule = dr_random_mode_yes
+								nor = {
+									has_game_rule = dr_focused_mode_yes
+									has_game_rule = dr_random_mode_yes
+								}
+							}
+						}
+						create_building = {
+							building = "building_opium_plantation"
+							level = 3
+						}
+						this.state_region = {
+							add_arable_land = 3
+						}
+					}
+					60 = { 
+						trigger = {
+							or = {
+								and = {
+									has_game_rule = dr_focused_mode_yes
+									or = {
+										has_potential_resource = bg_opium_plantations
+										has_building = building_opium_plantation
+									}
+								}
+								has_game_rule = dr_random_mode_yes
+								nor = {
+									has_game_rule = dr_focused_mode_yes
+									has_game_rule = dr_random_mode_yes
+								}
+							}
+						}
+						create_building = {
+							building = "building_opium_plantation"
+							level = 6
+						}
+						this.state_region = {
+							add_arable_land = 6
+						}
+					}
+					36 = { 
+						trigger = {
+							or = {
+								and = {
+									has_game_rule = dr_focused_mode_yes
+									or = {
+										has_potential_resource = bg_opium_plantations
+										has_building = building_opium_plantation
+									}
+								}
+								has_game_rule = dr_random_mode_yes
+								nor = {
+									has_game_rule = dr_focused_mode_yes
+									has_game_rule = dr_random_mode_yes
+								}
+							}
+						}
+						create_building = {
+							building = "building_opium_plantation"
+							level = 9
+						}
+						this.state_region = {
+							add_arable_land = 9
+						}
+					}
+					12 = {
+						trigger = {
+							or = {
+								and = {
+									has_game_rule = dr_focused_mode_yes
+									or = {
+										has_potential_resource = bg_opium_plantations
+										has_building = building_opium_plantation
+									}
+								}
+								has_game_rule = dr_random_mode_yes
+								nor = {
+									has_game_rule = dr_focused_mode_yes
+									has_game_rule = dr_random_mode_yes
+								}
+							}
+						}
+						create_building = {
+							building = "building_opium_plantation"
+							level = 12
+						}
+						this.state_region = {
+							add_arable_land = 12
+						}
+					}
+					60 = { 
+						trigger = {
+							or = {
+								and = {
+									has_game_rule = dr_focused_mode_yes
+									or = {
+										has_potential_resource = bg_oil_extraction
+										has_building = building_oil_rig
+									}
+								}
+								has_game_rule = dr_random_mode_yes
+								nor = {
+									has_game_rule = dr_focused_mode_yes
+									has_game_rule = dr_random_mode_yes
+								}
+							}
+							owner = {
+								has_technology_researched = pumpjacks
+							}
+						}
+						create_building = {
+							building = "building_oil_rig"
+							level = 3
+						}
+					}
+					30 = {
+						trigger = {
+							or = {
+								and = {
+									has_game_rule = dr_focused_mode_yes
+									or = {
+										has_potential_resource = bg_oil_extraction
+										has_building = building_oil_rig
+									}
+								}
+								has_game_rule = dr_random_mode_yes
+								nor = {
+									has_game_rule = dr_focused_mode_yes
+									has_game_rule = dr_random_mode_yes
+								}
+							}
+							owner = {
+								has_technology_researched = pumpjacks
+							}
+						}						
+						create_building = {
+							building = "building_oil_rig"
+							level = 6
+						}
+					}
+					18 = {
+						trigger = {
+							or = {
+								and = {
+									has_game_rule = dr_focused_mode_yes
+									or = {
+										has_potential_resource = bg_oil_extraction
+										has_building = building_oil_rig
+									}
+								}
+								has_game_rule = dr_random_mode_yes
+								nor = {
+									has_game_rule = dr_focused_mode_yes
+									has_game_rule = dr_random_mode_yes
+								}
+							}
+							owner = {
+								has_technology_researched = pumpjacks
+							}
+						}						
+						create_building = {
+							building = "building_oil_rig"
+							level = 9
+						}
+					}
+					6 = {
+						trigger = {
+							or = {
+								and = {
+									has_game_rule = dr_focused_mode_yes
+									or = {
+										has_potential_resource = bg_oil_extraction
+										has_building = building_oil_rig
+									}
+								}
+								has_game_rule = dr_random_mode_yes
+								nor = {
+									has_game_rule = dr_focused_mode_yes
+									has_game_rule = dr_random_mode_yes
+								}
+							}
+							owner = {
+								has_technology_researched = pumpjacks
+							}
+						}						
+						create_building = {
+							building = "building_oil_rig"
+							level = 12
+						}
+					}
+					200 = { 
+						trigger = {
+							or = {
+								and = {
+									has_game_rule = dr_focused_mode_yes
+										or = {
+											has_potential_resource = bg_fishing
+											has_building = building_fishing_wharf
+										}
+								}
+								has_game_rule = dr_random_mode_yes
+								nor = {
+									has_game_rule = dr_focused_mode_yes
+									has_game_rule = dr_random_mode_yes
+								}
+							}
+							is_coastal = yes
+						}
+						create_building = {
+							building = "building_fishing_wharf"
+							level = 3
+						}
+					}
+					100 = {
+						trigger = {
+							or = {
+								and = {
+									has_game_rule = dr_focused_mode_yes
+										or = {
+											has_potential_resource = bg_fishing
+											has_building = building_fishing_wharf
+										}
+								}
+								has_game_rule = dr_random_mode_yes
+								nor = {
+									has_game_rule = dr_focused_mode_yes
+									has_game_rule = dr_random_mode_yes
+								}
+							}
+							is_coastal = yes
+						}
+						create_building = {
+							building = "building_fishing_wharf"
+							level = 6
+						}
+					}
+					50 = { 
+						trigger = {
+							or = {
+								and = {
+									has_game_rule = dr_focused_mode_yes
+										or = {
+											has_potential_resource = bg_fishing
+											has_building = building_fishing_wharf
+										}
+								}
+								has_game_rule = dr_random_mode_yes
+								nor = {
+									has_game_rule = dr_focused_mode_yes
+									has_game_rule = dr_random_mode_yes
+								}
+							}
+							is_coastal = yes
+						}
+						create_building = {
+							building = "building_fishing_wharf"
+							level = 9
+						}
+					}
+					25 = {
+						trigger = {
+							or = {
+								and = {
+									has_game_rule = dr_focused_mode_yes
+										or = {
+											has_potential_resource = bg_fishing
+											has_building = building_fishing_wharf
+										}
+								}
+								has_game_rule = dr_random_mode_yes
+								nor = {
+									has_game_rule = dr_focused_mode_yes
+									has_game_rule = dr_random_mode_yes
+								}
+							}
+							is_coastal = yes
+						}
+						create_building = {
+							building = "building_fishing_wharf"
+							level = 12
+						}
+					}
+					200 = { 
+						trigger = {
+							or = {
+								and = {
+									has_game_rule = dr_focused_mode_yes
+										or = {
+											has_potential_resource = bg_whaling
+											has_building = building_whaling_station
+										}
+								}
+								has_game_rule = dr_random_mode_yes
+								nor = {
+									has_game_rule = dr_focused_mode_yes
+									has_game_rule = dr_random_mode_yes
+								}
+							}
+							is_coastal = yes
+						}
+						create_building = {
+							building = "building_whaling_station"
+							level = 3
+						}
+					}
+					100 = {
+						trigger = {
+							or = {
+								and = {
+									has_game_rule = dr_focused_mode_yes
+										or = {
+											has_potential_resource = bg_whaling
+											has_building = building_whaling_station
+										}
+								}
+								has_game_rule = dr_random_mode_yes
+								nor = {
+									has_game_rule = dr_focused_mode_yes
+									has_game_rule = dr_random_mode_yes
+								}
+							}
+							is_coastal = yes
+						}
+						create_building = {
+							building = "building_whaling_station"
+							level = 6
+						}
+					}
+					50 = { 
+						trigger = {
+							or = {
+								and = {
+									has_game_rule = dr_focused_mode_yes
+										or = {
+											has_potential_resource = bg_whaling
+											has_building = building_whaling_station
+										}
+								}
+								has_game_rule = dr_random_mode_yes
+								nor = {
+									has_game_rule = dr_focused_mode_yes
+									has_game_rule = dr_random_mode_yes
+								}
+							}
+							is_coastal = yes
+						}
+						create_building = {
+							building = "building_whaling_station"
+							level = 9
+						}
+					}
+					25 = {
+						trigger = {
+							or = {
+								and = {
+									has_game_rule = dr_focused_mode_yes
+										or = {
+											has_potential_resource = bg_whaling
+											has_building = building_whaling_station
+										}
+								}
+								has_game_rule = dr_random_mode_yes
+								nor = {
+									has_game_rule = dr_focused_mode_yes
+									has_game_rule = dr_random_mode_yes
+								}
+							}
+							is_coastal = yes
+						}
+						create_building = {
+							building = "building_whaling_station"
+							level = 12
+						}
+					}
+				}
+			}					
+		}		
+	}
+}
+
+dr_jackpot_multi_1 = {
+	random_list = {
+		15 = {		
+			random_state_region = {
+				add_arable_land = 24
+			}
+		}
+		75 = {
+			random_state = {
+				random_list = {
+					10 = { 
+						trigger = {
+							or = {
+								and = {
+									has_game_rule = dr_focused_mode_yes
+									or = {
+										has_potential_resource = bg_coal_mining
+										has_building = building_coal_mine
+									}
+								}
+								has_game_rule = dr_random_mode_yes
+								nor = {
+									has_game_rule = dr_focused_mode_yes
+									has_game_rule = dr_random_mode_yes
+								}	
+							}
+						}
+						create_building = {
+							building = "building_coal_mine"
+							level = 24
+						}
+					}
+					10 = { 
+						trigger = {
+							or = {
+								and = {
+									has_game_rule = dr_focused_mode_yes
+									or = {
+										has_potential_resource = bg_iron_mining
+										has_building = building_iron_mine
+									}
+								}
+								has_game_rule = dr_random_mode_yes
+								nor = {
+									has_game_rule = dr_focused_mode_yes
+									has_game_rule = dr_random_mode_yes
+								}
+							}
+						}
+						create_building = {
+							building = "building_iron_mine"
+							level = 24
+						}
+					}
+					10 = { 
+						trigger = {
+							or = {
+								and = {
+									has_game_rule = dr_focused_mode_yes
+									or = {
+										has_potential_resource = bg_lead_mining
+										has_building = building_lead_mine
+									}
+								}
+								has_game_rule = dr_random_mode_yes
+								nor = {
+									has_game_rule = dr_focused_mode_yes
+									has_game_rule = dr_random_mode_yes
+								}
+							}
+						}
+						create_building = {
+							building = "building_lead_mine"
+							level = 24
+						}
+					}
+					10 = { 
+						trigger = {
+							or = {
+								and = {
+									has_game_rule = dr_focused_mode_yes
+									or = {
+										has_potential_resource = bg_sulfur_mining
+										has_building = building_sulfur_mine
+									}
+								}
+								has_game_rule = dr_random_mode_yes
+								nor = {
+									has_game_rule = dr_focused_mode_yes
+									has_game_rule = dr_random_mode_yes
+								}
+							}
+						}
+						create_building = {
+							building = "building_sulfur_mine"
+							level = 24
+						}
+					}
+					10 = { 
+						trigger = {
+							or = {
+								and = {
+									has_game_rule = dr_focused_mode_yes
+									or = {
+										has_potential_resource = bg_gold_mining
+										has_building = building_gold_mine
+									}
+								}
+								has_game_rule = dr_random_mode_yes
+								nor = {
+									has_game_rule = dr_focused_mode_yes
+									has_game_rule = dr_random_mode_yes
+								}
+							}
+						}
+						create_building = {
+							building = "building_gold_mine"
+							level = 24
+						}
+					}
+					10 = { 
+						trigger = {
+							or = {
+								and = {
+									has_game_rule = dr_focused_mode_yes
+									or = {
+										has_potential_resource = bg_logging
+										has_building = building_logging_camp
+									}
+								}
+								has_game_rule = dr_random_mode_yes
+								nor = {
+									has_game_rule = dr_focused_mode_yes
+									has_game_rule = dr_random_mode_yes
+								}
+							}
+						}
+						create_building = {
+							building = "building_logging_camp"
+							level = 24
+						}
+					}
+					10 = { 
+						trigger = {
+							or = {
+								and = {
+									has_game_rule = dr_focused_mode_yes
+										or = {
+											has_potential_resource = bg_rubber
+											has_building = building_rubber_plantation
+										}
+								}
+								has_game_rule = dr_random_mode_yes
+								nor = {
+									has_game_rule = dr_focused_mode_yes
+									has_game_rule = dr_random_mode_yes
+								}
+							}
+							owner = {
+								has_technology_researched = rubber_mastication
+							}
+						}						
+						create_building = {
+							building = "building_rubber_plantation"
+							level = 24
+						}
+					}
+					10 = {
+						trigger = {
+							or = {
+								and = {
+									has_game_rule = dr_focused_mode_yes
+									or = {
+										has_potential_resource = bg_opium_plantations
+										has_building = building_opium_plantation
+									}
+								}
+								has_game_rule = dr_random_mode_yes
+								nor = {
+									has_game_rule = dr_focused_mode_yes
+									has_game_rule = dr_random_mode_yes
+								}
+							}
+						}
+						create_building = {
+							building = "building_opium_plantation"
+							level = 24
+						}
+						this.state_region = {
+							add_arable_land = 24
+						}
+					}
+					10 = {
+						trigger = {
+							or = {
+								and = {
+									has_game_rule = dr_focused_mode_yes
+									or = {
+										has_potential_resource = bg_oil_extraction
+										has_building = building_oil_rig
+									}
+								}
+								has_game_rule = dr_random_mode_yes
+								nor = {
+									has_game_rule = dr_focused_mode_yes
+									has_game_rule = dr_random_mode_yes
+								}
+							}
+							owner = {
+								has_technology_researched = pumpjacks
+							}
+						}						
+						create_building = {
+							building = "building_oil_rig"
+							level = 24
+						}
+					}
+					10 = {
+						trigger = {
+							or = {
+								and = {
+									has_game_rule = dr_focused_mode_yes
+										or = {
+											has_potential_resource = bg_fishing
+											has_building = building_fishing_wharf
+										}
+								}
+								has_game_rule = dr_random_mode_yes
+								nor = {
+									has_game_rule = dr_focused_mode_yes
+									has_game_rule = dr_random_mode_yes
+								}
+							}
+							is_coastal = yes
+						}
+						create_building = {
+							building = "building_fishing_wharf"
+							level = 24
+						}
+					}
+					10 = {
+						trigger = {
+							or = {
+								and = {
+									has_game_rule = dr_focused_mode_yes
+										or = {
+											has_potential_resource = bg_whaling
+											has_building = building_whaling_station
+										}
+								}
+								has_game_rule = dr_random_mode_yes
+								nor = {
+									has_game_rule = dr_focused_mode_yes
+									has_game_rule = dr_random_mode_yes
+								}
+							}
+							is_coastal = yes
+						}
+						create_building = {
+							building = "building_whaling_station"
+							level = 24
+						}
+					}
+				}
+			}					
+		}		
+	}
+}
+
+dr_gen_multi_2 = {
+	random_list = {
+		15 = {
+			random_state_region = {
+				random_list = {
+					500 = { 
+						add_arable_land = 6
+					}
+					250 = { 
+						add_arable_land = 12
+					}
+					150 = { 
+						add_arable_land = 18
+					}
+					50 = { 
+						add_arable_land = 24
+					}
+				}
+			}
+		}
+		75 = {
+			random_state = {
+				random_list = {
+					100 = { 
+						trigger = {
+							or = {
+								and = {
+									has_game_rule = dr_focused_mode_yes
+									or = {
+										has_potential_resource = bg_coal_mining
+										has_building = building_coal_mine
+									}
+								}
+								has_game_rule = dr_random_mode_yes
+								nor = {
+									has_game_rule = dr_focused_mode_yes
+									has_game_rule = dr_random_mode_yes
+								}	
+							}
+						}
+						create_building = {
+							building = "building_coal_mine"
+							level = 6
+						}
+					}
+					50 = { 
+						trigger = {
+							or = {
+								and = {
+									has_game_rule = dr_focused_mode_yes
+									or = {
+										has_potential_resource = bg_coal_mining
+										has_building = building_coal_mine
+									}
+								}
+								has_game_rule = dr_random_mode_yes
+								nor = {
+									has_game_rule = dr_focused_mode_yes
+									has_game_rule = dr_random_mode_yes
+								}	
+							}
+						}
+						create_building = {
+							building = "building_coal_mine"
+							level = 12
+						}
+					}
+					30 = { 
+						trigger = {
+							or = {
+								and = {
+									has_game_rule = dr_focused_mode_yes
+									or = {
+										has_potential_resource = bg_coal_mining
+										has_building = building_coal_mine
+									}
+								}
+								has_game_rule = dr_random_mode_yes
+								nor = {
+									has_game_rule = dr_focused_mode_yes
+									has_game_rule = dr_random_mode_yes
+								}	
+							}
+						}
+						create_building = {
+							building = "building_coal_mine"
+							level = 18
+						}
+					}
+					10 = { 
+						trigger = {
+							or = {
+								and = {
+									has_game_rule = dr_focused_mode_yes
+									or = {
+										has_potential_resource = bg_coal_mining
+										has_building = building_coal_mine
+									}
+								}
+								has_game_rule = dr_random_mode_yes
+								nor = {
+									has_game_rule = dr_focused_mode_yes
+									has_game_rule = dr_random_mode_yes
+								}	
+							}
+						}
+						create_building = {
+							building = "building_coal_mine"
+							level = 24
+						}
+					}
+					100 = { 
+						trigger = {
+							or = {
+								and = {
+									has_game_rule = dr_focused_mode_yes
+									or = {
+										has_potential_resource = bg_iron_mining
+										has_building = building_iron_mine
+									}
+								}
+								has_game_rule = dr_random_mode_yes
+								nor = {
+									has_game_rule = dr_focused_mode_yes
+									has_game_rule = dr_random_mode_yes
+								}
+							}
+						}
+						create_building = {
+							building = "building_iron_mine"
+							level = 6
+						}
+					}
+					50 = { 
+						trigger = {
+							or = {
+								and = {
+									has_game_rule = dr_focused_mode_yes
+									or = {
+										has_potential_resource = bg_iron_mining
+										has_building = building_iron_mine
+									}
+								}
+								has_game_rule = dr_random_mode_yes
+								nor = {
+									has_game_rule = dr_focused_mode_yes
+									has_game_rule = dr_random_mode_yes
+								}
+							}
+						}
+						create_building = {
+							building = "building_iron_mine"
+							level = 12
+						}
+					}
+					30 = { 
+						trigger = {
+							or = {
+								and = {
+									has_game_rule = dr_focused_mode_yes
+									or = {
+										has_potential_resource = bg_iron_mining
+										has_building = building_iron_mine
+									}
+								}
+								has_game_rule = dr_random_mode_yes
+								nor = {
+									has_game_rule = dr_focused_mode_yes
+									has_game_rule = dr_random_mode_yes
+								}
+							}
+						}
+						create_building = {
+							building = "building_iron_mine"
+							level = 18
+						}
+					}
+					10 = { 
+						trigger = {
+							or = {
+								and = {
+									has_game_rule = dr_focused_mode_yes
+									or = {
+										has_potential_resource = bg_iron_mining
+										has_building = building_iron_mine
+									}
+								}
+								has_game_rule = dr_random_mode_yes
+								nor = {
+									has_game_rule = dr_focused_mode_yes
+									has_game_rule = dr_random_mode_yes
+								}
+							}
+						}
+						create_building = {
+							building = "building_iron_mine"
+							level = 24
+						}
+					}
+					100 = { 
+						trigger = {
+							or = {
+								and = {
+									has_game_rule = dr_focused_mode_yes
+									or = {
+										has_potential_resource = bg_lead_mining
+										has_building = building_lead_mine
+									}
+								}
+								has_game_rule = dr_random_mode_yes
+								nor = {
+									has_game_rule = dr_focused_mode_yes
+									has_game_rule = dr_random_mode_yes
+								}
+							}
+						}
+						create_building = {
+							building = "building_lead_mine"
+							level = 6
+						}
+					}
+					50 = { 
+						trigger = {
+							or = {
+								and = {
+									has_game_rule = dr_focused_mode_yes
+									or = {
+										has_potential_resource = bg_lead_mining
+										has_building = building_lead_mine
+									}
+								}
+								has_game_rule = dr_random_mode_yes
+								nor = {
+									has_game_rule = dr_focused_mode_yes
+									has_game_rule = dr_random_mode_yes
+								}
+							}
+						}
+						create_building = {
+							building = "building_lead_mine"
+							level = 12
+						}
+					}
+					30 = { 
+						trigger = {
+							or = {
+								and = {
+									has_game_rule = dr_focused_mode_yes
+									or = {
+										has_potential_resource = bg_lead_mining
+										has_building = building_lead_mine
+									}
+								}
+								has_game_rule = dr_random_mode_yes
+								nor = {
+									has_game_rule = dr_focused_mode_yes
+									has_game_rule = dr_random_mode_yes
+								}
+							}
+						}
+						create_building = {
+							building = "building_lead_mine"
+							level = 18
+						}
+					}
+					10 = { 
+						trigger = {
+							or = {
+								and = {
+									has_game_rule = dr_focused_mode_yes
+									or = {
+										has_potential_resource = bg_lead_mining
+										has_building = building_lead_mine
+									}
+								}
+								has_game_rule = dr_random_mode_yes
+								nor = {
+									has_game_rule = dr_focused_mode_yes
+									has_game_rule = dr_random_mode_yes
+								}
+							}
+						}
+						create_building = {
+							building = "building_lead_mine"
+							level = 24
+						}
+					}
+					100 = { 
+						trigger = {
+							or = {
+								and = {
+									has_game_rule = dr_focused_mode_yes
+									or = {
+										has_potential_resource = bg_sulfur_mining
+										has_building = building_sulfur_mine
+									}
+								}
+								has_game_rule = dr_random_mode_yes
+								nor = {
+									has_game_rule = dr_focused_mode_yes
+									has_game_rule = dr_random_mode_yes
+								}
+							}
+						}
+						create_building = {
+							building = "building_sulfur_mine"
+							level = 6
+						}
+					}
+					50 = { 
+						trigger = {
+							or = {
+								and = {
+									has_game_rule = dr_focused_mode_yes
+									or = {
+										has_potential_resource = bg_sulfur_mining
+										has_building = building_sulfur_mine
+									}
+								}
+								has_game_rule = dr_random_mode_yes
+								nor = {
+									has_game_rule = dr_focused_mode_yes
+									has_game_rule = dr_random_mode_yes
+								}
+							}
+						}
+						create_building = {
+							building = "building_sulfur_mine"
+							level = 12
+						}
+					}
+					30 = { 
+						trigger = {
+							or = {
+								and = {
+									has_game_rule = dr_focused_mode_yes
+									or = {
+										has_potential_resource = bg_sulfur_mining
+										has_building = building_sulfur_mine
+									}
+								}
+								has_game_rule = dr_random_mode_yes
+								nor = {
+									has_game_rule = dr_focused_mode_yes
+									has_game_rule = dr_random_mode_yes
+								}
+							}
+						}
+						create_building = {
+							building = "building_sulfur_mine"
+							level = 18
+						}
+					}
+					10 = { 
+						trigger = {
+							or = {
+								and = {
+									has_game_rule = dr_focused_mode_yes
+									or = {
+										has_potential_resource = bg_sulfur_mining
+										has_building = building_sulfur_mine
+									}
+								}
+								has_game_rule = dr_random_mode_yes
+								nor = {
+									has_game_rule = dr_focused_mode_yes
+									has_game_rule = dr_random_mode_yes
+								}
+							}
+						}
+						create_building = {
+							building = "building_sulfur_mine"
+							level = 24
+						}
+					}
+					12 = { 
+						trigger = {
+							or = {
+								and = {
+									has_game_rule = dr_focused_mode_yes
+									or = {
+										has_potential_resource = bg_gold_mining
+										has_building = building_gold_mine
+									}
+								}
+								has_game_rule = dr_random_mode_yes
+								nor = {
+									has_game_rule = dr_focused_mode_yes
+									has_game_rule = dr_random_mode_yes
+								}
+							}
+						}
+						create_building = {
+							building = "building_gold_mine"
+							level = 6
+						}
+					}
+					6 = { 
+						trigger = {
+							or = {
+								and = {
+									has_game_rule = dr_focused_mode_yes
+									or = {
+										has_potential_resource = bg_gold_mining
+										has_building = building_gold_mine
+									}
+								}
+								has_game_rule = dr_random_mode_yes
+								nor = {
+									has_game_rule = dr_focused_mode_yes
+									has_game_rule = dr_random_mode_yes
+								}
+							}
+						}
+						create_building = {
+							building = "building_gold_mine"
+							level = 12
+						}
+					}
+					4 = { 
+						trigger = {
+							or = {
+								and = {
+									has_game_rule = dr_focused_mode_yes
+									or = {
+										has_potential_resource = bg_gold_mining
+										has_building = building_gold_mine
+									}
+								}
+								has_game_rule = dr_random_mode_yes
+								nor = {
+									has_game_rule = dr_focused_mode_yes
+									has_game_rule = dr_random_mode_yes
+								}
+							}
+						}
+						create_building = {
+							building = "building_gold_mine"
+							level = 18
+						}
+					}
+					2 = { 
+						trigger = {
+							or = {
+								and = {
+									has_game_rule = dr_focused_mode_yes
+									or = {
+										has_potential_resource = bg_gold_mining
+										has_building = building_gold_mine
+									}
+								}
+								has_game_rule = dr_random_mode_yes
+								nor = {
+									has_game_rule = dr_focused_mode_yes
+									has_game_rule = dr_random_mode_yes
+								}
+							}
+						}
+						create_building = {
+							building = "building_gold_mine"
+							level = 24
+						}
+					}
+					100 = { 
+						trigger = {
+							or = {
+								and = {
+									has_game_rule = dr_focused_mode_yes
+									or = {
+										has_potential_resource = bg_logging
+										has_building = building_logging_camp
+									}
+								}
+								has_game_rule = dr_random_mode_yes
+								nor = {
+									has_game_rule = dr_focused_mode_yes
+									has_game_rule = dr_random_mode_yes
+								}
+							}
+						}
+						create_building = {
+							building = "building_logging_camp"
+							level = 6
+						}
+					}
+					50 = { 
+						trigger = {
+							or = {
+								and = {
+									has_game_rule = dr_focused_mode_yes
+									or = {
+										has_potential_resource = bg_logging
+										has_building = building_logging_camp
+									}
+								}
+								has_game_rule = dr_random_mode_yes
+								nor = {
+									has_game_rule = dr_focused_mode_yes
+									has_game_rule = dr_random_mode_yes
+								}
+							}
+						}
+						create_building = {
+							building = "building_logging_camp"
+							level = 12
+						}
+					}
+					30 = { 
+						trigger = {
+							or = {
+								and = {
+									has_game_rule = dr_focused_mode_yes
+									or = {
+										has_potential_resource = bg_logging
+										has_building = building_logging_camp
+									}
+								}
+								has_game_rule = dr_random_mode_yes
+								nor = {
+									has_game_rule = dr_focused_mode_yes
+									has_game_rule = dr_random_mode_yes
+								}
+							}
+						}
+						create_building = {
+							building = "building_logging_camp"
+							level = 18
+						}
+					}
+					10 = { 
+						trigger = {
+							or = {
+								and = {
+									has_game_rule = dr_focused_mode_yes
+									or = {
+										has_potential_resource = bg_logging
+										has_building = building_logging_camp
+									}
+								}
+								has_game_rule = dr_random_mode_yes
+								nor = {
+									has_game_rule = dr_focused_mode_yes
+									has_game_rule = dr_random_mode_yes
+								}
+							}
+						}
+						create_building = {
+							building = "building_logging_camp"
+							level = 24
+						}
+					}
+					60 = {
+						trigger = {
+							or = {
+								and = {
+									has_game_rule = dr_focused_mode_yes
+										or = {
+											has_potential_resource = bg_rubber
+											has_building = building_rubber_plantation
+										}
+								}
+								has_game_rule = dr_random_mode_yes
+								nor = {
+									has_game_rule = dr_focused_mode_yes
+									has_game_rule = dr_random_mode_yes
+								}
+							}
+							owner = {
+								has_technology_researched = rubber_mastication
+							}
+						}						
+						create_building = {
+							building = "building_rubber_plantation"
+							level = 6
+						}
+					}
+					30 = { 
+						trigger = {
+							or = {
+								and = {
+									has_game_rule = dr_focused_mode_yes
+										or = {
+											has_potential_resource = bg_rubber
+											has_building = building_rubber_plantation
+										}
+								}
+								has_game_rule = dr_random_mode_yes
+								nor = {
+									has_game_rule = dr_focused_mode_yes
+									has_game_rule = dr_random_mode_yes
+								}
+							}
+							owner = {
+								has_technology_researched = rubber_mastication
+							}
+						}						
+						create_building = {
+							building = "building_rubber_plantation"
+							level = 12
+						}
+					}
+					18 = { 
+						trigger = {
+							or = {
+								and = {
+									has_game_rule = dr_focused_mode_yes
+										or = {
+											has_potential_resource = bg_rubber
+											has_building = building_rubber_plantation
+										}
+								}
+								has_game_rule = dr_random_mode_yes
+								nor = {
+									has_game_rule = dr_focused_mode_yes
+									has_game_rule = dr_random_mode_yes
+								}
+							}
+							owner = {
+								has_technology_researched = rubber_mastication
+							}
+						}						
+						create_building = {
+							building = "building_rubber_plantation"
+							level = 18
+						}
+					}
+					6 = { 
+						trigger = {
+							or = {
+								and = {
+									has_game_rule = dr_focused_mode_yes
+										or = {
+											has_potential_resource = bg_rubber
+											has_building = building_rubber_plantation
+										}
+								}
+								has_game_rule = dr_random_mode_yes
+								nor = {
+									has_game_rule = dr_focused_mode_yes
+									has_game_rule = dr_random_mode_yes
+								}
+							}
+							owner = {
+								has_technology_researched = rubber_mastication
+							}
+						}						
+						create_building = {
+							building = "building_rubber_plantation"
+							level = 24
+						}
+					}
+					120 = { 
+						trigger = {
+							or = {
+								and = {
+									has_game_rule = dr_focused_mode_yes
+									or = {
+										has_potential_resource = bg_opium_plantations
+										has_building = building_opium_plantation
+									}
+								}
+								has_game_rule = dr_random_mode_yes
+								nor = {
+									has_game_rule = dr_focused_mode_yes
+									has_game_rule = dr_random_mode_yes
+								}
+							}
+						}
+						create_building = {
+							building = "building_opium_plantation"
+							level = 6
+						}
+						this.state_region = {
+							add_arable_land = 6
+						}
+					}
+					60 = { 
+						trigger = {
+							or = {
+								and = {
+									has_game_rule = dr_focused_mode_yes
+									or = {
+										has_potential_resource = bg_opium_plantations
+										has_building = building_opium_plantation
+									}
+								}
+								has_game_rule = dr_random_mode_yes
+								nor = {
+									has_game_rule = dr_focused_mode_yes
+									has_game_rule = dr_random_mode_yes
+								}
+							}
+						}
+						create_building = {
+							building = "building_opium_plantation"
+							level = 12
+						}
+						this.state_region = {
+							add_arable_land = 12
+						}
+					}
+					36 = { 
+						trigger = {
+							or = {
+								and = {
+									has_game_rule = dr_focused_mode_yes
+									or = {
+										has_potential_resource = bg_opium_plantations
+										has_building = building_opium_plantation
+									}
+								}
+								has_game_rule = dr_random_mode_yes
+								nor = {
+									has_game_rule = dr_focused_mode_yes
+									has_game_rule = dr_random_mode_yes
+								}
+							}
+						}
+						create_building = {
+							building = "building_opium_plantation"
+							level = 18
+						}
+						this.state_region = {
+							add_arable_land = 18
+						}
+					}
+					12 = {
+						trigger = {
+							or = {
+								and = {
+									has_game_rule = dr_focused_mode_yes
+									or = {
+										has_potential_resource = bg_opium_plantations
+										has_building = building_opium_plantation
+									}
+								}
+								has_game_rule = dr_random_mode_yes
+								nor = {
+									has_game_rule = dr_focused_mode_yes
+									has_game_rule = dr_random_mode_yes
+								}
+							}
+						}
+						create_building = {
+							building = "building_opium_plantation"
+							level = 24
+						}
+						this.state_region = {
+							add_arable_land = 24
+						}
+					}
+					60 = { 
+						trigger = {
+							or = {
+								and = {
+									has_game_rule = dr_focused_mode_yes
+									or = {
+										has_potential_resource = bg_oil_extraction
+										has_building = building_oil_rig
+									}
+								}
+								has_game_rule = dr_random_mode_yes
+								nor = {
+									has_game_rule = dr_focused_mode_yes
+									has_game_rule = dr_random_mode_yes
+								}
+							}
+							owner = {
+								has_technology_researched = pumpjacks
+							}
+						}
+						create_building = {
+							building = "building_oil_rig"
+							level = 6
+						}
+					}
+					30 = {
+						trigger = {
+							or = {
+								and = {
+									has_game_rule = dr_focused_mode_yes
+									or = {
+										has_potential_resource = bg_oil_extraction
+										has_building = building_oil_rig
+									}
+								}
+								has_game_rule = dr_random_mode_yes
+								nor = {
+									has_game_rule = dr_focused_mode_yes
+									has_game_rule = dr_random_mode_yes
+								}
+							}
+							owner = {
+								has_technology_researched = pumpjacks
+							}
+						}						
+						create_building = {
+							building = "building_oil_rig"
+							level = 12
+						}
+					}
+					18 = {
+						trigger = {
+							or = {
+								and = {
+									has_game_rule = dr_focused_mode_yes
+									or = {
+										has_potential_resource = bg_oil_extraction
+										has_building = building_oil_rig
+									}
+								}
+								has_game_rule = dr_random_mode_yes
+								nor = {
+									has_game_rule = dr_focused_mode_yes
+									has_game_rule = dr_random_mode_yes
+								}
+							}
+							owner = {
+								has_technology_researched = pumpjacks
+							}
+						}						
+						create_building = {
+							building = "building_oil_rig"
+							level = 18
+						}
+					}
+					6 = {
+						trigger = {
+							or = {
+								and = {
+									has_game_rule = dr_focused_mode_yes
+									or = {
+										has_potential_resource = bg_oil_extraction
+										has_building = building_oil_rig
+									}
+								}
+								has_game_rule = dr_random_mode_yes
+								nor = {
+									has_game_rule = dr_focused_mode_yes
+									has_game_rule = dr_random_mode_yes
+								}
+							}
+							owner = {
+								has_technology_researched = pumpjacks
+							}
+						}						
+						create_building = {
+							building = "building_oil_rig"
+							level = 24
+						}
+					}
+					200 = { 
+						trigger = {
+							or = {
+								and = {
+									has_game_rule = dr_focused_mode_yes
+										or = {
+											has_potential_resource = bg_fishing
+											has_building = building_fishing_wharf
+										}
+								}
+								has_game_rule = dr_random_mode_yes
+								nor = {
+									has_game_rule = dr_focused_mode_yes
+									has_game_rule = dr_random_mode_yes
+								}
+							}
+							is_coastal = yes
+						}
+						create_building = {
+							building = "building_fishing_wharf"
+							level = 6
+						}
+					}
+					100 = {
+						trigger = {
+							or = {
+								and = {
+									has_game_rule = dr_focused_mode_yes
+										or = {
+											has_potential_resource = bg_fishing
+											has_building = building_fishing_wharf
+										}
+								}
+								has_game_rule = dr_random_mode_yes
+								nor = {
+									has_game_rule = dr_focused_mode_yes
+									has_game_rule = dr_random_mode_yes
+								}
+							}
+							is_coastal = yes
+						}
+						create_building = {
+							building = "building_fishing_wharf"
+							level = 12
+						}
+					}
+					50 = { 
+						trigger = {
+							or = {
+								and = {
+									has_game_rule = dr_focused_mode_yes
+										or = {
+											has_potential_resource = bg_fishing
+											has_building = building_fishing_wharf
+										}
+								}
+								has_game_rule = dr_random_mode_yes
+								nor = {
+									has_game_rule = dr_focused_mode_yes
+									has_game_rule = dr_random_mode_yes
+								}
+							}
+							is_coastal = yes
+						}
+						create_building = {
+							building = "building_fishing_wharf"
+							level = 18
+						}
+					}
+					25 = {
+						trigger = {
+							or = {
+								and = {
+									has_game_rule = dr_focused_mode_yes
+										or = {
+											has_potential_resource = bg_fishing
+											has_building = building_fishing_wharf
+										}
+								}
+								has_game_rule = dr_random_mode_yes
+								nor = {
+									has_game_rule = dr_focused_mode_yes
+									has_game_rule = dr_random_mode_yes
+								}
+							}
+							is_coastal = yes
+						}
+						create_building = {
+							building = "building_fishing_wharf"
+							level = 24
+						}
+					}
+					200 = { 
+						trigger = {
+							or = {
+								and = {
+									has_game_rule = dr_focused_mode_yes
+										or = {
+											has_potential_resource = bg_whaling
+											has_building = building_whaling_station
+										}
+								}
+								has_game_rule = dr_random_mode_yes
+								nor = {
+									has_game_rule = dr_focused_mode_yes
+									has_game_rule = dr_random_mode_yes
+								}
+							}
+							is_coastal = yes
+						}
+						create_building = {
+							building = "building_whaling_station"
+							level = 6
+						}
+					}
+					100 = {
+						trigger = {
+							or = {
+								and = {
+									has_game_rule = dr_focused_mode_yes
+										or = {
+											has_potential_resource = bg_whaling
+											has_building = building_whaling_station
+										}
+								}
+								has_game_rule = dr_random_mode_yes
+								nor = {
+									has_game_rule = dr_focused_mode_yes
+									has_game_rule = dr_random_mode_yes
+								}
+							}
+							is_coastal = yes
+						}
+						create_building = {
+							building = "building_whaling_station"
+							level = 12
+						}
+					}
+					50 = { 
+						trigger = {
+							or = {
+								and = {
+									has_game_rule = dr_focused_mode_yes
+										or = {
+											has_potential_resource = bg_whaling
+											has_building = building_whaling_station
+										}
+								}
+								has_game_rule = dr_random_mode_yes
+								nor = {
+									has_game_rule = dr_focused_mode_yes
+									has_game_rule = dr_random_mode_yes
+								}
+							}
+							is_coastal = yes
+						}
+						create_building = {
+							building = "building_whaling_station"
+							level = 18
+						}
+					}
+					25 = {
+						trigger = {
+							or = {
+								and = {
+									has_game_rule = dr_focused_mode_yes
+										or = {
+											has_potential_resource = bg_whaling
+											has_building = building_whaling_station
+										}
+								}
+								has_game_rule = dr_random_mode_yes
+								nor = {
+									has_game_rule = dr_focused_mode_yes
+									has_game_rule = dr_random_mode_yes
+								}
+							}
+							is_coastal = yes
+						}
+						create_building = {
+							building = "building_whaling_station"
+							level = 24
+						}
+					}
+				}
+			}					
+		}		
+	}
+}
+
+dr_jackpot_multi_2 = {
+	random_list = {
+		15 = {
+			random_state_region = {
+				add_arable_land = 48
+			}
+		}
+		75 = {
+			random_state = {
+				random_list = {
+					10 = { 
+						trigger = {
+							or = {
+								and = {
+									has_game_rule = dr_focused_mode_yes
+									or = {
+										has_potential_resource = bg_coal_mining
+										has_building = building_coal_mine
+									}
+								}
+								has_game_rule = dr_random_mode_yes
+								nor = {
+									has_game_rule = dr_focused_mode_yes
+									has_game_rule = dr_random_mode_yes
+								}	
+							}
+						}
+						create_building = {
+							building = "building_coal_mine"
+							level = 48
+						}
+					}
+					10 = { 
+						trigger = {
+							or = {
+								and = {
+									has_game_rule = dr_focused_mode_yes
+									or = {
+										has_potential_resource = bg_iron_mining
+										has_building = building_iron_mine
+									}
+								}
+								has_game_rule = dr_random_mode_yes
+								nor = {
+									has_game_rule = dr_focused_mode_yes
+									has_game_rule = dr_random_mode_yes
+								}
+							}
+						}
+						create_building = {
+							building = "building_iron_mine"
+							level = 48
+						}
+					}
+					10 = { 
+						trigger = {
+							or = {
+								and = {
+									has_game_rule = dr_focused_mode_yes
+									or = {
+										has_potential_resource = bg_lead_mining
+										has_building = building_lead_mine
+									}
+								}
+								has_game_rule = dr_random_mode_yes
+								nor = {
+									has_game_rule = dr_focused_mode_yes
+									has_game_rule = dr_random_mode_yes
+								}
+							}
+						}
+						create_building = {
+							building = "building_lead_mine"
+							level = 48
+						}
+					}
+					10 = { 
+						trigger = {
+							or = {
+								and = {
+									has_game_rule = dr_focused_mode_yes
+									or = {
+										has_potential_resource = bg_sulfur_mining
+										has_building = building_sulfur_mine
+									}
+								}
+								has_game_rule = dr_random_mode_yes
+								nor = {
+									has_game_rule = dr_focused_mode_yes
+									has_game_rule = dr_random_mode_yes
+								}
+							}
+						}
+						create_building = {
+							building = "building_sulfur_mine"
+							level = 48
+						}
+					}
+					10 = { 
+						trigger = {
+							or = {
+								and = {
+									has_game_rule = dr_focused_mode_yes
+									or = {
+										has_potential_resource = bg_gold_mining
+										has_building = building_gold_mine
+									}
+								}
+								has_game_rule = dr_random_mode_yes
+								nor = {
+									has_game_rule = dr_focused_mode_yes
+									has_game_rule = dr_random_mode_yes
+								}
+							}
+						}
+						create_building = {
+							building = "building_gold_mine"
+							level = 48
+						}
+					}
+					10 = { 
+						trigger = {
+							or = {
+								and = {
+									has_game_rule = dr_focused_mode_yes
+									or = {
+										has_potential_resource = bg_logging
+										has_building = building_logging_camp
+									}
+								}
+								has_game_rule = dr_random_mode_yes
+								nor = {
+									has_game_rule = dr_focused_mode_yes
+									has_game_rule = dr_random_mode_yes
+								}
+							}
+						}
+						create_building = {
+							building = "building_logging_camp"
+							level = 48
+						}
+					}
+					10 = { 
+						trigger = {
+							or = {
+								and = {
+									has_game_rule = dr_focused_mode_yes
+										or = {
+											has_potential_resource = bg_rubber
+											has_building = building_rubber_plantation
+										}
+								}
+								has_game_rule = dr_random_mode_yes
+								nor = {
+									has_game_rule = dr_focused_mode_yes
+									has_game_rule = dr_random_mode_yes
+								}
+							}
+							owner = {
+								has_technology_researched = rubber_mastication
+							}
+						}                        
+						create_building = {
+							building = "building_rubber_plantation"
+							level = 48
+						}
+					}
+					10 = {
+						trigger = {
+							or = {
+								and = {
+									has_game_rule = dr_focused_mode_yes
+									or = {
+										has_potential_resource = bg_opium_plantations
+										has_building = building_opium_plantation
+									}
+								}
+								has_game_rule = dr_random_mode_yes
+								nor = {
+									has_game_rule = dr_focused_mode_yes
+									has_game_rule = dr_random_mode_yes
+								}
+							}
+						}
+						create_building = {
+							building = "building_opium_plantation"
+							level = 48
+						}
+						this.state_region = {
+							add_arable_land = 48
+						}
+					}
+					10 = {
+						trigger = {
+							or = {
+								and = {
+									has_game_rule = dr_focused_mode_yes
+									or = {
+										has_potential_resource = bg_oil_extraction
+										has_building = building_oil_rig
+									}
+								}
+								has_game_rule = dr_random_mode_yes
+								nor = {
+									has_game_rule = dr_focused_mode_yes
+									has_game_rule = dr_random_mode_yes
+								}
+							}
+							owner = {
+								has_technology_researched = pumpjacks
+							}
+						}                        
+						create_building = {
+							building = "building_oil_rig"
+							level = 48
+						}
+					}
+					10 = {
+						trigger = {
+							or = {
+								and = {
+									has_game_rule = dr_focused_mode_yes
+										or = {
+											has_potential_resource = bg_fishing
+											has_building = building_fishing_wharf
+										}
+								}
+								has_game_rule = dr_random_mode_yes
+								nor = {
+									has_game_rule = dr_focused_mode_yes
+									has_game_rule = dr_random_mode_yes
+								}
+							}
+							is_coastal = yes
+						}
+						create_building = {
+							building = "building_fishing_wharf"
+							level = 48
+						}
+					}
+					10 = {
+						trigger = {
+							or = {
+								and = {
+									has_game_rule = dr_focused_mode_yes
+										or = {
+											has_potential_resource = bg_whaling
+											has_building = building_whaling_station
+										}
+								}
+								has_game_rule = dr_random_mode_yes
+								nor = {
+									has_game_rule = dr_focused_mode_yes
+									has_game_rule = dr_random_mode_yes
+								}
+							}
+							is_coastal = yes
+						}
+						create_building = {
+							building = "building_whaling_station"
+							level = 48
+						}
+					}
+				}
+			}                    
+		}  
+	}
+}
+
+dr_gen_multi_3 = {
+	random_list = {
+		15 = {
+			random_state_region = {
+				random_list = {
+					500 = { 
+						add_arable_land = 12
+					}
+					250 = { 
+						add_arable_land = 24
+					}
+					150 = { 
+						add_arable_land = 36
+					}
+					50 = { 
+						add_arable_land = 48
+					}
+				}
+			}
+		}
+		75 = {
+			random_state = {
+				random_list = {
+					100 = { 
+						trigger = {
+							or = {
+								and = {
+									has_game_rule = dr_focused_mode_yes
+									or = {
+										has_potential_resource = bg_coal_mining
+										has_building = building_coal_mine
+									}
+								}
+								has_game_rule = dr_random_mode_yes
+								nor = {
+									has_game_rule = dr_focused_mode_yes
+									has_game_rule = dr_random_mode_yes
+								}	
+							}
+						}
+						create_building = {
+							building = "building_coal_mine"
+							level = 12
+						}
+					}
+					50 = { 
+						trigger = {
+							or = {
+								and = {
+									has_game_rule = dr_focused_mode_yes
+									or = {
+										has_potential_resource = bg_coal_mining
+										has_building = building_coal_mine
+									}
+								}
+								has_game_rule = dr_random_mode_yes
+								nor = {
+									has_game_rule = dr_focused_mode_yes
+									has_game_rule = dr_random_mode_yes
+								}	
+							}
+						}
+						create_building = {
+							building = "building_coal_mine"
+							level = 24
+						}
+					}
+					30 = { 
+						trigger = {
+							or = {
+								and = {
+									has_game_rule = dr_focused_mode_yes
+									or = {
+										has_potential_resource = bg_coal_mining
+										has_building = building_coal_mine
+									}
+								}
+								has_game_rule = dr_random_mode_yes
+								nor = {
+									has_game_rule = dr_focused_mode_yes
+									has_game_rule = dr_random_mode_yes
+								}	
+							}
+						}
+						create_building = {
+							building = "building_coal_mine"
+							level = 36
+						}
+					}
+					10 = { 
+						trigger = {
+							or = {
+								and = {
+									has_game_rule = dr_focused_mode_yes
+									or = {
+										has_potential_resource = bg_coal_mining
+										has_building = building_coal_mine
+									}
+								}
+								has_game_rule = dr_random_mode_yes
+								nor = {
+									has_game_rule = dr_focused_mode_yes
+									has_game_rule = dr_random_mode_yes
+								}	
+							}
+						}
+						create_building = {
+							building = "building_coal_mine"
+							level = 48
+						}
+					}
+					100 = { 
+						trigger = {
+							or = {
+								and = {
+									has_game_rule = dr_focused_mode_yes
+									or = {
+										has_potential_resource = bg_iron_mining
+										has_building = building_iron_mine
+									}
+								}
+								has_game_rule = dr_random_mode_yes
+								nor = {
+									has_game_rule = dr_focused_mode_yes
+									has_game_rule = dr_random_mode_yes
+								}
+							}
+						}
+						create_building = {
+							building = "building_iron_mine"
+							level = 12
+						}
+					}
+					50 = { 
+						trigger = {
+							or = {
+								and = {
+									has_game_rule = dr_focused_mode_yes
+									or = {
+										has_potential_resource = bg_iron_mining
+										has_building = building_iron_mine
+									}
+								}
+								has_game_rule = dr_random_mode_yes
+								nor = {
+									has_game_rule = dr_focused_mode_yes
+									has_game_rule = dr_random_mode_yes
+								}
+							}
+						}
+						create_building = {
+							building = "building_iron_mine"
+							level = 24
+						}
+					}
+					30 = { 
+						trigger = {
+							or = {
+								and = {
+									has_game_rule = dr_focused_mode_yes
+									or = {
+										has_potential_resource = bg_iron_mining
+										has_building = building_iron_mine
+									}
+								}
+								has_game_rule = dr_random_mode_yes
+								nor = {
+									has_game_rule = dr_focused_mode_yes
+									has_game_rule = dr_random_mode_yes
+								}
+							}
+						}
+						create_building = {
+							building = "building_iron_mine"
+							level = 36
+						}
+					}
+					10 = { 
+						trigger = {
+							or = {
+								and = {
+									has_game_rule = dr_focused_mode_yes
+									or = {
+										has_potential_resource = bg_iron_mining
+										has_building = building_iron_mine
+									}
+								}
+								has_game_rule = dr_random_mode_yes
+								nor = {
+									has_game_rule = dr_focused_mode_yes
+									has_game_rule = dr_random_mode_yes
+								}
+							}
+						}
+						create_building = {
+							building = "building_iron_mine"
+							level = 48
+						}
+					}
+					100 = { 
+						trigger = {
+							or = {
+								and = {
+									has_game_rule = dr_focused_mode_yes
+									or = {
+										has_potential_resource = bg_lead_mining
+										has_building = building_lead_mine
+									}
+								}
+								has_game_rule = dr_random_mode_yes
+								nor = {
+									has_game_rule = dr_focused_mode_yes
+									has_game_rule = dr_random_mode_yes
+								}
+							}
+						}
+						create_building = {
+							building = "building_lead_mine"
+							level = 12
+						}
+					}
+					50 = { 
+						trigger = {
+							or = {
+								and = {
+									has_game_rule = dr_focused_mode_yes
+									or = {
+										has_potential_resource = bg_lead_mining
+										has_building = building_lead_mine
+									}
+								}
+								has_game_rule = dr_random_mode_yes
+								nor = {
+									has_game_rule = dr_focused_mode_yes
+									has_game_rule = dr_random_mode_yes
+								}
+							}
+						}
+						create_building = {
+							building = "building_lead_mine"
+							level = 24
+						}
+					}
+					30 = { 
+						trigger = {
+							or = {
+								and = {
+									has_game_rule = dr_focused_mode_yes
+									or = {
+										has_potential_resource = bg_lead_mining
+										has_building = building_lead_mine
+									}
+								}
+								has_game_rule = dr_random_mode_yes
+								nor = {
+									has_game_rule = dr_focused_mode_yes
+									has_game_rule = dr_random_mode_yes
+								}
+							}
+						}
+						create_building = {
+							building = "building_lead_mine"
+							level = 36
+						}
+					}
+					10 = { 
+						trigger = {
+							or = {
+								and = {
+									has_game_rule = dr_focused_mode_yes
+									or = {
+										has_potential_resource = bg_lead_mining
+										has_building = building_lead_mine
+									}
+								}
+								has_game_rule = dr_random_mode_yes
+								nor = {
+									has_game_rule = dr_focused_mode_yes
+									has_game_rule = dr_random_mode_yes
+								}
+							}
+						}
+						create_building = {
+							building = "building_lead_mine"
+							level = 48
+						}
+					}
+					100 = { 
+						trigger = {
+							or = {
+								and = {
+									has_game_rule = dr_focused_mode_yes
+									or = {
+										has_potential_resource = bg_sulfur_mining
+										has_building = building_sulfur_mine
+									}
+								}
+								has_game_rule = dr_random_mode_yes
+								nor = {
+									has_game_rule = dr_focused_mode_yes
+									has_game_rule = dr_random_mode_yes
+								}
+							}
+						}
+						create_building = {
+							building = "building_sulfur_mine"
+							level = 12
+						}
+					}
+					50 = { 
+						trigger = {
+							or = {
+								and = {
+									has_game_rule = dr_focused_mode_yes
+									or = {
+										has_potential_resource = bg_sulfur_mining
+										has_building = building_sulfur_mine
+									}
+								}
+								has_game_rule = dr_random_mode_yes
+								nor = {
+									has_game_rule = dr_focused_mode_yes
+									has_game_rule = dr_random_mode_yes
+								}
+							}
+						}
+						create_building = {
+							building = "building_sulfur_mine"
+							level = 24
+						}
+					}
+					30 = { 
+						trigger = {
+							or = {
+								and = {
+									has_game_rule = dr_focused_mode_yes
+									or = {
+										has_potential_resource = bg_sulfur_mining
+										has_building = building_sulfur_mine
+									}
+								}
+								has_game_rule = dr_random_mode_yes
+								nor = {
+									has_game_rule = dr_focused_mode_yes
+									has_game_rule = dr_random_mode_yes
+								}
+							}
+						}
+						create_building = {
+							building = "building_sulfur_mine"
+							level = 36
+						}
+					}
+					10 = { 
+						trigger = {
+							or = {
+								and = {
+									has_game_rule = dr_focused_mode_yes
+									or = {
+										has_potential_resource = bg_sulfur_mining
+										has_building = building_sulfur_mine
+									}
+								}
+								has_game_rule = dr_random_mode_yes
+								nor = {
+									has_game_rule = dr_focused_mode_yes
+									has_game_rule = dr_random_mode_yes
+								}
+							}
+						}
+						create_building = {
+							building = "building_sulfur_mine"
+							level = 48
+						}
+					}
+					12 = { 
+						trigger = {
+							or = {
+								and = {
+									has_game_rule = dr_focused_mode_yes
+									or = {
+										has_potential_resource = bg_gold_mining
+										has_building = building_gold_mine
+									}
+								}
+								has_game_rule = dr_random_mode_yes
+								nor = {
+									has_game_rule = dr_focused_mode_yes
+									has_game_rule = dr_random_mode_yes
+								}
+							}
+						}
+						create_building = {
+							building = "building_gold_mine"
+							level = 12
+						}
+					}
+					6 = { 
+						trigger = {
+							or = {
+								and = {
+									has_game_rule = dr_focused_mode_yes
+									or = {
+										has_potential_resource = bg_gold_mining
+										has_building = building_gold_mine
+									}
+								}
+								has_game_rule = dr_random_mode_yes
+								nor = {
+									has_game_rule = dr_focused_mode_yes
+									has_game_rule = dr_random_mode_yes
+								}
+							}
+						}
+						create_building = {
+							building = "building_gold_mine"
+							level = 24
+						}
+					}
+					4 = { 
+						trigger = {
+							or = {
+								and = {
+									has_game_rule = dr_focused_mode_yes
+									or = {
+										has_potential_resource = bg_gold_mining
+										has_building = building_gold_mine
+									}
+								}
+								has_game_rule = dr_random_mode_yes
+								nor = {
+									has_game_rule = dr_focused_mode_yes
+									has_game_rule = dr_random_mode_yes
+								}
+							}
+						}
+						create_building = {
+							building = "building_gold_mine"
+							level = 36
+						}
+					}
+					2 = { 
+						trigger = {
+							or = {
+								and = {
+									has_game_rule = dr_focused_mode_yes
+									or = {
+										has_potential_resource = bg_gold_mining
+										has_building = building_gold_mine
+									}
+								}
+								has_game_rule = dr_random_mode_yes
+								nor = {
+									has_game_rule = dr_focused_mode_yes
+									has_game_rule = dr_random_mode_yes
+								}
+							}
+						}
+						create_building = {
+							building = "building_gold_mine"
+							level = 48
+						}
+					}
+					100 = { 
+						trigger = {
+							or = {
+								and = {
+									has_game_rule = dr_focused_mode_yes
+									or = {
+										has_potential_resource = bg_logging
+										has_building = building_logging_camp
+									}
+								}
+								has_game_rule = dr_random_mode_yes
+								nor = {
+									has_game_rule = dr_focused_mode_yes
+									has_game_rule = dr_random_mode_yes
+								}
+							}
+						}
+						create_building = {
+							building = "building_logging_camp"
+							level = 12
+						}
+					}
+					50 = { 
+						trigger = {
+							or = {
+								and = {
+									has_game_rule = dr_focused_mode_yes
+									or = {
+										has_potential_resource = bg_logging
+										has_building = building_logging_camp
+									}
+								}
+								has_game_rule = dr_random_mode_yes
+								nor = {
+									has_game_rule = dr_focused_mode_yes
+									has_game_rule = dr_random_mode_yes
+								}
+							}
+						}
+						create_building = {
+							building = "building_logging_camp"
+							level = 24
+						}
+					}
+					30 = { 
+						trigger = {
+							or = {
+								and = {
+									has_game_rule = dr_focused_mode_yes
+									or = {
+										has_potential_resource = bg_logging
+										has_building = building_logging_camp
+									}
+								}
+								has_game_rule = dr_random_mode_yes
+								nor = {
+									has_game_rule = dr_focused_mode_yes
+									has_game_rule = dr_random_mode_yes
+								}
+							}
+						}
+						create_building = {
+							building = "building_logging_camp"
+							level = 36
+						}
+					}
+					10 = { 
+						trigger = {
+							or = {
+								and = {
+									has_game_rule = dr_focused_mode_yes
+									or = {
+										has_potential_resource = bg_logging
+										has_building = building_logging_camp
+									}
+								}
+								has_game_rule = dr_random_mode_yes
+								nor = {
+									has_game_rule = dr_focused_mode_yes
+									has_game_rule = dr_random_mode_yes
+								}
+							}
+						}
+						create_building = {
+							building = "building_logging_camp"
+							level = 48
+						}
+					}
+					60 = {
+						trigger = {
+							or = {
+								and = {
+									has_game_rule = dr_focused_mode_yes
+										or = {
+											has_potential_resource = bg_rubber
+											has_building = building_rubber_plantation
+										}
+								}
+								has_game_rule = dr_random_mode_yes
+								nor = {
+									has_game_rule = dr_focused_mode_yes
+									has_game_rule = dr_random_mode_yes
+								}
+							}
+							owner = {
+								has_technology_researched = rubber_mastication
+							}
+						}                        
+						create_building = {
+							building = "building_rubber_plantation"
+							level = 12
+						}
+					}
+					30 = { 
+						trigger = {
+							or = {
+								and = {
+									has_game_rule = dr_focused_mode_yes
+										or = {
+											has_potential_resource = bg_rubber
+											has_building = building_rubber_plantation
+										}
+								}
+								has_game_rule = dr_random_mode_yes
+								nor = {
+									has_game_rule = dr_focused_mode_yes
+									has_game_rule = dr_random_mode_yes
+								}
+							}
+							owner = {
+								has_technology_researched = rubber_mastication
+							}
+						}                        
+						create_building = {
+							building = "building_rubber_plantation"
+							level = 24
+						}
+					}
+					18 = { 
+						trigger = {
+							or = {
+								and = {
+									has_game_rule = dr_focused_mode_yes
+										or = {
+											has_potential_resource = bg_rubber
+											has_building = building_rubber_plantation
+										}
+								}
+								has_game_rule = dr_random_mode_yes
+								nor = {
+									has_game_rule = dr_focused_mode_yes
+									has_game_rule = dr_random_mode_yes
+								}
+							}
+							owner = {
+								has_technology_researched = rubber_mastication
+							}
+						}                        
+						create_building = {
+							building = "building_rubber_plantation"
+							level = 36
+						}
+					}
+					6 = { 
+						trigger = {
+							or = {
+								and = {
+									has_game_rule = dr_focused_mode_yes
+										or = {
+											has_potential_resource = bg_rubber
+											has_building = building_rubber_plantation
+										}
+								}
+								has_game_rule = dr_random_mode_yes
+								nor = {
+									has_game_rule = dr_focused_mode_yes
+									has_game_rule = dr_random_mode_yes
+								}
+							}
+							owner = {
+								has_technology_researched = rubber_mastication
+							}
+						}                        
+						create_building = {
+							building = "building_rubber_plantation"
+							level = 48
+						}
+					}
+					120 = { 
+						trigger = {
+							or = {
+								and = {
+									has_game_rule = dr_focused_mode_yes
+									or = {
+										has_potential_resource = bg_opium_plantations
+										has_building = building_opium_plantation
+									}
+								}
+								has_game_rule = dr_random_mode_yes
+								nor = {
+									has_game_rule = dr_focused_mode_yes
+									has_game_rule = dr_random_mode_yes
+								}
+							}
+						}
+						create_building = {
+							building = "building_opium_plantation"
+							level = 12
+						}
+						this.state_region = {
+							add_arable_land = 12
+						}
+					}
+					60 = { 
+						trigger = {
+							or = {
+								and = {
+									has_game_rule = dr_focused_mode_yes
+									or = {
+										has_potential_resource = bg_opium_plantations
+										has_building = building_opium_plantation
+									}
+								}
+								has_game_rule = dr_random_mode_yes
+								nor = {
+									has_game_rule = dr_focused_mode_yes
+									has_game_rule = dr_random_mode_yes
+								}
+							}
+						}
+						create_building = {
+							building = "building_opium_plantation"
+							level = 24
+						}
+						this.state_region = {
+							add_arable_land = 24
+						}
+					}
+					36 = { 
+						trigger = {
+							or = {
+								and = {
+									has_game_rule = dr_focused_mode_yes
+									or = {
+										has_potential_resource = bg_opium_plantations
+										has_building = building_opium_plantation
+									}
+								}
+								has_game_rule = dr_random_mode_yes
+								nor = {
+									has_game_rule = dr_focused_mode_yes
+									has_game_rule = dr_random_mode_yes
+								}
+							}
+						}
+						create_building = {
+							building = "building_opium_plantation"
+							level = 36
+						}
+						this.state_region = {
+							add_arable_land = 36
+						}
+					}
+					12 = {
+						trigger = {
+							or = {
+								and = {
+									has_game_rule = dr_focused_mode_yes
+									or = {
+										has_potential_resource = bg_opium_plantations
+										has_building = building_opium_plantation
+									}
+								}
+								has_game_rule = dr_random_mode_yes
+								nor = {
+									has_game_rule = dr_focused_mode_yes
+									has_game_rule = dr_random_mode_yes
+								}
+							}
+						}
+						create_building = {
+							building = "building_opium_plantation"
+							level = 48
+						}
+						this.state_region = {
+							add_arable_land = 48
+						}
+					}
+					60 = { 
+						trigger = {
+							or = {
+								and = {
+									has_game_rule = dr_focused_mode_yes
+									or = {
+										has_potential_resource = bg_oil_extraction
+										has_building = building_oil_rig
+									}
+								}
+								has_game_rule = dr_random_mode_yes
+								nor = {
+									has_game_rule = dr_focused_mode_yes
+									has_game_rule = dr_random_mode_yes
+								}
+							}
+							owner = {
+								has_technology_researched = pumpjacks
+							}
+						}
+						create_building = {
+							building = "building_oil_rig"
+							level = 12
+						}
+					}
+					30 = {
+						trigger = {
+							or = {
+								and = {
+									has_game_rule = dr_focused_mode_yes
+									or = {
+										has_potential_resource = bg_oil_extraction
+										has_building = building_oil_rig
+									}
+								}
+								has_game_rule = dr_random_mode_yes
+								nor = {
+									has_game_rule = dr_focused_mode_yes
+									has_game_rule = dr_random_mode_yes
+								}
+							}
+							owner = {
+								has_technology_researched = pumpjacks
+							}
+						}                        
+						create_building = {
+							building = "building_oil_rig"
+							level = 24
+						}
+					}
+					18 = {
+						trigger = {
+							or = {
+								and = {
+									has_game_rule = dr_focused_mode_yes
+									or = {
+										has_potential_resource = bg_oil_extraction
+										has_building = building_oil_rig
+									}
+								}
+								has_game_rule = dr_random_mode_yes
+								nor = {
+									has_game_rule = dr_focused_mode_yes
+									has_game_rule = dr_random_mode_yes
+								}
+							}
+							owner = {
+								has_technology_researched = pumpjacks
+							}
+						}                        
+						create_building = {
+							building = "building_oil_rig"
+							level = 36
+						}
+					}
+					6 = {
+						trigger = {
+							or = {
+								and = {
+									has_game_rule = dr_focused_mode_yes
+									or = {
+										has_potential_resource = bg_oil_extraction
+										has_building = building_oil_rig
+									}
+								}
+								has_game_rule = dr_random_mode_yes
+								nor = {
+									has_game_rule = dr_focused_mode_yes
+									has_game_rule = dr_random_mode_yes
+								}
+							}
+							owner = {
+								has_technology_researched = pumpjacks
+							}
+						}                        
+						create_building = {
+							building = "building_oil_rig"
+							level = 48
+						}
+					}
+					200 = { 
+						trigger = {
+							or = {
+								and = {
+									has_game_rule = dr_focused_mode_yes
+										or = {
+											has_potential_resource = bg_fishing
+											has_building = building_fishing_wharf
+										}
+								}
+								has_game_rule = dr_random_mode_yes
+								nor = {
+									has_game_rule = dr_focused_mode_yes
+									has_game_rule = dr_random_mode_yes
+								}
+							}
+							is_coastal = yes
+						}
+						create_building = {
+							building = "building_fishing_wharf"
+							level = 12
+						}
+					}
+					100 = {
+						trigger = {
+							or = {
+								and = {
+									has_game_rule = dr_focused_mode_yes
+										or = {
+											has_potential_resource = bg_fishing
+											has_building = building_fishing_wharf
+										}
+								}
+								has_game_rule = dr_random_mode_yes
+								nor = {
+									has_game_rule = dr_focused_mode_yes
+									has_game_rule = dr_random_mode_yes
+								}
+							}
+							is_coastal = yes
+						}
+						create_building = {
+							building = "building_fishing_wharf"
+							level = 24
+						}
+					}
+					50 = { 
+						trigger = {
+							or = {
+								and = {
+									has_game_rule = dr_focused_mode_yes
+										or = {
+											has_potential_resource = bg_fishing
+											has_building = building_fishing_wharf
+										}
+								}
+								has_game_rule = dr_random_mode_yes
+								nor = {
+									has_game_rule = dr_focused_mode_yes
+									has_game_rule = dr_random_mode_yes
+								}
+							}
+							is_coastal = yes
+						}
+						create_building = {
+							building = "building_fishing_wharf"
+							level = 36
+						}
+					}
+					25 = {
+						trigger = {
+							or = {
+								and = {
+									has_game_rule = dr_focused_mode_yes
+										or = {
+											has_potential_resource = bg_fishing
+											has_building = building_fishing_wharf
+										}
+								}
+								has_game_rule = dr_random_mode_yes
+								nor = {
+									has_game_rule = dr_focused_mode_yes
+									has_game_rule = dr_random_mode_yes
+								}
+							}
+							is_coastal = yes
+						}
+						create_building = {
+							building = "building_fishing_wharf"
+							level = 48
+						}
+					}
+					200 = { 
+						trigger = {
+							or = {
+								and = {
+									has_game_rule = dr_focused_mode_yes
+										or = {
+											has_potential_resource = bg_whaling
+											has_building = building_whaling_station
+										}
+								}
+								has_game_rule = dr_random_mode_yes
+								nor = {
+									has_game_rule = dr_focused_mode_yes
+									has_game_rule = dr_random_mode_yes
+								}
+							}
+							is_coastal = yes
+						}
+						create_building = {
+							building = "building_whaling_station"
+							level = 12
+						}
+					}
+					100 = {
+						trigger = {
+							or = {
+								and = {
+									has_game_rule = dr_focused_mode_yes
+										or = {
+											has_potential_resource = bg_whaling
+											has_building = building_whaling_station
+										}
+								}
+								has_game_rule = dr_random_mode_yes
+								nor = {
+									has_game_rule = dr_focused_mode_yes
+									has_game_rule = dr_random_mode_yes
+								}
+							}
+							is_coastal = yes
+						}
+						create_building = {
+							building = "building_whaling_station"
+							level = 24
+						}
+					}
+					50 = { 
+						trigger = {
+							or = {
+								and = {
+									has_game_rule = dr_focused_mode_yes
+										or = {
+											has_potential_resource = bg_whaling
+											has_building = building_whaling_station
+										}
+								}
+								has_game_rule = dr_random_mode_yes
+								nor = {
+									has_game_rule = dr_focused_mode_yes
+									has_game_rule = dr_random_mode_yes
+								}
+							}
+							is_coastal = yes
+						}
+						create_building = {
+							building = "building_whaling_station"
+							level = 36
+						}
+					}
+					25 = {
+						trigger = {
+							or = {
+								and = {
+									has_game_rule = dr_focused_mode_yes
+										or = {
+											has_potential_resource = bg_whaling
+											has_building = building_whaling_station
+										}
+								}
+								has_game_rule = dr_random_mode_yes
+								nor = {
+									has_game_rule = dr_focused_mode_yes
+									has_game_rule = dr_random_mode_yes
+								}
+							}
+							is_coastal = yes
+						}
+						create_building = {
+							building = "building_whaling_station"
+							level = 48
+						}
+					}
+				}
+			}                    
+		}        
+	}
+}
+
+dr_jackpot_multi_3 = {
+	random_list = {
+		15 = {
+			random_state_region = {
+				add_arable_land = 96
+			}
+		}
+		75 = {
+			random_state = {
+				random_list = {
+					10 = { 
+						trigger = {
+							or = {
+								and = {
+									has_game_rule = dr_focused_mode_yes
+									or = {
+										has_potential_resource = bg_coal_mining
+										has_building = building_coal_mine
+									}
+								}
+								has_game_rule = dr_random_mode_yes
+								nor = {
+									has_game_rule = dr_focused_mode_yes
+									has_game_rule = dr_random_mode_yes
+								}	
+							}
+						}
+						create_building = {
+							building = "building_coal_mine"
+							level = 96
+						}
+					}
+					10 = { 
+						trigger = {
+							or = {
+								and = {
+									has_game_rule = dr_focused_mode_yes
+									or = {
+										has_potential_resource = bg_iron_mining
+										has_building = building_iron_mine
+									}
+								}
+								has_game_rule = dr_random_mode_yes
+								nor = {
+									has_game_rule = dr_focused_mode_yes
+									has_game_rule = dr_random_mode_yes
+								}
+							}
+						}
+						create_building = {
+							building = "building_iron_mine"
+							level = 96
+						}
+					}
+					10 = { 
+						trigger = {
+							or = {
+								and = {
+									has_game_rule = dr_focused_mode_yes
+									or = {
+										has_potential_resource = bg_lead_mining
+										has_building = building_lead_mine
+									}
+								}
+								has_game_rule = dr_random_mode_yes
+								nor = {
+									has_game_rule = dr_focused_mode_yes
+									has_game_rule = dr_random_mode_yes
+								}
+							}
+						}
+						create_building = {
+							building = "building_lead_mine"
+							level = 96
+						}
+					}
+					10 = { 
+						trigger = {
+							or = {
+								and = {
+									has_game_rule = dr_focused_mode_yes
+									or = {
+										has_potential_resource = bg_sulfur_mining
+										has_building = building_sulfur_mine
+									}
+								}
+								has_game_rule = dr_random_mode_yes
+								nor = {
+									has_game_rule = dr_focused_mode_yes
+									has_game_rule = dr_random_mode_yes
+								}
+							}
+						}
+						create_building = {
+							building = "building_sulfur_mine"
+							level = 96
+						}
+					}
+					10 = { 
+						trigger = {
+							or = {
+								and = {
+									has_game_rule = dr_focused_mode_yes
+									or = {
+										has_potential_resource = bg_gold_mining
+										has_building = building_gold_mine
+									}
+								}
+								has_game_rule = dr_random_mode_yes
+								nor = {
+									has_game_rule = dr_focused_mode_yes
+									has_game_rule = dr_random_mode_yes
+								}
+							}
+						}
+						create_building = {
+							building = "building_gold_mine"
+							level = 96
+						}
+					}
+					10 = { 
+						trigger = {
+							or = {
+								and = {
+									has_game_rule = dr_focused_mode_yes
+									or = {
+										has_potential_resource = bg_logging
+										has_building = building_logging_camp
+									}
+								}
+								has_game_rule = dr_random_mode_yes
+								nor = {
+									has_game_rule = dr_focused_mode_yes
+									has_game_rule = dr_random_mode_yes
+								}
+							}
+						}
+						create_building = {
+							building = "building_logging_camp"
+							level = 96
+						}
+					}
+					10 = { 
+						trigger = {
+							or = {
+								and = {
+									has_game_rule = dr_focused_mode_yes
+										or = {
+											has_potential_resource = bg_rubber
+											has_building = building_rubber_plantation
+										}
+								}
+								has_game_rule = dr_random_mode_yes
+								nor = {
+									has_game_rule = dr_focused_mode_yes
+									has_game_rule = dr_random_mode_yes
+								}
+							}
+							owner = {
+								has_technology_researched = rubber_mastication
+							}
+						}                        
+						create_building = {
+							building = "building_rubber_plantation"
+							level = 96
+						}
+					}
+					10 = {
+						trigger = {
+							or = {
+								and = {
+									has_game_rule = dr_focused_mode_yes
+									or = {
+										has_potential_resource = bg_opium_plantations
+										has_building = building_opium_plantation
+									}
+								}
+								has_game_rule = dr_random_mode_yes
+								nor = {
+									has_game_rule = dr_focused_mode_yes
+									has_game_rule = dr_random_mode_yes
+								}
+							}
+						}
+						create_building = {
+							building = "building_opium_plantation"
+							level = 96
+						}
+						this.state_region = {
+							add_arable_land = 96
+						}
+					}
+					10 = {
+						trigger = {
+							or = {
+								and = {
+									has_game_rule = dr_focused_mode_yes
+									or = {
+										has_potential_resource = bg_oil_extraction
+										has_building = building_oil_rig
+									}
+								}
+								has_game_rule = dr_random_mode_yes
+								nor = {
+									has_game_rule = dr_focused_mode_yes
+									has_game_rule = dr_random_mode_yes
+								}
+							}
+							owner = {
+								has_technology_researched = pumpjacks
+							}
+						}                        
+						create_building = {
+							building = "building_oil_rig"
+							level = 96
+						}
+					}
+					10 = {
+						trigger = {
+							or = {
+								and = {
+									has_game_rule = dr_focused_mode_yes
+										or = {
+											has_potential_resource = bg_fishing
+											has_building = building_fishing_wharf
+										}
+								}
+								has_game_rule = dr_random_mode_yes
+								nor = {
+									has_game_rule = dr_focused_mode_yes
+									has_game_rule = dr_random_mode_yes
+								}
+							}
+							is_coastal = yes
+						}
+						create_building = {
+							building = "building_fishing_wharf"
+							level = 96
+						}
+					}
+					10 = {
+						trigger = {
+							or = {
+								and = {
+									has_game_rule = dr_focused_mode_yes
+										or = {
+											has_potential_resource = bg_whaling
+											has_building = building_whaling_station
+										}
+								}
+								has_game_rule = dr_random_mode_yes
+								nor = {
+									has_game_rule = dr_focused_mode_yes
+									has_game_rule = dr_random_mode_yes
+								}
+							}
+							is_coastal = yes
+						}
+						create_building = {
+							building = "building_whaling_station"
+							level = 96
+						}
+					}
+				}
+			}                    
+		}        
+	}
+}
+
+dr_gen_multi_4 = {
+	random_list = {
+		15 = {
+			random_state_region = {
+				random_list = {
+					500 = { 
+						add_arable_land = 24
+					}
+					250 = { 
+						add_arable_land = 48
+					}
+					150 = { 
+						add_arable_land = 72
+					}
+					50 = { 
+						add_arable_land = 96
+					}
+				}
+			}
+		}
+		75 = {
+			random_state = {
+				random_list = {
+					100 = { 
+						trigger = {
+							or = {
+								and = {
+									has_game_rule = dr_focused_mode_yes
+									or = {
+										has_potential_resource = bg_coal_mining
+										has_building = building_coal_mine
+									}
+								}
+								has_game_rule = dr_random_mode_yes
+								nor = {
+									has_game_rule = dr_focused_mode_yes
+									has_game_rule = dr_random_mode_yes
+								}	
+							}
+						}
+						create_building = {
+							building = "building_coal_mine"
+							level = 24
+						}
+					}
+					50 = { 
+						trigger = {
+							or = {
+								and = {
+									has_game_rule = dr_focused_mode_yes
+									or = {
+										has_potential_resource = bg_coal_mining
+										has_building = building_coal_mine
+									}
+								}
+								has_game_rule = dr_random_mode_yes
+								nor = {
+									has_game_rule = dr_focused_mode_yes
+									has_game_rule = dr_random_mode_yes
+								}	
+							}
+						}
+						create_building = {
+							building = "building_coal_mine"
+							level = 48
+						}
+					}
+					30 = { 
+						trigger = {
+							or = {
+								and = {
+									has_game_rule = dr_focused_mode_yes
+									or = {
+										has_potential_resource = bg_coal_mining
+										has_building = building_coal_mine
+									}
+								}
+								has_game_rule = dr_random_mode_yes
+								nor = {
+									has_game_rule = dr_focused_mode_yes
+									has_game_rule = dr_random_mode_yes
+								}	
+							}
+						}
+						create_building = {
+							building = "building_coal_mine"
+							level = 72
+						}
+					}
+					10 = { 
+						trigger = {
+							or = {
+								and = {
+									has_game_rule = dr_focused_mode_yes
+									or = {
+										has_potential_resource = bg_coal_mining
+										has_building = building_coal_mine
+									}
+								}
+								has_game_rule = dr_random_mode_yes
+								nor = {
+									has_game_rule = dr_focused_mode_yes
+									has_game_rule = dr_random_mode_yes
+								}	
+							}
+						}
+						create_building = {
+							building = "building_coal_mine"
+							level = 96
+						}
+					}
+					100 = { 
+						trigger = {
+							or = {
+								and = {
+									has_game_rule = dr_focused_mode_yes
+									or = {
+										has_potential_resource = bg_iron_mining
+										has_building = building_iron_mine
+									}
+								}
+								has_game_rule = dr_random_mode_yes
+								nor = {
+									has_game_rule = dr_focused_mode_yes
+									has_game_rule = dr_random_mode_yes
+								}
+							}
+						}
+						create_building = {
+							building = "building_iron_mine"
+							level = 24
+						}
+					}
+					50 = { 
+						trigger = {
+							or = {
+								and = {
+									has_game_rule = dr_focused_mode_yes
+									or = {
+										has_potential_resource = bg_iron_mining
+										has_building = building_iron_mine
+									}
+								}
+								has_game_rule = dr_random_mode_yes
+								nor = {
+									has_game_rule = dr_focused_mode_yes
+									has_game_rule = dr_random_mode_yes
+								}
+							}
+						}
+						create_building = {
+							building = "building_iron_mine"
+							level = 48
+						}
+					}
+					30 = { 
+						trigger = {
+							or = {
+								and = {
+									has_game_rule = dr_focused_mode_yes
+									or = {
+										has_potential_resource = bg_iron_mining
+										has_building = building_iron_mine
+									}
+								}
+								has_game_rule = dr_random_mode_yes
+								nor = {
+									has_game_rule = dr_focused_mode_yes
+									has_game_rule = dr_random_mode_yes
+								}
+							}
+						}
+						create_building = {
+							building = "building_iron_mine"
+							level = 72
+						}
+					}
+					10 = { 
+						trigger = {
+							or = {
+								and = {
+									has_game_rule = dr_focused_mode_yes
+									or = {
+										has_potential_resource = bg_iron_mining
+										has_building = building_iron_mine
+									}
+								}
+								has_game_rule = dr_random_mode_yes
+								nor = {
+									has_game_rule = dr_focused_mode_yes
+									has_game_rule = dr_random_mode_yes
+								}
+							}
+						}
+						create_building = {
+							building = "building_iron_mine"
+							level = 96
+						}
+					}
+					100 = { 
+						trigger = {
+							or = {
+								and = {
+									has_game_rule = dr_focused_mode_yes
+									or = {
+										has_potential_resource = bg_lead_mining
+										has_building = building_lead_mine
+									}
+								}
+								has_game_rule = dr_random_mode_yes
+								nor = {
+									has_game_rule = dr_focused_mode_yes
+									has_game_rule = dr_random_mode_yes
+								}
+							}
+						}
+						create_building = {
+							building = "building_lead_mine"
+							level = 24
+						}
+					}
+					50 = { 
+						trigger = {
+							or = {
+								and = {
+									has_game_rule = dr_focused_mode_yes
+									or = {
+										has_potential_resource = bg_lead_mining
+										has_building = building_lead_mine
+									}
+								}
+								has_game_rule = dr_random_mode_yes
+								nor = {
+									has_game_rule = dr_focused_mode_yes
+									has_game_rule = dr_random_mode_yes
+								}
+							}
+						}
+						create_building = {
+							building = "building_lead_mine"
+							level = 48
+						}
+					}
+					30 = { 
+						trigger = {
+							or = {
+								and = {
+									has_game_rule = dr_focused_mode_yes
+									or = {
+										has_potential_resource = bg_lead_mining
+										has_building = building_lead_mine
+									}
+								}
+								has_game_rule = dr_random_mode_yes
+								nor = {
+									has_game_rule = dr_focused_mode_yes
+									has_game_rule = dr_random_mode_yes
+								}
+							}
+						}
+						create_building = {
+							building = "building_lead_mine"
+							level = 72
+						}
+					}
+					10 = { 
+						trigger = {
+							or = {
+								and = {
+									has_game_rule = dr_focused_mode_yes
+									or = {
+										has_potential_resource = bg_lead_mining
+										has_building = building_lead_mine
+									}
+								}
+								has_game_rule = dr_random_mode_yes
+								nor = {
+									has_game_rule = dr_focused_mode_yes
+									has_game_rule = dr_random_mode_yes
+								}
+							}
+						}
+						create_building = {
+							building = "building_lead_mine"
+							level = 96
+						}
+					}
+					100 = { 
+						trigger = {
+							or = {
+								and = {
+									has_game_rule = dr_focused_mode_yes
+									or = {
+										has_potential_resource = bg_sulfur_mining
+										has_building = building_sulfur_mine
+									}
+								}
+								has_game_rule = dr_random_mode_yes
+								nor = {
+									has_game_rule = dr_focused_mode_yes
+									has_game_rule = dr_random_mode_yes
+								}
+							}
+						}
+						create_building = {
+							building = "building_sulfur_mine"
+							level = 24
+						}
+					}
+					50 = { 
+						trigger = {
+							or = {
+								and = {
+									has_game_rule = dr_focused_mode_yes
+									or = {
+										has_potential_resource = bg_sulfur_mining
+										has_building = building_sulfur_mine
+									}
+								}
+								has_game_rule = dr_random_mode_yes
+								nor = {
+									has_game_rule = dr_focused_mode_yes
+									has_game_rule = dr_random_mode_yes
+								}
+							}
+						}
+						create_building = {
+							building = "building_sulfur_mine"
+							level = 48
+						}
+					}
+					30 = { 
+						trigger = {
+							or = {
+								and = {
+									has_game_rule = dr_focused_mode_yes
+									or = {
+										has_potential_resource = bg_sulfur_mining
+										has_building = building_sulfur_mine
+									}
+								}
+								has_game_rule = dr_random_mode_yes
+								nor = {
+									has_game_rule = dr_focused_mode_yes
+									has_game_rule = dr_random_mode_yes
+								}
+							}
+						}
+						create_building = {
+							building = "building_sulfur_mine"
+							level = 72
+						}
+					}
+					10 = { 
+						trigger = {
+							or = {
+								and = {
+									has_game_rule = dr_focused_mode_yes
+									or = {
+										has_potential_resource = bg_sulfur_mining
+										has_building = building_sulfur_mine
+									}
+								}
+								has_game_rule = dr_random_mode_yes
+								nor = {
+									has_game_rule = dr_focused_mode_yes
+									has_game_rule = dr_random_mode_yes
+								}
+							}
+						}
+						create_building = {
+							building = "building_sulfur_mine"
+							level = 96
+						}
+					}
+					12 = { 
+						trigger = {
+							or = {
+								and = {
+									has_game_rule = dr_focused_mode_yes
+									or = {
+										has_potential_resource = bg_gold_mining
+										has_building = building_gold_mine
+									}
+								}
+								has_game_rule = dr_random_mode_yes
+								nor = {
+									has_game_rule = dr_focused_mode_yes
+									has_game_rule = dr_random_mode_yes
+								}
+							}
+						}
+						create_building = {
+							building = "building_gold_mine"
+							level = 24
+						}
+					}
+					6 = { 
+						trigger = {
+							or = {
+								and = {
+									has_game_rule = dr_focused_mode_yes
+									or = {
+										has_potential_resource = bg_gold_mining
+										has_building = building_gold_mine
+									}
+								}
+								has_game_rule = dr_random_mode_yes
+								nor = {
+									has_game_rule = dr_focused_mode_yes
+									has_game_rule = dr_random_mode_yes
+								}
+							}
+						}
+						create_building = {
+							building = "building_gold_mine"
+							level = 48
+						}
+					}
+					4 = { 
+						trigger = {
+							or = {
+								and = {
+									has_game_rule = dr_focused_mode_yes
+									or = {
+										has_potential_resource = bg_gold_mining
+										has_building = building_gold_mine
+									}
+								}
+								has_game_rule = dr_random_mode_yes
+								nor = {
+									has_game_rule = dr_focused_mode_yes
+									has_game_rule = dr_random_mode_yes
+								}
+							}
+						}
+						create_building = {
+							building = "building_gold_mine"
+							level = 72
+						}
+					}
+					2 = { 
+						trigger = {
+							or = {
+								and = {
+									has_game_rule = dr_focused_mode_yes
+									or = {
+										has_potential_resource = bg_gold_mining
+										has_building = building_gold_mine
+									}
+								}
+								has_game_rule = dr_random_mode_yes
+								nor = {
+									has_game_rule = dr_focused_mode_yes
+									has_game_rule = dr_random_mode_yes
+								}
+							}
+						}
+						create_building = {
+							building = "building_gold_mine"
+							level = 96
+						}
+					}
+					100 = { 
+						trigger = {
+							or = {
+								and = {
+									has_game_rule = dr_focused_mode_yes
+									or = {
+										has_potential_resource = bg_logging
+										has_building = building_logging_camp
+									}
+								}
+								has_game_rule = dr_random_mode_yes
+								nor = {
+									has_game_rule = dr_focused_mode_yes
+									has_game_rule = dr_random_mode_yes
+								}
+							}
+						}
+						create_building = {
+							building = "building_logging_camp"
+							level = 24
+						}
+					}
+					50 = { 
+						trigger = {
+							or = {
+								and = {
+									has_game_rule = dr_focused_mode_yes
+									or = {
+										has_potential_resource = bg_logging
+										has_building = building_logging_camp
+									}
+								}
+								has_game_rule = dr_random_mode_yes
+								nor = {
+									has_game_rule = dr_focused_mode_yes
+									has_game_rule = dr_random_mode_yes
+								}
+							}
+						}
+						create_building = {
+							building = "building_logging_camp"
+							level = 48
+						}
+					}
+					30 = { 
+						trigger = {
+							or = {
+								and = {
+									has_game_rule = dr_focused_mode_yes
+									or = {
+										has_potential_resource = bg_logging
+										has_building = building_logging_camp
+									}
+								}
+								has_game_rule = dr_random_mode_yes
+								nor = {
+									has_game_rule = dr_focused_mode_yes
+									has_game_rule = dr_random_mode_yes
+								}
+							}
+						}
+						create_building = {
+							building = "building_logging_camp"
+							level = 72
+						}
+					}
+					10 = { 
+						trigger = {
+							or = {
+								and = {
+									has_game_rule = dr_focused_mode_yes
+									or = {
+										has_potential_resource = bg_logging
+										has_building = building_logging_camp
+									}
+								}
+								has_game_rule = dr_random_mode_yes
+								nor = {
+									has_game_rule = dr_focused_mode_yes
+									has_game_rule = dr_random_mode_yes
+								}
+							}
+						}
+						create_building = {
+							building = "building_logging_camp"
+							level = 96
+						}
+					}
+					60 = {
+						trigger = {
+							or = {
+								and = {
+									has_game_rule = dr_focused_mode_yes
+										or = {
+											has_potential_resource = bg_rubber
+											has_building = building_rubber_plantation
+										}
+								}
+								has_game_rule = dr_random_mode_yes
+								nor = {
+									has_game_rule = dr_focused_mode_yes
+									has_game_rule = dr_random_mode_yes
+								}
+							}
+							owner = {
+								has_technology_researched = rubber_mastication
+							}
+						}                        
+						create_building = {
+							building = "building_rubber_plantation"
+							level = 24
+						}
+					}
+					30 = { 
+						trigger = {
+							or = {
+								and = {
+									has_game_rule = dr_focused_mode_yes
+										or = {
+											has_potential_resource = bg_rubber
+											has_building = building_rubber_plantation
+										}
+								}
+								has_game_rule = dr_random_mode_yes
+								nor = {
+									has_game_rule = dr_focused_mode_yes
+									has_game_rule = dr_random_mode_yes
+								}
+							}
+							owner = {
+								has_technology_researched = rubber_mastication
+							}
+						}                        
+						create_building = {
+							building = "building_rubber_plantation"
+							level = 48
+						}
+					}
+					18 = { 
+						trigger = {
+							or = {
+								and = {
+									has_game_rule = dr_focused_mode_yes
+										or = {
+											has_potential_resource = bg_rubber
+											has_building = building_rubber_plantation
+										}
+								}
+								has_game_rule = dr_random_mode_yes
+								nor = {
+									has_game_rule = dr_focused_mode_yes
+									has_game_rule = dr_random_mode_yes
+								}
+							}
+							owner = {
+								has_technology_researched = rubber_mastication
+							}
+						}                        
+						create_building = {
+							building = "building_rubber_plantation"
+							level = 72
+						}
+					}
+					6 = { 
+						trigger = {
+							or = {
+								and = {
+									has_game_rule = dr_focused_mode_yes
+										or = {
+											has_potential_resource = bg_rubber
+											has_building = building_rubber_plantation
+										}
+								}
+								has_game_rule = dr_random_mode_yes
+								nor = {
+									has_game_rule = dr_focused_mode_yes
+									has_game_rule = dr_random_mode_yes
+								}
+							}
+							owner = {
+								has_technology_researched = rubber_mastication
+							}
+						}                        
+						create_building = {
+							building = "building_rubber_plantation"
+							level = 96
+						}
+					}
+					120 = { 
+						trigger = {
+							or = {
+								and = {
+									has_game_rule = dr_focused_mode_yes
+									or = {
+										has_potential_resource = bg_opium_plantations
+										has_building = building_opium_plantation
+									}
+								}
+								has_game_rule = dr_random_mode_yes
+								nor = {
+									has_game_rule = dr_focused_mode_yes
+									has_game_rule = dr_random_mode_yes
+								}
+							}
+						}
+						create_building = {
+							building = "building_opium_plantation"
+							level = 24
+						}
+						this.state_region = {
+							add_arable_land = 24
+						}
+					}
+					60 = { 
+						trigger = {
+							or = {
+								and = {
+									has_game_rule = dr_focused_mode_yes
+									or = {
+										has_potential_resource = bg_opium_plantations
+										has_building = building_opium_plantation
+									}
+								}
+								has_game_rule = dr_random_mode_yes
+								nor = {
+									has_game_rule = dr_focused_mode_yes
+									has_game_rule = dr_random_mode_yes
+								}
+							}
+						}
+						create_building = {
+							building = "building_opium_plantation"
+							level = 48
+						}
+						this.state_region = {
+							add_arable_land = 48
+						}
+					}
+					36 = { 
+						trigger = {
+							or = {
+								and = {
+									has_game_rule = dr_focused_mode_yes
+									or = {
+										has_potential_resource = bg_opium_plantations
+										has_building = building_opium_plantation
+									}
+								}
+								has_game_rule = dr_random_mode_yes
+								nor = {
+									has_game_rule = dr_focused_mode_yes
+									has_game_rule = dr_random_mode_yes
+								}
+							}
+						}
+						create_building = {
+							building = "building_opium_plantation"
+							level = 72
+						}
+						this.state_region = {
+							add_arable_land = 72
+						}
+					}
+					12 = {
+						trigger = {
+							or = {
+								and = {
+									has_game_rule = dr_focused_mode_yes
+									or = {
+										has_potential_resource = bg_opium_plantations
+										has_building = building_opium_plantation
+									}
+								}
+								has_game_rule = dr_random_mode_yes
+								nor = {
+									has_game_rule = dr_focused_mode_yes
+									has_game_rule = dr_random_mode_yes
+								}
+							}
+						}
+						create_building = {
+							building = "building_opium_plantation"
+							level = 96
+						}
+						this.state_region = {
+							add_arable_land = 96
+						}
+					}
+					60 = { 
+						trigger = {
+							or = {
+								and = {
+									has_game_rule = dr_focused_mode_yes
+									or = {
+										has_potential_resource = bg_oil_extraction
+										has_building = building_oil_rig
+									}
+								}
+								has_game_rule = dr_random_mode_yes
+								nor = {
+									has_game_rule = dr_focused_mode_yes
+									has_game_rule = dr_random_mode_yes
+								}
+							}
+							owner = {
+								has_technology_researched = pumpjacks
+							}
+						}
+						create_building = {
+							building = "building_oil_rig"
+							level = 24
+						}
+					}
+					30 = {
+						trigger = {
+							or = {
+								and = {
+									has_game_rule = dr_focused_mode_yes
+									or = {
+										has_potential_resource = bg_oil_extraction
+										has_building = building_oil_rig
+									}
+								}
+								has_game_rule = dr_random_mode_yes
+								nor = {
+									has_game_rule = dr_focused_mode_yes
+									has_game_rule = dr_random_mode_yes
+								}
+							}
+							owner = {
+								has_technology_researched = pumpjacks
+							}
+						}                        
+						create_building = {
+							building = "building_oil_rig"
+							level = 48
+						}
+					}
+					18 = {
+						trigger = {
+							or = {
+								and = {
+									has_game_rule = dr_focused_mode_yes
+									or = {
+										has_potential_resource = bg_oil_extraction
+										has_building = building_oil_rig
+									}
+								}
+								has_game_rule = dr_random_mode_yes
+								nor = {
+									has_game_rule = dr_focused_mode_yes
+									has_game_rule = dr_random_mode_yes
+								}
+							}
+							owner = {
+								has_technology_researched = pumpjacks
+							}
+						}                        
+						create_building = {
+							building = "building_oil_rig"
+							level = 72
+						}
+					}
+					6 = {
+						trigger = {
+							or = {
+								and = {
+									has_game_rule = dr_focused_mode_yes
+									or = {
+										has_potential_resource = bg_oil_extraction
+										has_building = building_oil_rig
+									}
+								}
+								has_game_rule = dr_random_mode_yes
+								nor = {
+									has_game_rule = dr_focused_mode_yes
+									has_game_rule = dr_random_mode_yes
+								}
+							}
+							owner = {
+								has_technology_researched = pumpjacks
+							}
+						}                        
+						create_building = {
+							building = "building_oil_rig"
+							level = 96
+						}
+					}
+				}
+			}                    
+		}        
+	}
+}
+
+dr_jackpot_multi_4 = {
+	random_list = {
+		15 = {
+			random_state_region = {
+				add_arable_land = 192
+			}
+		}
+		75 = {
+			random_state = {
+				random_list = {
+					10 = { 
+						trigger = {
+							or = {
+								and = {
+									has_game_rule = dr_focused_mode_yes
+									or = {
+										has_potential_resource = bg_coal_mining
+										has_building = building_coal_mine
+									}
+								}
+								has_game_rule = dr_random_mode_yes
+								nor = {
+									has_game_rule = dr_focused_mode_yes
+									has_game_rule = dr_random_mode_yes
+								}	
+							}
+						}
+						create_building = {
+							building = "building_coal_mine"
+							level = 192
+						}
+					}
+					10 = { 
+						trigger = {
+							or = {
+								and = {
+									has_game_rule = dr_focused_mode_yes
+									or = {
+										has_potential_resource = bg_iron_mining
+										has_building = building_iron_mine
+									}
+								}
+								has_game_rule = dr_random_mode_yes
+								nor = {
+									has_game_rule = dr_focused_mode_yes
+									has_game_rule = dr_random_mode_yes
+								}
+							}
+						}
+						create_building = {
+							building = "building_iron_mine"
+							level = 192
+						}
+					}
+					10 = { 
+						trigger = {
+							or = {
+								and = {
+									has_game_rule = dr_focused_mode_yes
+									or = {
+										has_potential_resource = bg_lead_mining
+										has_building = building_lead_mine
+									}
+								}
+								has_game_rule = dr_random_mode_yes
+								nor = {
+									has_game_rule = dr_focused_mode_yes
+									has_game_rule = dr_random_mode_yes
+								}
+							}
+						}
+						create_building = {
+							building = "building_lead_mine"
+							level = 192
+						}
+					}
+					10 = { 
+						trigger = {
+							or = {
+								and = {
+									has_game_rule = dr_focused_mode_yes
+									or = {
+										has_potential_resource = bg_sulfur_mining
+										has_building = building_sulfur_mine
+									}
+								}
+								has_game_rule = dr_random_mode_yes
+								nor = {
+									has_game_rule = dr_focused_mode_yes
+									has_game_rule = dr_random_mode_yes
+								}
+							}
+						}
+						create_building = {
+							building = "building_sulfur_mine"
+							level = 192
+						}
+					}
+					10 = { 
+						trigger = {
+							or = {
+								and = {
+									has_game_rule = dr_focused_mode_yes
+									or = {
+										has_potential_resource = bg_gold_mining
+										has_building = building_gold_mine
+									}
+								}
+								has_game_rule = dr_random_mode_yes
+								nor = {
+									has_game_rule = dr_focused_mode_yes
+									has_game_rule = dr_random_mode_yes
+								}
+							}
+						}
+						create_building = {
+							building = "building_gold_mine"
+							level = 192
+						}
+					}
+					10 = { 
+						trigger = {
+							or = {
+								and = {
+									has_game_rule = dr_focused_mode_yes
+									or = {
+										has_potential_resource = bg_logging
+										has_building = building_logging_camp
+									}
+								}
+								has_game_rule = dr_random_mode_yes
+								nor = {
+									has_game_rule = dr_focused_mode_yes
+									has_game_rule = dr_random_mode_yes
+								}
+							}
+						}
+						create_building = {
+							building = "building_logging_camp"
+							level = 192
+						}
+					}
+					10 = { 
+						trigger = {
+							or = {
+								and = {
+									has_game_rule = dr_focused_mode_yes
+										or = {
+											has_potential_resource = bg_rubber
+											has_building = building_rubber_plantation
+										}
+								}
+								has_game_rule = dr_random_mode_yes
+								nor = {
+									has_game_rule = dr_focused_mode_yes
+									has_game_rule = dr_random_mode_yes
+								}
+							}
+							owner = {
+								has_technology_researched = rubber_mastication
+							}
+						}                        
+						create_building = {
+							building = "building_rubber_plantation"
+							level = 192
+						}
+					}
+					10 = {
+						trigger = {
+							or = {
+								and = {
+									has_game_rule = dr_focused_mode_yes
+									or = {
+										has_potential_resource = bg_opium_plantations
+										has_building = building_opium_plantation
+									}
+								}
+								has_game_rule = dr_random_mode_yes
+								nor = {
+									has_game_rule = dr_focused_mode_yes
+									has_game_rule = dr_random_mode_yes
+								}
+							}
+						}
+						create_building = {
+							building = "building_opium_plantation"
+							level = 192
+						}
+						this.state_region = {
+							add_arable_land = 192
+						}
+					}
+					10 = {
+						trigger = {
+							or = {
+								and = {
+									has_game_rule = dr_focused_mode_yes
+									or = {
+										has_potential_resource = bg_oil_extraction
+										has_building = building_oil_rig
+									}
+								}
+								has_game_rule = dr_random_mode_yes
+								nor = {
+									has_game_rule = dr_focused_mode_yes
+									has_game_rule = dr_random_mode_yes
+								}
+							}
+							owner = {
+								has_technology_researched = pumpjacks
+							}
+						}                        
+						create_building = {
+							building = "building_oil_rig"
+							level = 192
+						}
+					}
+					10 = {
+						trigger = {
+							or = {
+								and = {
+									has_game_rule = dr_focused_mode_yes
+										or = {
+											has_potential_resource = bg_fishing
+											has_building = building_fishing_wharf
+										}
+								}
+								has_game_rule = dr_random_mode_yes
+								nor = {
+									has_game_rule = dr_focused_mode_yes
+									has_game_rule = dr_random_mode_yes
+								}
+							}
+							is_coastal = yes
+						}
+						create_building = {
+							building = "building_fishing_wharf"
+							level = 192
+						}
+					}
+					10 = {
+						trigger = {
+							or = {
+								and = {
+									has_game_rule = dr_focused_mode_yes
+										or = {
+											has_potential_resource = bg_whaling
+											has_building = building_whaling_station
+										}
+								}
+								has_game_rule = dr_random_mode_yes
+								nor = {
+									has_game_rule = dr_focused_mode_yes
+									has_game_rule = dr_random_mode_yes
+								}
+							}
+							is_coastal = yes
+						}
+						create_building = {
+							building = "building_whaling_station"
+							level = 192
+						}
+					}
+				}
+			}                    
+		}        
+	}
+}
+
+dr_gen_multi_5 = {
+	random_list = {
+		15 = {
+			random_state_region = {
+				random_list = {
+					500 = { 
+						add_arable_land = 48
+					}
+					250 = { 
+						add_arable_land = 96
+					}
+					150 = { 
+						add_arable_land = 144
+					}
+					50 = { 
+						add_arable_land = 192
+					}
+				}
+			}
+		}
+		75 = {
+			random_state = {
+				random_list = {
+					100 = { 
+						trigger = {
+							or = {
+								and = {
+									has_game_rule = dr_focused_mode_yes
+									or = {
+										has_potential_resource = bg_coal_mining
+										has_building = building_coal_mine
+									}
+								}
+								has_game_rule = dr_random_mode_yes
+								nor = {
+									has_game_rule = dr_focused_mode_yes
+									has_game_rule = dr_random_mode_yes
+								}	
+							}
+						}
+						create_building = {
+							building = "building_coal_mine"
+							level = 48
+						}
+					}
+					50 = { 
+						trigger = {
+							or = {
+								and = {
+									has_game_rule = dr_focused_mode_yes
+									or = {
+										has_potential_resource = bg_coal_mining
+										has_building = building_coal_mine
+									}
+								}
+								has_game_rule = dr_random_mode_yes
+								nor = {
+									has_game_rule = dr_focused_mode_yes
+									has_game_rule = dr_random_mode_yes
+								}	
+							}
+						}
+						create_building = {
+							building = "building_coal_mine"
+							level = 96
+						}
+					}
+					30 = { 
+						trigger = {
+							or = {
+								and = {
+									has_game_rule = dr_focused_mode_yes
+									or = {
+										has_potential_resource = bg_coal_mining
+										has_building = building_coal_mine
+									}
+								}
+								has_game_rule = dr_random_mode_yes
+								nor = {
+									has_game_rule = dr_focused_mode_yes
+									has_game_rule = dr_random_mode_yes
+								}	
+							}
+						}
+						create_building = {
+							building = "building_coal_mine"
+							level = 144
+						}
+					}
+					10 = { 
+						trigger = {
+							or = {
+								and = {
+									has_game_rule = dr_focused_mode_yes
+									or = {
+										has_potential_resource = bg_coal_mining
+										has_building = building_coal_mine
+									}
+								}
+								has_game_rule = dr_random_mode_yes
+								nor = {
+									has_game_rule = dr_focused_mode_yes
+									has_game_rule = dr_random_mode_yes
+								}	
+							}
+						}
+						create_building = {
+							building = "building_coal_mine"
+							level = 192
+						}
+					}
+					100 = { 
+						trigger = {
+							or = {
+								and = {
+									has_game_rule = dr_focused_mode_yes
+									or = {
+										has_potential_resource = bg_iron_mining
+										has_building = building_iron_mine
+									}
+								}
+								has_game_rule = dr_random_mode_yes
+								nor = {
+									has_game_rule = dr_focused_mode_yes
+									has_game_rule = dr_random_mode_yes
+								}
+							}
+						}
+						create_building = {
+							building = "building_iron_mine"
+							level = 48
+						}
+					}
+					50 = { 
+						trigger = {
+							or = {
+								and = {
+									has_game_rule = dr_focused_mode_yes
+									or = {
+										has_potential_resource = bg_iron_mining
+										has_building = building_iron_mine
+									}
+								}
+								has_game_rule = dr_random_mode_yes
+								nor = {
+									has_game_rule = dr_focused_mode_yes
+									has_game_rule = dr_random_mode_yes
+								}
+							}
+						}
+						create_building = {
+							building = "building_iron_mine"
+							level = 96
+						}
+					}
+					30 = { 
+						trigger = {
+							or = {
+								and = {
+									has_game_rule = dr_focused_mode_yes
+									or = {
+										has_potential_resource = bg_iron_mining
+										has_building = building_iron_mine
+									}
+								}
+								has_game_rule = dr_random_mode_yes
+								nor = {
+									has_game_rule = dr_focused_mode_yes
+									has_game_rule = dr_random_mode_yes
+								}
+							}
+						}
+						create_building = {
+							building = "building_iron_mine"
+							level = 144
+						}
+					}
+					10 = { 
+						trigger = {
+							or = {
+								and = {
+									has_game_rule = dr_focused_mode_yes
+									or = {
+										has_potential_resource = bg_iron_mining
+										has_building = building_iron_mine
+									}
+								}
+								has_game_rule = dr_random_mode_yes
+								nor = {
+									has_game_rule = dr_focused_mode_yes
+									has_game_rule = dr_random_mode_yes
+								}
+							}
+						}
+						create_building = {
+							building = "building_iron_mine"
+							level = 192
+						}
+					}
+					100 = { 
+						trigger = {
+							or = {
+								and = {
+									has_game_rule = dr_focused_mode_yes
+									or = {
+										has_potential_resource = bg_lead_mining
+										has_building = building_lead_mine
+									}
+								}
+								has_game_rule = dr_random_mode_yes
+								nor = {
+									has_game_rule = dr_focused_mode_yes
+									has_game_rule = dr_random_mode_yes
+								}
+							}
+						}
+						create_building = {
+							building = "building_lead_mine"
+							level = 48
+						}
+					}
+					50 = { 
+						trigger = {
+							or = {
+								and = {
+									has_game_rule = dr_focused_mode_yes
+									or = {
+										has_potential_resource = bg_lead_mining
+										has_building = building_lead_mine
+									}
+								}
+								has_game_rule = dr_random_mode_yes
+								nor = {
+									has_game_rule = dr_focused_mode_yes
+									has_game_rule = dr_random_mode_yes
+								}
+							}
+						}
+						create_building = {
+							building = "building_lead_mine"
+							level = 96
+						}
+					}
+					30 = { 
+						trigger = {
+							or = {
+								and = {
+									has_game_rule = dr_focused_mode_yes
+									or = {
+										has_potential_resource = bg_lead_mining
+										has_building = building_lead_mine
+									}
+								}
+								has_game_rule = dr_random_mode_yes
+								nor = {
+									has_game_rule = dr_focused_mode_yes
+									has_game_rule = dr_random_mode_yes
+								}
+							}
+						}
+						create_building = {
+							building = "building_lead_mine"
+							level = 144
+						}
+					}
+					10 = { 
+						trigger = {
+							or = {
+								and = {
+									has_game_rule = dr_focused_mode_yes
+									or = {
+										has_potential_resource = bg_lead_mining
+										has_building = building_lead_mine
+									}
+								}
+								has_game_rule = dr_random_mode_yes
+								nor = {
+									has_game_rule = dr_focused_mode_yes
+									has_game_rule = dr_random_mode_yes
+								}
+							}
+						}
+						create_building = {
+							building = "building_lead_mine"
+							level = 192
+						}
+					}
+					100 = { 
+						trigger = {
+							or = {
+								and = {
+									has_game_rule = dr_focused_mode_yes
+									or = {
+										has_potential_resource = bg_sulfur_mining
+										has_building = building_sulfur_mine
+									}
+								}
+								has_game_rule = dr_random_mode_yes
+								nor = {
+									has_game_rule = dr_focused_mode_yes
+									has_game_rule = dr_random_mode_yes
+								}
+							}
+						}
+						create_building = {
+							building = "building_sulfur_mine"
+							level = 48
+						}
+					}
+					50 = { 
+						trigger = {
+							or = {
+								and = {
+									has_game_rule = dr_focused_mode_yes
+									or = {
+										has_potential_resource = bg_sulfur_mining
+										has_building = building_sulfur_mine
+									}
+								}
+								has_game_rule = dr_random_mode_yes
+								nor = {
+									has_game_rule = dr_focused_mode_yes
+									has_game_rule = dr_random_mode_yes
+								}
+							}
+						}
+						create_building = {
+							building = "building_sulfur_mine"
+							level = 96
+						}
+					}
+					30 = { 
+						trigger = {
+							or = {
+								and = {
+									has_game_rule = dr_focused_mode_yes
+									or = {
+										has_potential_resource = bg_sulfur_mining
+										has_building = building_sulfur_mine
+									}
+								}
+								has_game_rule = dr_random_mode_yes
+								nor = {
+									has_game_rule = dr_focused_mode_yes
+									has_game_rule = dr_random_mode_yes
+								}
+							}
+						}
+						create_building = {
+							building = "building_sulfur_mine"
+							level = 144
+						}
+					}
+					10 = { 
+						trigger = {
+							or = {
+								and = {
+									has_game_rule = dr_focused_mode_yes
+									or = {
+										has_potential_resource = bg_sulfur_mining
+										has_building = building_sulfur_mine
+									}
+								}
+								has_game_rule = dr_random_mode_yes
+								nor = {
+									has_game_rule = dr_focused_mode_yes
+									has_game_rule = dr_random_mode_yes
+								}
+							}
+						}
+						create_building = {
+							building = "building_sulfur_mine"
+							level = 192
+						}
+					}
+					12 = { 
+						trigger = {
+							or = {
+								and = {
+									has_game_rule = dr_focused_mode_yes
+									or = {
+										has_potential_resource = bg_gold_mining
+										has_building = building_gold_mine
+									}
+								}
+								has_game_rule = dr_random_mode_yes
+								nor = {
+									has_game_rule = dr_focused_mode_yes
+									has_game_rule = dr_random_mode_yes
+								}
+							}
+						}
+						create_building = {
+							building = "building_gold_mine"
+							level = 48
+						}
+					}
+					6 = { 
+						trigger = {
+							or = {
+								and = {
+									has_game_rule = dr_focused_mode_yes
+									or = {
+										has_potential_resource = bg_gold_mining
+										has_building = building_gold_mine
+									}
+								}
+								has_game_rule = dr_random_mode_yes
+								nor = {
+									has_game_rule = dr_focused_mode_yes
+									has_game_rule = dr_random_mode_yes
+								}
+							}
+						}
+						create_building = {
+							building = "building_gold_mine"
+							level = 96
+						}
+					}
+					4 = { 
+						trigger = {
+							or = {
+								and = {
+									has_game_rule = dr_focused_mode_yes
+									or = {
+										has_potential_resource = bg_gold_mining
+										has_building = building_gold_mine
+									}
+								}
+								has_game_rule = dr_random_mode_yes
+								nor = {
+									has_game_rule = dr_focused_mode_yes
+									has_game_rule = dr_random_mode_yes
+								}
+							}
+						}
+						create_building = {
+							building = "building_gold_mine"
+							level = 144
+						}
+					}
+					2 = { 
+						trigger = {
+							or = {
+								and = {
+									has_game_rule = dr_focused_mode_yes
+									or = {
+										has_potential_resource = bg_gold_mining
+										has_building = building_gold_mine
+									}
+								}
+								has_game_rule = dr_random_mode_yes
+								nor = {
+									has_game_rule = dr_focused_mode_yes
+									has_game_rule = dr_random_mode_yes
+								}
+							}
+						}
+						create_building = {
+							building = "building_gold_mine"
+							level = 192
+						}
+					}
+					100 = { 
+						trigger = {
+							or = {
+								and = {
+									has_game_rule = dr_focused_mode_yes
+									or = {
+										has_potential_resource = bg_logging
+										has_building = building_logging_camp
+									}
+								}
+								has_game_rule = dr_random_mode_yes
+								nor = {
+									has_game_rule = dr_focused_mode_yes
+									has_game_rule = dr_random_mode_yes
+								}
+							}
+						}
+						create_building = {
+							building = "building_logging_camp"
+							level = 48
+						}
+					}
+					50 = { 
+						trigger = {
+							or = {
+								and = {
+									has_game_rule = dr_focused_mode_yes
+									or = {
+										has_potential_resource = bg_logging
+										has_building = building_logging_camp
+									}
+								}
+								has_game_rule = dr_random_mode_yes
+								nor = {
+									has_game_rule = dr_focused_mode_yes
+									has_game_rule = dr_random_mode_yes
+								}
+							}
+						}
+						create_building = {
+							building = "building_logging_camp"
+							level = 96
+						}
+					}
+					30 = { 
+						trigger = {
+							or = {
+								and = {
+									has_game_rule = dr_focused_mode_yes
+									or = {
+										has_potential_resource = bg_logging
+										has_building = building_logging_camp
+									}
+								}
+								has_game_rule = dr_random_mode_yes
+								nor = {
+									has_game_rule = dr_focused_mode_yes
+									has_game_rule = dr_random_mode_yes
+								}
+							}
+						}
+						create_building = {
+							building = "building_logging_camp"
+							level = 144
+						}
+					}
+					10 = { 
+						trigger = {
+							or = {
+								and = {
+									has_game_rule = dr_focused_mode_yes
+									or = {
+										has_potential_resource = bg_logging
+										has_building = building_logging_camp
+									}
+								}
+								has_game_rule = dr_random_mode_yes
+								nor = {
+									has_game_rule = dr_focused_mode_yes
+									has_game_rule = dr_random_mode_yes
+								}
+							}
+						}
+						create_building = {
+							building = "building_logging_camp"
+							level = 192
+						}
+					}
+					60 = {
+						trigger = {
+							or = {
+								and = {
+									has_game_rule = dr_focused_mode_yes
+										or = {
+											has_potential_resource = bg_rubber
+											has_building = building_rubber_plantation
+										}
+								}
+								has_game_rule = dr_random_mode_yes
+								nor = {
+									has_game_rule = dr_focused_mode_yes
+									has_game_rule = dr_random_mode_yes
+								}
+							}
+							owner = {
+								has_technology_researched = rubber_mastication
+							}
+						}                        
+						create_building = {
+							building = "building_rubber_plantation"
+							level = 48
+						}
+					}
+					30 = { 
+						trigger = {
+							or = {
+								and = {
+									has_game_rule = dr_focused_mode_yes
+										or = {
+											has_potential_resource = bg_rubber
+											has_building = building_rubber_plantation
+										}
+								}
+								has_game_rule = dr_random_mode_yes
+								nor = {
+									has_game_rule = dr_focused_mode_yes
+									has_game_rule = dr_random_mode_yes
+								}
+							}
+							owner = {
+								has_technology_researched = rubber_mastication
+							}
+						}                        
+						create_building = {
+							building = "building_rubber_plantation"
+							level = 96
+						}
+					}
+					18 = { 
+						trigger = {
+							or = {
+								and = {
+									has_game_rule = dr_focused_mode_yes
+										or = {
+											has_potential_resource = bg_rubber
+											has_building = building_rubber_plantation
+										}
+								}
+								has_game_rule = dr_random_mode_yes
+								nor = {
+									has_game_rule = dr_focused_mode_yes
+									has_game_rule = dr_random_mode_yes
+								}
+							}
+							owner = {
+								has_technology_researched = rubber_mastication
+							}
+						}                        
+						create_building = {
+							building = "building_rubber_plantation"
+							level = 144
+						}
+					}
+					6 = { 
+						trigger = {
+							or = {
+								and = {
+									has_game_rule = dr_focused_mode_yes
+										or = {
+											has_potential_resource = bg_rubber
+											has_building = building_rubber_plantation
+										}
+								}
+								has_game_rule = dr_random_mode_yes
+								nor = {
+									has_game_rule = dr_focused_mode_yes
+									has_game_rule = dr_random_mode_yes
+								}
+							}
+							owner = {
+								has_technology_researched = rubber_mastication
+							}
+						}                        
+						create_building = {
+							building = "building_rubber_plantation"
+							level = 192
+						}
+					}
+					120 = { 
+						trigger = {
+							or = {
+								and = {
+									has_game_rule = dr_focused_mode_yes
+									or = {
+										has_potential_resource = bg_opium_plantations
+										has_building = building_opium_plantation
+									}
+								}
+								has_game_rule = dr_random_mode_yes
+								nor = {
+									has_game_rule = dr_focused_mode_yes
+									has_game_rule = dr_random_mode_yes
+								}
+							}
+						}
+						create_building = {
+							building = "building_opium_plantation"
+							level = 48
+						}
+						this.state_region = {
+							add_arable_land = 48
+						}
+					}
+					60 = { 
+						trigger = {
+							or = {
+								and = {
+									has_game_rule = dr_focused_mode_yes
+									or = {
+										has_potential_resource = bg_opium_plantations
+										has_building = building_opium_plantation
+									}
+								}
+								has_game_rule = dr_random_mode_yes
+								nor = {
+									has_game_rule = dr_focused_mode_yes
+									has_game_rule = dr_random_mode_yes
+								}
+							}
+						}
+						create_building = {
+							building = "building_opium_plantation"
+							level = 96
+						}
+						this.state_region = {
+							add_arable_land = 96
+						}
+					}
+					36 = { 
+						trigger = {
+							or = {
+								and = {
+									has_game_rule = dr_focused_mode_yes
+									or = {
+										has_potential_resource = bg_opium_plantations
+										has_building = building_opium_plantation
+									}
+								}
+								has_game_rule = dr_random_mode_yes
+								nor = {
+									has_game_rule = dr_focused_mode_yes
+									has_game_rule = dr_random_mode_yes
+								}
+							}
+						}
+						create_building = {
+							building = "building_opium_plantation"
+							level = 144
+						}
+						this.state_region = {
+							add_arable_land = 144
+						}
+					}
+					12 = {
+						trigger = {
+							or = {
+								and = {
+									has_game_rule = dr_focused_mode_yes
+									or = {
+										has_potential_resource = bg_opium_plantations
+										has_building = building_opium_plantation
+									}
+								}
+								has_game_rule = dr_random_mode_yes
+								nor = {
+									has_game_rule = dr_focused_mode_yes
+									has_game_rule = dr_random_mode_yes
+								}
+							}
+						}
+						create_building = {
+							building = "building_opium_plantation"
+							level = 192
+						}
+						this.state_region = {
+							add_arable_land = 192
+						}
+					}
+					60 = { 
+						trigger = {
+							or = {
+								and = {
+									has_game_rule = dr_focused_mode_yes
+									or = {
+										has_potential_resource = bg_oil_extraction
+										has_building = building_oil_rig
+									}
+								}
+								has_game_rule = dr_random_mode_yes
+								nor = {
+									has_game_rule = dr_focused_mode_yes
+									has_game_rule = dr_random_mode_yes
+								}
+							}
+							owner = {
+								has_technology_researched = pumpjacks
+							}
+						}
+						create_building = {
+							building = "building_oil_rig"
+							level = 48
+						}
+					}
+					30 = {
+						trigger = {
+							or = {
+								and = {
+									has_game_rule = dr_focused_mode_yes
+									or = {
+										has_potential_resource = bg_oil_extraction
+										has_building = building_oil_rig
+									}
+								}
+								has_game_rule = dr_random_mode_yes
+								nor = {
+									has_game_rule = dr_focused_mode_yes
+									has_game_rule = dr_random_mode_yes
+								}
+							}
+							owner = {
+								has_technology_researched = pumpjacks
+							}
+						}                        
+						create_building = {
+							building = "building_oil_rig"
+							level = 96
+						}
+					}
+					18 = {
+						trigger = {
+							or = {
+								and = {
+									has_game_rule = dr_focused_mode_yes
+									or = {
+										has_potential_resource = bg_oil_extraction
+										has_building = building_oil_rig
+									}
+								}
+								has_game_rule = dr_random_mode_yes
+								nor = {
+									has_game_rule = dr_focused_mode_yes
+									has_game_rule = dr_random_mode_yes
+								}
+							}
+							owner = {
+								has_technology_researched = pumpjacks
+							}
+						}                        
+						create_building = {
+							building = "building_oil_rig"
+							level = 144
+						}
+					}
+					6 = {
+						trigger = {
+							or = {
+								and = {
+									has_game_rule = dr_focused_mode_yes
+									or = {
+										has_potential_resource = bg_oil_extraction
+										has_building = building_oil_rig
+									}
+								}
+								has_game_rule = dr_random_mode_yes
+								nor = {
+									has_game_rule = dr_focused_mode_yes
+									has_game_rule = dr_random_mode_yes
+								}
+							}
+							owner = {
+								has_technology_researched = pumpjacks
+							}
+						}                        
+						create_building = {
+							building = "building_oil_rig"
+							level = 192
+						}
+					}
+				}
+			}                    
+		}        
+	}
+}
+
+dr_jackpot_multi_5 = {
+	random_list = {
+		15 = {
+			random_state_region = {
+				add_arable_land = 384
+			}
+		}
+		75 = {
+			random_state = {
+				random_list = {
+					10 = { 
+						trigger = {
+							or = {
+								and = {
+									has_game_rule = dr_focused_mode_yes
+									or = {
+										has_potential_resource = bg_coal_mining
+										has_building = building_coal_mine
+									}
+								}
+								has_game_rule = dr_random_mode_yes
+								nor = {
+									has_game_rule = dr_focused_mode_yes
+									has_game_rule = dr_random_mode_yes
+								}	
+							}
+						}
+						create_building = {
+							building = "building_coal_mine"
+							level = 384
+						}
+					}
+					10 = { 
+						trigger = {
+							or = {
+								and = {
+									has_game_rule = dr_focused_mode_yes
+									or = {
+										has_potential_resource = bg_iron_mining
+										has_building = building_iron_mine
+									}
+								}
+								has_game_rule = dr_random_mode_yes
+								nor = {
+									has_game_rule = dr_focused_mode_yes
+									has_game_rule = dr_random_mode_yes
+								}
+							}
+						}
+						create_building = {
+							building = "building_iron_mine"
+							level = 384
+						}
+					}
+					10 = { 
+						trigger = {
+							or = {
+								and = {
+									has_game_rule = dr_focused_mode_yes
+									or = {
+										has_potential_resource = bg_lead_mining
+										has_building = building_lead_mine
+									}
+								}
+								has_game_rule = dr_random_mode_yes
+								nor = {
+									has_game_rule = dr_focused_mode_yes
+									has_game_rule = dr_random_mode_yes
+								}
+							}
+						}
+						create_building = {
+							building = "building_lead_mine"
+							level = 384
+						}
+					}
+					10 = { 
+						trigger = {
+							or = {
+								and = {
+									has_game_rule = dr_focused_mode_yes
+									or = {
+										has_potential_resource = bg_sulfur_mining
+										has_building = building_sulfur_mine
+									}
+								}
+								has_game_rule = dr_random_mode_yes
+								nor = {
+									has_game_rule = dr_focused_mode_yes
+									has_game_rule = dr_random_mode_yes
+								}
+							}
+						}
+						create_building = {
+							building = "building_sulfur_mine"
+							level = 384
+						}
+					}
+					10 = { 
+						trigger = {
+							or = {
+								and = {
+									has_game_rule = dr_focused_mode_yes
+									or = {
+										has_potential_resource = bg_gold_mining
+										has_building = building_gold_mine
+									}
+								}
+								has_game_rule = dr_random_mode_yes
+								nor = {
+									has_game_rule = dr_focused_mode_yes
+									has_game_rule = dr_random_mode_yes
+								}
+							}
+						}
+						create_building = {
+							building = "building_gold_mine"
+							level = 384
+						}
+					}
+					10 = { 
+						trigger = {
+							or = {
+								and = {
+									has_game_rule = dr_focused_mode_yes
+									or = {
+										has_potential_resource = bg_logging
+										has_building = building_logging_camp
+									}
+								}
+								has_game_rule = dr_random_mode_yes
+								nor = {
+									has_game_rule = dr_focused_mode_yes
+									has_game_rule = dr_random_mode_yes
+								}
+							}
+						}
+						create_building = {
+							building = "building_logging_camp"
+							level = 384
+						}
+					}
+					10 = { 
+						trigger = {
+							or = {
+								and = {
+									has_game_rule = dr_focused_mode_yes
+										or = {
+											has_potential_resource = bg_rubber
+											has_building = building_rubber_plantation
+										}
+								}
+								has_game_rule = dr_random_mode_yes
+								nor = {
+									has_game_rule = dr_focused_mode_yes
+									has_game_rule = dr_random_mode_yes
+								}
+							}
+							owner = {
+								has_technology_researched = rubber_mastication
+							}
+						}                        
+						create_building = {
+							building = "building_rubber_plantation"
+							level = 384
+						}
+					}
+					10 = {
+						trigger = {
+							or = {
+								and = {
+									has_game_rule = dr_focused_mode_yes
+									or = {
+										has_potential_resource = bg_opium_plantations
+										has_building = building_opium_plantation
+									}
+								}
+								has_game_rule = dr_random_mode_yes
+								nor = {
+									has_game_rule = dr_focused_mode_yes
+									has_game_rule = dr_random_mode_yes
+								}
+							}
+						}
+						create_building = {
+							building = "building_opium_plantation"
+							level = 384
+						}
+						this.state_region = {
+							add_arable_land = 384
+						}
+					}
+					10 = {
+						trigger = {
+							or = {
+								and = {
+									has_game_rule = dr_focused_mode_yes
+									or = {
+										has_potential_resource = bg_oil_extraction
+										has_building = building_oil_rig
+									}
+								}
+								has_game_rule = dr_random_mode_yes
+								nor = {
+									has_game_rule = dr_focused_mode_yes
+									has_game_rule = dr_random_mode_yes
+								}
+							}
+							owner = {
+								has_technology_researched = pumpjacks
+							}
+						}                        
+						create_building = {
+							building = "building_oil_rig"
+							level = 384
+						}
+					}
+					10 = {
+						trigger = {
+							or = {
+								and = {
+									has_game_rule = dr_focused_mode_yes
+										or = {
+											has_potential_resource = bg_fishing
+											has_building = building_fishing_wharf
+										}
+								}
+								has_game_rule = dr_random_mode_yes
+								nor = {
+									has_game_rule = dr_focused_mode_yes
+									has_game_rule = dr_random_mode_yes
+								}
+							}
+							is_coastal = yes
+						}
+						create_building = {
+							building = "building_fishing_wharf"
+							level = 384
+						}
+					}
+					10 = {
+						trigger = {
+							or = {
+								and = {
+									has_game_rule = dr_focused_mode_yes
+										or = {
+											has_potential_resource = bg_whaling
+											has_building = building_whaling_station
+										}
+								}
+								has_game_rule = dr_random_mode_yes
+								nor = {
+									has_game_rule = dr_focused_mode_yes
+									has_game_rule = dr_random_mode_yes
+								}
+							}
+							is_coastal = yes
+						}
+						create_building = {
+							building = "building_whaling_station"
+							level = 384
+						}
+					}
+				}
+			}                    
+		} 
+	}
+}
+
+dr_gen_multi_6 = {
+	random_list = {
+		15 = {
+			random_state_region = {
+				random_list = {
+					500 = { 
+						add_arable_land = 300
+					}
+					250 = { 
+						add_arable_land = 600
+					}
+					150 = { 
+						add_arable_land = 900
+					}
+					50 = { 
+						add_arable_land = 1200
+					}
+				}
+			}
+		}
+		75 = {
+			random_state = {
+				random_list = {
+					100 = { 
+						trigger = {
+							or = {
+								and = {
+									has_game_rule = dr_focused_mode_yes
+									or = {
+										has_potential_resource = bg_coal_mining
+										has_building = building_coal_mine
+									}
+								}
+								has_game_rule = dr_random_mode_yes
+								nor = {
+									has_game_rule = dr_focused_mode_yes
+									has_game_rule = dr_random_mode_yes
+								}	
+							}
+						}
+						create_building = {
+							building = "building_coal_mine"
+							level = 300
+						}
+					}
+					50 = { 
+						trigger = {
+							or = {
+								and = {
+									has_game_rule = dr_focused_mode_yes
+									or = {
+										has_potential_resource = bg_coal_mining
+										has_building = building_coal_mine
+									}
+								}
+								has_game_rule = dr_random_mode_yes
+								nor = {
+									has_game_rule = dr_focused_mode_yes
+									has_game_rule = dr_random_mode_yes
+								}	
+							}
+						}
+						create_building = {
+							building = "building_coal_mine"
+							level = 600
+						}
+					}
+					30 = { 
+						trigger = {
+							or = {
+								and = {
+									has_game_rule = dr_focused_mode_yes
+									or = {
+										has_potential_resource = bg_coal_mining
+										has_building = building_coal_mine
+									}
+								}
+								has_game_rule = dr_random_mode_yes
+								nor = {
+									has_game_rule = dr_focused_mode_yes
+									has_game_rule = dr_random_mode_yes
+								}	
+							}
+						}
+						create_building = {
+							building = "building_coal_mine"
+							level = 900
+						}
+					}
+					10 = { 
+						trigger = {
+							or = {
+								and = {
+									has_game_rule = dr_focused_mode_yes
+									or = {
+										has_potential_resource = bg_coal_mining
+										has_building = building_coal_mine
+									}
+								}
+								has_game_rule = dr_random_mode_yes
+								nor = {
+									has_game_rule = dr_focused_mode_yes
+									has_game_rule = dr_random_mode_yes
+								}	
+							}
+						}
+						create_building = {
+							building = "building_coal_mine"
+							level = 1200
+						}
+					}
+					100 = { 
+						trigger = {
+							or = {
+								and = {
+									has_game_rule = dr_focused_mode_yes
+									or = {
+										has_potential_resource = bg_iron_mining
+										has_building = building_iron_mine
+									}
+								}
+								has_game_rule = dr_random_mode_yes
+								nor = {
+									has_game_rule = dr_focused_mode_yes
+									has_game_rule = dr_random_mode_yes
+								}
+							}
+						}
+						create_building = {
+							building = "building_iron_mine"
+							level = 300
+						}
+					}
+					50 = { 
+						trigger = {
+							or = {
+								and = {
+									has_game_rule = dr_focused_mode_yes
+									or = {
+										has_potential_resource = bg_iron_mining
+										has_building = building_iron_mine
+									}
+								}
+								has_game_rule = dr_random_mode_yes
+								nor = {
+									has_game_rule = dr_focused_mode_yes
+									has_game_rule = dr_random_mode_yes
+								}
+							}
+						}
+						create_building = {
+							building = "building_iron_mine"
+							level = 600
+						}
+					}
+					30 = { 
+						trigger = {
+							or = {
+								and = {
+									has_game_rule = dr_focused_mode_yes
+									or = {
+										has_potential_resource = bg_iron_mining
+										has_building = building_iron_mine
+									}
+								}
+								has_game_rule = dr_random_mode_yes
+								nor = {
+									has_game_rule = dr_focused_mode_yes
+									has_game_rule = dr_random_mode_yes
+								}
+							}
+						}
+						create_building = {
+							building = "building_iron_mine"
+							level = 900
+						}
+					}
+					10 = { 
+						trigger = {
+							or = {
+								and = {
+									has_game_rule = dr_focused_mode_yes
+									or = {
+										has_potential_resource = bg_iron_mining
+										has_building = building_iron_mine
+									}
+								}
+								has_game_rule = dr_random_mode_yes
+								nor = {
+									has_game_rule = dr_focused_mode_yes
+									has_game_rule = dr_random_mode_yes
+								}
+							}
+						}
+						create_building = {
+							building = "building_iron_mine"
+							level = 1200
+						}
+					}
+					100 = { 
+						trigger = {
+							or = {
+								and = {
+									has_game_rule = dr_focused_mode_yes
+									or = {
+										has_potential_resource = bg_lead_mining
+										has_building = building_lead_mine
+									}
+								}
+								has_game_rule = dr_random_mode_yes
+								nor = {
+									has_game_rule = dr_focused_mode_yes
+									has_game_rule = dr_random_mode_yes
+								}
+							}
+						}
+						create_building = {
+							building = "building_lead_mine"
+							level = 300
+						}
+					}
+					50 = { 
+						trigger = {
+							or = {
+								and = {
+									has_game_rule = dr_focused_mode_yes
+									or = {
+										has_potential_resource = bg_lead_mining
+										has_building = building_lead_mine
+									}
+								}
+								has_game_rule = dr_random_mode_yes
+								nor = {
+									has_game_rule = dr_focused_mode_yes
+									has_game_rule = dr_random_mode_yes
+								}
+							}
+						}
+						create_building = {
+							building = "building_lead_mine"
+							level = 600
+						}
+					}
+					30 = { 
+						trigger = {
+							or = {
+								and = {
+									has_game_rule = dr_focused_mode_yes
+									or = {
+										has_potential_resource = bg_lead_mining
+										has_building = building_lead_mine
+									}
+								}
+								has_game_rule = dr_random_mode_yes
+								nor = {
+									has_game_rule = dr_focused_mode_yes
+									has_game_rule = dr_random_mode_yes
+								}
+							}
+						}
+						create_building = {
+							building = "building_lead_mine"
+							level = 900
+						}
+					}
+					10 = { 
+						trigger = {
+							or = {
+								and = {
+									has_game_rule = dr_focused_mode_yes
+									or = {
+										has_potential_resource = bg_lead_mining
+										has_building = building_lead_mine
+									}
+								}
+								has_game_rule = dr_random_mode_yes
+								nor = {
+									has_game_rule = dr_focused_mode_yes
+									has_game_rule = dr_random_mode_yes
+								}
+							}
+						}
+						create_building = {
+							building = "building_lead_mine"
+							level = 1200
+						}
+					}
+					100 = { 
+						trigger = {
+							or = {
+								and = {
+									has_game_rule = dr_focused_mode_yes
+									or = {
+										has_potential_resource = bg_sulfur_mining
+										has_building = building_sulfur_mine
+									}
+								}
+								has_game_rule = dr_random_mode_yes
+								nor = {
+									has_game_rule = dr_focused_mode_yes
+									has_game_rule = dr_random_mode_yes
+								}
+							}
+						}
+						create_building = {
+							building = "building_sulfur_mine"
+							level = 300
+						}
+					}
+					50 = { 
+						trigger = {
+							or = {
+								and = {
+									has_game_rule = dr_focused_mode_yes
+									or = {
+										has_potential_resource = bg_sulfur_mining
+										has_building = building_sulfur_mine
+									}
+								}
+								has_game_rule = dr_random_mode_yes
+								nor = {
+									has_game_rule = dr_focused_mode_yes
+									has_game_rule = dr_random_mode_yes
+								}
+							}
+						}
+						create_building = {
+							building = "building_sulfur_mine"
+							level = 600
+						}
+					}
+					30 = { 
+						trigger = {
+							or = {
+								and = {
+									has_game_rule = dr_focused_mode_yes
+									or = {
+										has_potential_resource = bg_sulfur_mining
+										has_building = building_sulfur_mine
+									}
+								}
+								has_game_rule = dr_random_mode_yes
+								nor = {
+									has_game_rule = dr_focused_mode_yes
+									has_game_rule = dr_random_mode_yes
+								}
+							}
+						}
+						create_building = {
+							building = "building_sulfur_mine"
+							level = 900
+						}
+					}
+					10 = { 
+						trigger = {
+							or = {
+								and = {
+									has_game_rule = dr_focused_mode_yes
+									or = {
+										has_potential_resource = bg_sulfur_mining
+										has_building = building_sulfur_mine
+									}
+								}
+								has_game_rule = dr_random_mode_yes
+								nor = {
+									has_game_rule = dr_focused_mode_yes
+									has_game_rule = dr_random_mode_yes
+								}
+							}
+						}
+						create_building = {
+							building = "building_sulfur_mine"
+							level = 1200
+						}
+					}
+					12 = { 
+						trigger = {
+							or = {
+								and = {
+									has_game_rule = dr_focused_mode_yes
+									or = {
+										has_potential_resource = bg_gold_mining
+										has_building = building_gold_mine
+									}
+								}
+								has_game_rule = dr_random_mode_yes
+								nor = {
+									has_game_rule = dr_focused_mode_yes
+									has_game_rule = dr_random_mode_yes
+								}
+							}
+						}
+						create_building = {
+							building = "building_gold_mine"
+							level = 300
+						}
+					}
+					6 = { 
+						trigger = {
+							or = {
+								and = {
+									has_game_rule = dr_focused_mode_yes
+									or = {
+										has_potential_resource = bg_gold_mining
+										has_building = building_gold_mine
+									}
+								}
+								has_game_rule = dr_random_mode_yes
+								nor = {
+									has_game_rule = dr_focused_mode_yes
+									has_game_rule = dr_random_mode_yes
+								}
+							}
+						}
+						create_building = {
+							building = "building_gold_mine"
+							level = 600
+						}
+					}
+					4 = { 
+						trigger = {
+							or = {
+								and = {
+									has_game_rule = dr_focused_mode_yes
+									or = {
+										has_potential_resource = bg_gold_mining
+										has_building = building_gold_mine
+									}
+								}
+								has_game_rule = dr_random_mode_yes
+								nor = {
+									has_game_rule = dr_focused_mode_yes
+									has_game_rule = dr_random_mode_yes
+								}
+							}
+						}
+						create_building = {
+							building = "building_gold_mine"
+							level = 900
+						}
+					}
+					2 = { 
+						trigger = {
+							or = {
+								and = {
+									has_game_rule = dr_focused_mode_yes
+									or = {
+										has_potential_resource = bg_gold_mining
+										has_building = building_gold_mine
+									}
+								}
+								has_game_rule = dr_random_mode_yes
+								nor = {
+									has_game_rule = dr_focused_mode_yes
+									has_game_rule = dr_random_mode_yes
+								}
+							}
+						}
+						create_building = {
+							building = "building_gold_mine"
+							level = 1200
+						}
+					}
+					100 = { 
+						trigger = {
+							or = {
+								and = {
+									has_game_rule = dr_focused_mode_yes
+									or = {
+										has_potential_resource = bg_logging
+										has_building = building_logging_camp
+									}
+								}
+								has_game_rule = dr_random_mode_yes
+								nor = {
+									has_game_rule = dr_focused_mode_yes
+									has_game_rule = dr_random_mode_yes
+								}
+							}
+						}
+						create_building = {
+							building = "building_logging_camp"
+							level = 300
+						}
+					}
+					50 = { 
+						trigger = {
+							or = {
+								and = {
+									has_game_rule = dr_focused_mode_yes
+									or = {
+										has_potential_resource = bg_logging
+										has_building = building_logging_camp
+									}
+								}
+								has_game_rule = dr_random_mode_yes
+								nor = {
+									has_game_rule = dr_focused_mode_yes
+									has_game_rule = dr_random_mode_yes
+								}
+							}
+						}
+						create_building = {
+							building = "building_logging_camp"
+							level = 600
+						}
+					}
+					30 = { 
+						trigger = {
+							or = {
+								and = {
+									has_game_rule = dr_focused_mode_yes
+									or = {
+										has_potential_resource = bg_logging
+										has_building = building_logging_camp
+									}
+								}
+								has_game_rule = dr_random_mode_yes
+								nor = {
+									has_game_rule = dr_focused_mode_yes
+									has_game_rule = dr_random_mode_yes
+								}
+							}
+						}
+						create_building = {
+							building = "building_logging_camp"
+							level = 900
+						}
+					}
+					10 = { 
+						trigger = {
+							or = {
+								and = {
+									has_game_rule = dr_focused_mode_yes
+									or = {
+										has_potential_resource = bg_logging
+										has_building = building_logging_camp
+									}
+								}
+								has_game_rule = dr_random_mode_yes
+								nor = {
+									has_game_rule = dr_focused_mode_yes
+									has_game_rule = dr_random_mode_yes
+								}
+							}
+						}
+						create_building = {
+							building = "building_logging_camp"
+							level = 1200
+						}
+					}
+					60 = {
+						trigger = {
+							or = {
+								and = {
+									has_game_rule = dr_focused_mode_yes
+										or = {
+											has_potential_resource = bg_rubber
+											has_building = building_rubber_plantation
+										}
+								}
+								has_game_rule = dr_random_mode_yes
+								nor = {
+									has_game_rule = dr_focused_mode_yes
+									has_game_rule = dr_random_mode_yes
+								}
+							}
+							owner = {
+								has_technology_researched = rubber_mastication
+							}
+						}                        
+						create_building = {
+							building = "building_rubber_plantation"
+							level = 300
+						}
+					}
+					30 = { 
+						trigger = {
+							or = {
+								and = {
+									has_game_rule = dr_focused_mode_yes
+										or = {
+											has_potential_resource = bg_rubber
+											has_building = building_rubber_plantation
+										}
+								}
+								has_game_rule = dr_random_mode_yes
+								nor = {
+									has_game_rule = dr_focused_mode_yes
+									has_game_rule = dr_random_mode_yes
+								}
+							}
+							owner = {
+								has_technology_researched = rubber_mastication
+							}
+						}                        
+						create_building = {
+							building = "building_rubber_plantation"
+							level = 600
+						}
+					}
+					18 = { 
+						trigger = {
+							or = {
+								and = {
+									has_game_rule = dr_focused_mode_yes
+										or = {
+											has_potential_resource = bg_rubber
+											has_building = building_rubber_plantation
+										}
+								}
+								has_game_rule = dr_random_mode_yes
+								nor = {
+									has_game_rule = dr_focused_mode_yes
+									has_game_rule = dr_random_mode_yes
+								}
+							}
+							owner = {
+								has_technology_researched = rubber_mastication
+							}
+						}                        
+						create_building = {
+							building = "building_rubber_plantation"
+							level = 900
+						}
+					}
+					6 = { 
+						trigger = {
+							or = {
+								and = {
+									has_game_rule = dr_focused_mode_yes
+										or = {
+											has_potential_resource = bg_rubber
+											has_building = building_rubber_plantation
+										}
+								}
+								has_game_rule = dr_random_mode_yes
+								nor = {
+									has_game_rule = dr_focused_mode_yes
+									has_game_rule = dr_random_mode_yes
+								}
+							}
+							owner = {
+								has_technology_researched = rubber_mastication
+							}
+						}                        
+						create_building = {
+							building = "building_rubber_plantation"
+							level = 1200
+						}
+					}
+					120 = { 
+						trigger = {
+							or = {
+								and = {
+									has_game_rule = dr_focused_mode_yes
+									or = {
+										has_potential_resource = bg_opium_plantations
+										has_building = building_opium_plantation
+									}
+								}
+								has_game_rule = dr_random_mode_yes
+								nor = {
+									has_game_rule = dr_focused_mode_yes
+									has_game_rule = dr_random_mode_yes
+								}
+							}
+						}
+						create_building = {
+							building = "building_opium_plantation"
+							level = 300
+						}
+						this.state_region = {
+							add_arable_land = 300
+						}
+					}
+					60 = { 
+						trigger = {
+							or = {
+								and = {
+									has_game_rule = dr_focused_mode_yes
+									or = {
+										has_potential_resource = bg_opium_plantations
+										has_building = building_opium_plantation
+									}
+								}
+								has_game_rule = dr_random_mode_yes
+								nor = {
+									has_game_rule = dr_focused_mode_yes
+									has_game_rule = dr_random_mode_yes
+								}
+							}
+						}
+						create_building = {
+							building = "building_opium_plantation"
+							level = 600
+						}
+						this.state_region = {
+							add_arable_land = 600
+						}
+					}
+					36 = { 
+						trigger = {
+							or = {
+								and = {
+									has_game_rule = dr_focused_mode_yes
+									or = {
+										has_potential_resource = bg_opium_plantations
+										has_building = building_opium_plantation
+									}
+								}
+								has_game_rule = dr_random_mode_yes
+								nor = {
+									has_game_rule = dr_focused_mode_yes
+									has_game_rule = dr_random_mode_yes
+								}
+							}
+						}
+						create_building = {
+							building = "building_opium_plantation"
+							level = 900
+						}
+						this.state_region = {
+							add_arable_land = 900
+						}
+					}
+					12 = {
+						trigger = {
+							or = {
+								and = {
+									has_game_rule = dr_focused_mode_yes
+									or = {
+										has_potential_resource = bg_opium_plantations
+										has_building = building_opium_plantation
+									}
+								}
+								has_game_rule = dr_random_mode_yes
+								nor = {
+									has_game_rule = dr_focused_mode_yes
+									has_game_rule = dr_random_mode_yes
+								}
+							}
+						}
+						create_building = {
+							building = "building_opium_plantation"
+							level = 1200
+						}
+						this.state_region = {
+							add_arable_land = 1200
+						}
+					}
+					60 = { 
+						trigger = {
+							or = {
+								and = {
+									has_game_rule = dr_focused_mode_yes
+									or = {
+										has_potential_resource = bg_oil_extraction
+										has_building = building_oil_rig
+									}
+								}
+								has_game_rule = dr_random_mode_yes
+								nor = {
+									has_game_rule = dr_focused_mode_yes
+									has_game_rule = dr_random_mode_yes
+								}
+							}
+							owner = {
+								has_technology_researched = pumpjacks
+							}
+						}
+						create_building = {
+							building = "building_oil_rig"
+							level = 300
+						}
+					}
+					30 = {
+						trigger = {
+							or = {
+								and = {
+									has_game_rule = dr_focused_mode_yes
+									or = {
+										has_potential_resource = bg_oil_extraction
+										has_building = building_oil_rig
+									}
+								}
+								has_game_rule = dr_random_mode_yes
+								nor = {
+									has_game_rule = dr_focused_mode_yes
+									has_game_rule = dr_random_mode_yes
+								}
+							}
+							owner = {
+								has_technology_researched = pumpjacks
+							}
+						}                        
+						create_building = {
+							building = "building_oil_rig"
+							level = 600
+						}
+					}
+					18 = {
+						trigger = {
+							or = {
+								and = {
+									has_game_rule = dr_focused_mode_yes
+									or = {
+										has_potential_resource = bg_oil_extraction
+										has_building = building_oil_rig
+									}
+								}
+								has_game_rule = dr_random_mode_yes
+								nor = {
+									has_game_rule = dr_focused_mode_yes
+									has_game_rule = dr_random_mode_yes
+								}
+							}
+							owner = {
+								has_technology_researched = pumpjacks
+							}
+						}                        
+						create_building = {
+							building = "building_oil_rig"
+							level = 900
+						}
+					}
+					6 = {
+						trigger = {
+							or = {
+								and = {
+									has_game_rule = dr_focused_mode_yes
+									or = {
+										has_potential_resource = bg_oil_extraction
+										has_building = building_oil_rig
+									}
+								}
+								has_game_rule = dr_random_mode_yes
+								nor = {
+									has_game_rule = dr_focused_mode_yes
+									has_game_rule = dr_random_mode_yes
+								}
+							}
+							owner = {
+								has_technology_researched = pumpjacks
+							}
+						}                        
+						create_building = {
+							building = "building_oil_rig"
+							level = 1200
+						}
+					}
+					200 = { 
+						trigger = {
+							or = {
+								and = {
+									has_game_rule = dr_focused_mode_yes
+										or = {
+											has_potential_resource = bg_fishing
+											has_building = building_fishing_wharf
+										}
+								}
+								has_game_rule = dr_random_mode_yes
+								nor = {
+									has_game_rule = dr_focused_mode_yes
+									has_game_rule = dr_random_mode_yes
+								}
+							}
+							is_coastal = yes
+						}
+						create_building = {
+							building = "building_fishing_wharf"
+							level = 300
+						}
+					}
+					100 = {
+						trigger = {
+							or = {
+								and = {
+									has_game_rule = dr_focused_mode_yes
+										or = {
+											has_potential_resource = bg_fishing
+											has_building = building_fishing_wharf
+										}
+								}
+								has_game_rule = dr_random_mode_yes
+								nor = {
+									has_game_rule = dr_focused_mode_yes
+									has_game_rule = dr_random_mode_yes
+								}
+							}
+							is_coastal = yes
+						}
+						create_building = {
+							building = "building_fishing_wharf"
+							level = 600
+						}
+					}
+					50 = { 
+						trigger = {
+							or = {
+								and = {
+									has_game_rule = dr_focused_mode_yes
+										or = {
+											has_potential_resource = bg_fishing
+											has_building = building_fishing_wharf
+										}
+								}
+								has_game_rule = dr_random_mode_yes
+								nor = {
+									has_game_rule = dr_focused_mode_yes
+									has_game_rule = dr_random_mode_yes
+								}
+							}
+							is_coastal = yes
+						}
+						create_building = {
+							building = "building_fishing_wharf"
+							level = 900
+						}
+					}
+					25 = {
+						trigger = {
+							or = {
+								and = {
+									has_game_rule = dr_focused_mode_yes
+										or = {
+											has_potential_resource = bg_fishing
+											has_building = building_fishing_wharf
+										}
+								}
+								has_game_rule = dr_random_mode_yes
+								nor = {
+									has_game_rule = dr_focused_mode_yes
+									has_game_rule = dr_random_mode_yes
+								}
+							}
+							is_coastal = yes
+						}
+						create_building = {
+							building = "building_fishing_wharf"
+							level = 1200
+						}
+					}
+					200 = { 
+						trigger = {
+							or = {
+								and = {
+									has_game_rule = dr_focused_mode_yes
+										or = {
+											has_potential_resource = bg_whaling
+											has_building = building_whaling_station
+										}
+								}
+								has_game_rule = dr_random_mode_yes
+								nor = {
+									has_game_rule = dr_focused_mode_yes
+									has_game_rule = dr_random_mode_yes
+								}
+							}
+							is_coastal = yes
+						}
+						create_building = {
+							building = "building_whaling_station"
+							level = 300
+						}
+					}
+					100 = {
+						trigger = {
+							or = {
+								and = {
+									has_game_rule = dr_focused_mode_yes
+										or = {
+											has_potential_resource = bg_whaling
+											has_building = building_whaling_station
+										}
+								}
+								has_game_rule = dr_random_mode_yes
+								nor = {
+									has_game_rule = dr_focused_mode_yes
+									has_game_rule = dr_random_mode_yes
+								}
+							}
+							is_coastal = yes
+						}
+						create_building = {
+							building = "building_whaling_station"
+							level = 600
+						}
+					}
+					50 = { 
+						trigger = {
+							or = {
+								and = {
+									has_game_rule = dr_focused_mode_yes
+										or = {
+											has_potential_resource = bg_whaling
+											has_building = building_whaling_station
+										}
+								}
+								has_game_rule = dr_random_mode_yes
+								nor = {
+									has_game_rule = dr_focused_mode_yes
+									has_game_rule = dr_random_mode_yes
+								}
+							}
+							is_coastal = yes
+						}
+						create_building = {
+							building = "building_whaling_station"
+							level = 900
+						}
+					}
+					25 = {
+						trigger = {
+							or = {
+								and = {
+									has_game_rule = dr_focused_mode_yes
+										or = {
+											has_potential_resource = bg_whaling
+											has_building = building_whaling_station
+										}
+								}
+								has_game_rule = dr_random_mode_yes
+								nor = {
+									has_game_rule = dr_focused_mode_yes
+									has_game_rule = dr_random_mode_yes
+								}
+							}
+							is_coastal = yes
+						}
+						create_building = {
+							building = "building_whaling_station"
+							level = 1200
+						}
+					}
+				}
+			}                    
+		}        
+	}
+}
+
+dr_jackpot_multi_6 = {
+	random_list = {
+		15 = {
+			random_state_region = {
+				add_arable_land = 2400
+			}
+		}
+		75 = {
+			random_state = {
+				random_list = {
+					10 = { 
+						trigger = {
+							or = {
+								and = {
+									has_game_rule = dr_focused_mode_yes
+									or = {
+										has_potential_resource = bg_coal_mining
+										has_building = building_coal_mine
+									}
+								}
+								has_game_rule = dr_random_mode_yes
+								nor = {
+									has_game_rule = dr_focused_mode_yes
+									has_game_rule = dr_random_mode_yes
+								}	
+							}
+						}
+						create_building = {
+							building = "building_coal_mine"
+							level = 2400
+						}
+					}
+					10 = { 
+						trigger = {
+							or = {
+								and = {
+									has_game_rule = dr_focused_mode_yes
+									or = {
+										has_potential_resource = bg_iron_mining
+										has_building = building_iron_mine
+									}
+								}
+								has_game_rule = dr_random_mode_yes
+								nor = {
+									has_game_rule = dr_focused_mode_yes
+									has_game_rule = dr_random_mode_yes
+								}
+							}
+						}
+						create_building = {
+							building = "building_iron_mine"
+							level = 2400
+						}
+					}
+					10 = { 
+						trigger = {
+							or = {
+								and = {
+									has_game_rule = dr_focused_mode_yes
+									or = {
+										has_potential_resource = bg_lead_mining
+										has_building = building_lead_mine
+									}
+								}
+								has_game_rule = dr_random_mode_yes
+								nor = {
+									has_game_rule = dr_focused_mode_yes
+									has_game_rule = dr_random_mode_yes
+								}
+							}
+						}
+						create_building = {
+							building = "building_lead_mine"
+							level = 2400
+						}
+					}
+					10 = { 
+						trigger = {
+							or = {
+								and = {
+									has_game_rule = dr_focused_mode_yes
+									or = {
+										has_potential_resource = bg_sulfur_mining
+										has_building = building_sulfur_mine
+									}
+								}
+								has_game_rule = dr_random_mode_yes
+								nor = {
+									has_game_rule = dr_focused_mode_yes
+									has_game_rule = dr_random_mode_yes
+								}
+							}
+						}
+						create_building = {
+							building = "building_sulfur_mine"
+							level = 2400
+						}
+					}
+					10 = { 
+						trigger = {
+							or = {
+								and = {
+									has_game_rule = dr_focused_mode_yes
+									or = {
+										has_potential_resource = bg_gold_mining
+										has_building = building_gold_mine
+									}
+								}
+								has_game_rule = dr_random_mode_yes
+								nor = {
+									has_game_rule = dr_focused_mode_yes
+									has_game_rule = dr_random_mode_yes
+								}
+							}
+						}
+						create_building = {
+							building = "building_gold_mine"
+							level = 2400
+						}
+					}
+					10 = { 
+						trigger = {
+							or = {
+								and = {
+									has_game_rule = dr_focused_mode_yes
+									or = {
+										has_potential_resource = bg_logging
+										has_building = building_logging_camp
+									}
+								}
+								has_game_rule = dr_random_mode_yes
+								nor = {
+									has_game_rule = dr_focused_mode_yes
+									has_game_rule = dr_random_mode_yes
+								}
+							}
+						}
+						create_building = {
+							building = "building_logging_camp"
+							level = 2400
+						}
+					}
+					10 = { 
+						trigger = {
+							or = {
+								and = {
+									has_game_rule = dr_focused_mode_yes
+										or = {
+											has_potential_resource = bg_rubber
+											has_building = building_rubber_plantation
+										}
+								}
+								has_game_rule = dr_random_mode_yes
+								nor = {
+									has_game_rule = dr_focused_mode_yes
+									has_game_rule = dr_random_mode_yes
+								}
+							}
+							owner = {
+								has_technology_researched = rubber_mastication
+							}
+						}                        
+						create_building = {
+							building = "building_rubber_plantation"
+							level = 2400
+						}
+					}
+					10 = {
+						trigger = {
+							or = {
+								and = {
+									has_game_rule = dr_focused_mode_yes
+									or = {
+										has_potential_resource = bg_opium_plantations
+										has_building = building_opium_plantation
+									}
+								}
+								has_game_rule = dr_random_mode_yes
+								nor = {
+									has_game_rule = dr_focused_mode_yes
+									has_game_rule = dr_random_mode_yes
+								}
+							}
+						}
+						create_building = {
+							building = "building_opium_plantation"
+							level = 2400
+						}
+						this.state_region = {
+							add_arable_land = 2400
+						}
+					}
+					10 = {
+						trigger = {
+							or = {
+								and = {
+									has_game_rule = dr_focused_mode_yes
+									or = {
+										has_potential_resource = bg_oil_extraction
+										has_building = building_oil_rig
+									}
+								}
+								has_game_rule = dr_random_mode_yes
+								nor = {
+									has_game_rule = dr_focused_mode_yes
+									has_game_rule = dr_random_mode_yes
+								}
+							}
+							owner = {
+								has_technology_researched = pumpjacks
+							}
+						}                        
+						create_building = {
+							building = "building_oil_rig"
+							level = 2400
+						}
+					}
+					10 = {
+						trigger = {
+							or = {
+								and = {
+									has_game_rule = dr_focused_mode_yes
+										or = {
+											has_potential_resource = bg_fishing
+											has_building = building_fishing_wharf
+										}
+								}
+								has_game_rule = dr_random_mode_yes
+								nor = {
+									has_game_rule = dr_focused_mode_yes
+									has_game_rule = dr_random_mode_yes
+								}
+							}
+							is_coastal = yes
+						}
+						create_building = {
+							building = "building_fishing_wharf"
+							level = 2400
+						}
+					}
+					10 = {
+						trigger = {
+							or = {
+								and = {
+									has_game_rule = dr_focused_mode_yes
+										or = {
+											has_potential_resource = bg_whaling
+											has_building = building_whaling_station
+										}
+								}
+								has_game_rule = dr_random_mode_yes
+								nor = {
+									has_game_rule = dr_focused_mode_yes
+									has_game_rule = dr_random_mode_yes
+								}
+							}
+							is_coastal = yes
+						}
+						create_building = {
+							building = "building_whaling_station"
+							level = 2400
+						}
+					}
+				}
+			}                    
+		} 
+	}
+}

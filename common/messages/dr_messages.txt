@@ -1,0 +1,17 @@
+﻿dr_resource_generation = {
+	type = country
+	group = "dr_notification_group"
+	notification_type = feed
+	color = neutral
+	texture = "gfx/interface/icons/notification_icons/resource.dds"
+	days = 28
+}
+
+dr_starting_generation = {
+	type = country
+	group = "dr_notification_group"
+	notification_type = feed
+	color = neutral
+	texture = "gfx/interface/icons/notification_icons/resource.dds"
+	days = 28
+}
