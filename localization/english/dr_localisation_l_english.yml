@@ -1,5 +1,5 @@
 ﻿l_english:
-  concept_dr:0 "Dynamic Resources"
+ concept_dr:0 "Dynamic Resources"
  concept_dr_1:0 "Dynamic Resources:"
  concept_dr_2:0 "Dynamic Resources."
  concept_dr_desc:0 "[Concept('concept_dr','$concept_dr_1$')] A mod that randomly [Concept('concept_dr_generation','$concept_dr_generation_1$')] resources in [Concept('concept_dr_set','$concept_dr_set_1$')] across the map every decade. You can increase the amount of resources that [Concept('concept_dr_generation','$concept_dr_generation_2$')] in a [concept_dr_set] using the [concept_dr_resource_multiplier] Game Rule.\n\nNo further intervention is needed after adjusting these Game Rules. The defaults are reasonably well balanced to Vanilla Victoria 3.
