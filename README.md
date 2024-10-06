@@ -29,3 +29,7 @@ Update 1.1.0
 Update 1.0.0
 
 - Initial Release
+
+## Technical Summary
+
+The mod is pretty simple, monthly on_action is used to trigger scripted_effects from the #1 country, the scripted_effects that trigger are based off the Game Rules. Lists all the way down.
