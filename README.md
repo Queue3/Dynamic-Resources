@@ -7,7 +7,6 @@ Update 1.3.0
 - Added new Game Rules
 	- Resource Distribution: Determines which resources can Generate in each state.
 		- Focused: Only Generates resources with Resource Potential in a state.
-			- This is now the Default rule
 		- Random: Generates resources regardless of Resource Potential in a state.
 	- Only Starting Generations
 	- Sets Per Generation: How many Sets of resources Generate per Generation
