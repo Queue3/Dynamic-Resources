@@ -4,6 +4,8 @@
 
 Every decade a hidden event fires that researches some of the basic technologies for countries that don't have them, then generates Arable Land, Coal, Iron, Lead, Sulphur, Gold, Logging, Rubber, Opium, Oil, Fishing, and Whaling buildings based on basic criteria in various amounts in 51 random states.
 
+The mod is highly customizable using Game Rules.
+
 The preview images show a simulated 10 Generations, if you're perceptive you'll see small amounts of resources in places they aren't present in Vanilla.
 
 Please feel free to provide feedback or bug reports.
