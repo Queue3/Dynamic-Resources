@@ -2,7 +2,7 @@
 
 ## Summary
 
-Every decade a hidden event fires that researches some of the basic technologies for countries that don't have them, then generates Arable Land, Coal, Iron, Lead, Sulphur, Gold, Logging, Rubber, Opium, Oil, Fishing, and Whaling buildings based on basic criteria in various amounts in 51 random states.
+Every decade a hidden event fires that researches some of the basic technologies for countries that don't have them, then generates Arable Land, Coal, Iron, Lead, Sulphur, Gold, Logging, Rubber, Opium, Oil, Fishing, and Whaling buildings based on basic criteria in various amounts in 51 states.
 
 The mod is highly customizable using Game Rules.
 
