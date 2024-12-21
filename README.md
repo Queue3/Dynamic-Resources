@@ -88,6 +88,10 @@ A: Feel free to use the mod as needed.
 
 ## Changelog
 
+Updated 1.3.1
+
+- Removed the technology requirements from all resource buildings but Oil and Rubber (again)
+
 Update 1.3.0
 
 - Added new Game Rules
